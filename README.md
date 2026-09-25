@@ -2,7 +2,7 @@
 
 > A **curated, auto-maintained** list of ~100 high-quality, open-source autonomous-driving
 > papers from the last 6 months, plus a daily industry tracker.
-> Updated 2026-09-25 · 219 papers tracked · 5 curated.
+> Updated 2026-09-25 · 1,256 papers tracked · 42 curated.
 
 **Selection rule.** A paper is listed only if it (1) is primarily about autonomous driving,
 (2) has public code, and (3) shows at least one strong signal: accepted at a top venue
@@ -15,36 +15,97 @@ with a per-topic cap. See [`scripts/rank.py`](scripts/rank.py).
 
 ## Contents
 
-- [VLA / VLM for Driving](#vla--vlm-for-driving) (1)
-- [End-to-End Driving & Planning](#end-to-end-driving--planning) (3)
-- [Perception: BEV, Occupancy, 3D Detection, Mapping](#perception-bev-occupancy-3d-detection-mapping) (1)
+- [VLA / VLM for Driving](#vla--vlm-for-driving) (9)
+- [World Models & Generative Simulation](#world-models--generative-simulation) (5)
+- [End-to-End Driving & Planning](#end-to-end-driving--planning) (12)
+- [3DGS / NeRF Reconstruction & Sensor Sim](#3dgs--nerf-reconstruction--sensor-sim) (2)
+- [Perception: BEV, Occupancy, 3D Detection, Mapping](#perception-bev-occupancy-3d-detection-mapping) (10)
+- [Datasets & Benchmarks](#datasets--benchmarks) (2)
+- [Safety, Robustness & Evaluation](#safety-robustness--evaluation) (2)
 - [Industry Tracker](#-industry-tracker)
 
 ## VLA / VLM for Driving
 
 | Paper | Venue / Date | Code | TL;DR |
 |---|---|---|---|
+| [DeepSight: Long-Horizon World Modeling via Latent States Prediction for End-to-End Autonomous Driving](https://arxiv.org/abs/2605.10564)<br><sub>Lingjun Zhang, Changjie Wu, Linzhe Shi et al.</sub> | ICML 2026<br>2026-05<br>📑 1 | [⭐ 31](https://github.com/hotdogcheesewhite/DeepSight) | End-to-end autonomous driving systems are increasingly integrating Vision-Language Model (VLM) architectures, incorporating text reasoning or visual reasoning to enhance the robustness and accuracy of driving decisions |
+| [Teaching Vision-Language-Action Models What to See and Where to Look](https://arxiv.org/abs/2607.01658)<br><sub>Yuguang Yang, Canyu Chen, Zhewen Tan et al.</sub> | ECCV 2026<br>2026-07 | [⭐ 29](https://github.com/ShivaTeam/DriveTeach-VLA) | Vision-Language-Action (VLA) models have emerged as a promising paradigm for end-to-end autonomous driving |
+| [CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving](https://arxiv.org/abs/2607.04179)<br><sub>Zhaohong Liu, Hao Ye, Xianlin Zhang et al.</sub> | ECCV 2026<br>2026-07<br>📑 2 | [⭐ 1](https://github.com/MICLAB-BUPT/CritiqueDriveVLM) | End-to-end Vision-Language Models (VLMs) show immense potential in autonomous driving |
+| [TopoHR: Hierarchical Centerline Representation for Cyclic Topology Reasoning in Driving Scenes with Point-to-Instance Relations](https://arxiv.org/abs/2604.24119)<br><sub>Yifeng Bai, Zhirong Chen, Bo Song et al.</sub> | CVPR 2026<br>2026-04<br>📑 1 | [⭐ 3](https://github.com/Yifeng-Bai/TopoHR) | Topology reasoning is crucial for autonomous driving |
+| [EgoDyn-Bench: Evaluating Ego-Motion Understanding in Vision-Centric Foundation Models for Autonomous Driving](https://arxiv.org/abs/2604.22851)<br><sub>Finn Rasmus Schäfer, Yuan Gao, Dingrui Wang et al.</sub> | ECCV 2026<br>2026-04<br>📑 1 | [⭐ 5](https://github.com/TUM-AVS/EgoDyn-Bench) | While Vision-Language Models (VLMs) have advanced high-level reasoning in autonomous driving, their ability to ground this reasoning in the underlying physics of ego-motion remains poorly understood |
+| [Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving](https://arxiv.org/abs/2607.14387)<br><sub>Yuan Gao, Wenting Miao, Mattia Piccinini et al.</sub> | IROS<br>2026-07<br>📑 1 | [⭐ 25](https://github.com/TUM-AVS/chat2scenic) | Validating autonomous driving systems requires diverse, regulation-compliant test scenarios |
+| [UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving](https://arxiv.org/abs/2604.02190)<br><sub>Yongkang Li, Lijun Zhou, Sixu Yan et al.</sub> | arXiv<br>2026-04<br>📑 14 | [⭐ 246](https://github.com/xiaomi-research/unidrivevla) | Vision-Language-Action (VLA) models have recently emerged in autonomous driving, with the promise of leveraging rich world knowledge to improve the cognitive capabilities of driving systems |
 | [Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving](https://arxiv.org/abs/2609.00111)<br><sub>Xin Zhou, Zongchuang Zhao, Zhibo Yang et al.</sub> | arXiv<br>2026-09<br>📑 3 | [⭐ 476](https://github.com/QwenLM/Qwen-Drive-1.0) | We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving |
+| [Can Aerial VLA Models Cooperate? Evaluating Closed-Loop Air-Ground Coordination with CARLA-Air](https://arxiv.org/abs/2605.31066)<br><sub>Tianle Zeng, Yanci Wen, Xueang Yu et al.</sub> | arXiv<br>2026-05<br>📑 2 | [⭐ 1,103](https://github.com/louiszengCN/CarlaAir) | Recent aerial vision-language-action (VLA) models show promising single-UAV capabilities, such as tracking moving objects and navigating to language-specified landmarks |
+
+## World Models & Generative Simulation
+
+| Paper | Venue / Date | Code | TL;DR |
+|---|---|---|---|
+| [HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation](https://arxiv.org/abs/2604.28196)<br><sub>Xin Zhou, Dingkang Liang, Xiwu Chen et al.</sub> | ICCV 2025<br>2026-04<br>📑 4 | [⭐ 71](https://github.com/H-EmbodVis/HERMESV2) | Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics |
+| [FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model](https://arxiv.org/abs/2606.20110)<br><sub>Yuhwan Jeong, Hyeonseong Kim, Daehyun We et al.</sub> | ECCV 2026<br>2026-06<br>📑 1 | [⭐ 10](https://github.com/daehyunwe/FrozenDrive) | Synthetic data for autonomous driving is surging, powered by diffusion models that promise scalable scene generation |
+| [ASTAD: Asymmetric Style Transfer for Synthetic-to-Real Adaptation in Autonomous Driving](https://arxiv.org/abs/2606.29286)<br><sub>Dingyi Yao, Xinqi Zhang, Lihui Peng et al.</sub> | ECCV 2026<br>2026-06 | [⭐ 1](https://github.com/Dingyi-Yao/ASTAD) | Synthetic data mitigates the data scarcity problem in autonomous driving perception |
+| [Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends](https://arxiv.org/abs/2606.01164)<br><sub>Jiuming Liu, Chaojun Ni, Mengmeng Liu et al.</sub> | arXiv<br>2026-06<br>📑 4 | [⭐ 236](https://github.com/liujiuming123/Awesome-Interactive-World-Model) | With rapid development of large language models and diffusion-based content generation, world modeling has attracted increasing research attention, benefiting various downstream domains such as game engines, embodied AI,… |
+| [Is Your Driving World Model an All-Around Player?](https://arxiv.org/abs/2605.10858)<br><sub>Lingdong Kong, Ao Liang, Tianyi Yan et al.</sub> | arXiv<br>2026-05<br>📑 3 | [⭐ 253](https://github.com/worldbench/WorldLens) | Today's driving world models can generate remarkably realistic dash-cam videos, yet no single model excels universally |
 
 ## End-to-End Driving & Planning
 
 | Paper | Venue / Date | Code | TL;DR |
 |---|---|---|---|
+| [$AutoDrive\text{-}P^3$: Unified Chain of Perception-Prediction-Planning Thought via Reinforcement Fine-Tuning](https://arxiv.org/abs/2603.28116)<br><sub>Yuqi Ye, Zijian Zhang, Junhong Lin et al.</sub> | ICLR 2026<br>2026-03<br>📑 14 | [⭐ 20](https://github.com/haha-yuki-haha/AutoDrive-P3) | Vision-language models (VLMs) are increasingly being adopted for end-to-end autonomous driving systems due to their exceptional performance in handling long-tail scenarios |
 | [ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving](https://arxiv.org/abs/2604.02714)<br><sub>Zihao Sheng, Xin Ye, Jingru Luo et al.</sub> | ECCV 2026<br>2026-04<br>📑 7 | [⭐ 29](https://github.com/zihaosheng/ExploreVLA) | End-to-end autonomous driving models based on Vision-Language-Action (VLA) architectures have shown promising results by learning driving policies through behavior cloning on expert demonstrations |
 | [DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving](https://arxiv.org/abs/2609.26792)<br><sub>Ziyang Leng, Sicheng Mo, Seth Z. Zhao et al.</sub> | CoRL 2026<br>2026-09<br>📑 1 | [⭐ 9](https://github.com/VAIL-UCLA/DreamStream) | Faithfully evaluating end-to-end driving policies in simulation requires observations that are not merely photo-realistic, but preserve the scene features a policy relies on to make decisions |
+| [WarpI2I: Image Warping for Image-to-Image Translation](https://arxiv.org/abs/2606.31018)<br><sub>Shen Zheng, Anurag Ghosh, Gaurav Parmar et al.</sub> | ECCV 2026<br>2026-06 | [⭐ 31](https://github.com/ShenZheng2000/WarpI2I) | Image-to-image (I2I) translation has achieved strong results in tasks like human relighting and driving scene translation using latent diffusion models (LDMs) |
+| [G2DP: Diffusion Planning with Spatio-Temporal Grid Guidance](https://arxiv.org/abs/2606.26017)<br><sub>Hang Yu, Ye Jin, Alessandro Canevaro et al.</sub> | IROS 2026<br>2026-06<br>📑 4 | [⭐ 6](https://github.com/HangYuu/G2DP) | In autonomous driving, diffusion-based planners have emerged as a promising paradigm for robust motion planning in dense and interactive traffic, as they can effectively model diverse driving behaviors |
+| [Fail2Drive: Benchmarking Closed-Loop Driving Generalization](https://arxiv.org/abs/2604.08535)<br><sub>Simon Gerstenecker, Andreas Geiger, Katrin Renz</sub> | arXiv<br>2026-04<br>📑 13 | [⭐ 172](https://github.com/autonomousvision/fail2drive) | Generalization under distribution shift remains a central bottleneck for closed-loop autonomous driving |
 | [NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation](https://arxiv.org/abs/2606.03159)<br><sub>Aarti Basant, Amlan Kar, Despoina Paschalidou et al.</sub> | arXiv<br>2026-06<br>📑 11 | [⭐ 342](https://github.com/nv-tlabs/omni-dreams) | As autonomous vehicle capabilities advance, the safe evaluation of driving policies in long-tail scenarios remains a critical bottleneck |
+| [STAGE: STyle-controllable Action GEneration for personalized autonomous driving](https://arxiv.org/abs/2607.29517)<br><sub>Zihao Liu, Xing Liu, Yizhai Zhang et al.</sub> | RA-L<br>2026-07<br>📑 1 | [⭐ 6](https://github.com/CarlDegio/STAGE) | Driving style refers to the behavioral preferences that drivers maintain during driving, shaped by their diverse experiences, habits, and needs, and is typically reflected in varying levels of aggressiveness |
+| [Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving](https://arxiv.org/abs/2608.00237)<br><sub>Meibo Hu, Jiamian Wang, Pichao Wang et al.</sub> | IROS 2026<br>2026-08 | [⭐ 1](https://github.com/codingmlinprocess/LCS) | Vision-language models (VLMs) have recently emerged as a promising paradigm for end-to-end autonomous driving, enabling agents to map multimodal inputs and high-level navigation instructions directly to executable trajec… |
+| [SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.29163)<br><sub>Wenchao Sun, Xuewu Lin, Keyu Chen et al.</sub> | arXiv<br>2026-03<br>📑 16 | [⭐ 255](https://github.com/swc-17/SparseDriveV2) | End-to-end multi-modal planning has been widely adopted to model the uncertainty of driving behavior, typically by scoring candidate trajectories and selecting the optimal one |
+| [Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models](https://arxiv.org/abs/2604.01259)<br><sub>Xiaosong Jia, Yuqian Shao, Zhenjie Yang et al.</sub> | arXiv<br>2026-04<br>📑 4 | [⭐ 225](https://github.com/Thinklab-SJTU/Bench2Drive-VL) | With the rise of vision-language models (VLM), their application for autonomous driving (VLM4AD) has gained significant attention |
+| [DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale](https://arxiv.org/abs/2604.00813)<br><sub>Sicheng Zuo, Zixun Xie, Wenzhao Zheng et al.</sub> | arXiv<br>2026-04<br>📑 10 | [⭐ 362](https://github.com/wzzheng/DVGT) | End-to-end autonomous driving has evolved from the conventional paradigm based on sparse perception into vision-language-action (VLA) models, which focus on learning language descriptions as an auxiliary task to facilita… |
+
+## 3DGS / NeRF Reconstruction & Sensor Sim
+
+| Paper | Venue / Date | Code | TL;DR |
+|---|---|---|---|
+| [DriveWeaver: Point-Conditioned Video Inpainting for Controllable Vehicle Insertion in Autonomous Driving Simulation](https://arxiv.org/abs/2606.31918)<br><sub>Junzhe Jiang, Zipei Ma, Zijie Pan et al.</sub> | ECCV 2026<br>2026-06 | [⭐ 16](https://github.com/LogosRoboticsGroup/DriveWeaver) | A pivotal step in autonomous driving simulation involves inserting foreground vehicles with predefined trajectories into simulated scenes |
+| [Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM](https://arxiv.org/abs/2606.24796)<br><sub>Leshu Li, Jie Peng, Yang Zhao</sub> | ICRA<br>2026-06 | [⭐ 10](https://github.com/UMN-ZhaoLab/Pocket-SLAM) | 3D Gaussian Splatting (3DGS) has garnered significant attention in Simultaneous Localization and Mapping (SLAM) due to its advances in capturing fine-grained geometry features and synthesizing novel views |
 
 ## Perception: BEV, Occupancy, 3D Detection, Mapping
 
 | Paper | Venue / Date | Code | TL;DR |
 |---|---|---|---|
+| [Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation](https://arxiv.org/abs/2605.28587)<br><sub>Yang Gao, Wuyang Li, Po-Chien Luan et al.</sub> | CVPR 2026<br>2026-05<br>📑 2 | [⭐ 22](https://github.com/vita-epfl/DeGO) | Understanding dynamic 3D environments is essential for safe autonomous driving, particularly when reasoning about human-centric, nonrigid agents |
+| [ProOOD: Prototype-Guided Out-of-Distribution 3D Occupancy Prediction](https://arxiv.org/abs/2604.01081)<br><sub>Yuheng Zhang, Mengfei Duan, Kunyu Peng et al.</sub> | CVPR 2026<br>2026-04 | [⭐ 21](https://github.com/7uHeng/ProOOD) | 3D semantic occupancy prediction is central to autonomous driving, yet current methods are vulnerable to long-tailed class bias and out-of-distribution (OOD) inputs, often overconfidently assigning anomalies to rare clas… |
+| [Revisiting Token Compression for Accelerating ViT-based Sparse Multi-View 3D Object Detectors](https://arxiv.org/abs/2604.14563)<br><sub>Mingqian Ji, Shanshan Zhang, Jian Yang</sub> | CVPR 2026<br>2026-04<br>📑 1 | [⭐ 9](https://github.com/Mingqj/SEPatch3D) | Vision Transformer (ViT)-based sparse multi-view 3D object detectors have achieved remarkable accuracy but still suffer from high inference latency due to heavy token processing |
+| [Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving](https://arxiv.org/abs/2606.31096)<br><sub>Geonho Bang, Geunju Baek, Dongyoung Lee et al.</sub> | ECCV 2026<br>2026-06 | [⭐ 23](https://github.com/geonhobang/Horizon3D) | Long-range 3D object detection is critical for safe autonomous driving at highway speeds, yet existing radar-camera fusion methods remain limited at extended ranges |
+| [Explainability-Aware Frustum Attack: Exposing Structural Vulnerabilities in LiDAR-Based 3D Object Detectors](https://arxiv.org/abs/2606.29963)<br><sub>Chengzeng You, Binbin Xu, Soteris Demetriou</sub> | ECCV<br>2026-06 | [⭐ 1](https://github.com/SecMindLab/Saliency_LiDAR) | The structural vulnerabilities of point cloud-based 3D object detectors remain poorly understood |
 | [PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection](https://arxiv.org/abs/2609.21780)<br><sub>Xuanming Shang, Weijia Zhang, Chao Ma</sub> | ECCV 2026<br>2026-09 | [⭐ 3](https://github.com/PointLAM/PointLAM) | 3D object detection from LiDAR point clouds faces a fundamental dilemma: voxel-based methods achieve efficiency at the cost of geometric quantization, while point-based methods preserve fidelity but suffer from prohibiti… |
+| [Native-Domain Cross-Attention for Camera-LiDAR Extrinsic Calibration Under Large Initial Perturbations](https://arxiv.org/abs/2603.29414)<br><sub>Ni Ou, Zhuo Chen, Xinru Zhang et al.</sub> | RA-L 2026<br>2026-03 | [⭐ 12](https://github.com/gitouni/ProjFusion) | Accurate camera-LiDAR fusion relies on precise extrinsic calibration, which fundamentally depends on establishing reliable cross-modal correspondences under potentially large misalignments |
+| [Benchmarking Multi-View BEV Object Detection with Mixed Pinhole and Fisheye Cameras](https://arxiv.org/abs/2603.27818)<br><sub>Xiangzhong Liu, Hao Shen</sub> | ICRA<br>2026-03<br>📑 2 | [⭐ 8](https://github.com/CesarLiu/FishBEVOD) | Modern autonomous driving systems increasingly rely on mixed camera configurations with pinhole and fisheye cameras for full view perception |
+| [Vernata: Self-Supervised Learning of LiDAR Point Representations](https://arxiv.org/abs/2608.06919)<br><sub>Oliver Lemke, Alexander Liniger, Abel Gawel et al.</sub> | IROS 2026<br>2026-08 | [⭐ 17](https://github.com/rai-opensource/vernata) | LiDAR serves as a primary sensing modality for robots operating in outdoor environments |
+| [Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion](https://arxiv.org/abs/2606.02979)<br><sub>Oskar Natan, Jun Miura</sub> | arXiv<br>2026-06<br>📑 44 | [⭐ 9](https://github.com/oskarnatan/compact-perception) | We present a novel compact deep multi-task learning model to handle various autonomous driving perception tasks in one forward pass |
+
+## Datasets & Benchmarks
+
+| Paper | Venue / Date | Code | TL;DR |
+|---|---|---|---|
+| [Towards All-Day Perception for Off-Road Driving: A Large-Scale Multispectral Dataset and Comprehensive Benchmark](https://arxiv.org/abs/2604.27499)<br><sub>Shuo Wang, Jilin Mei, Wenfei Guan et al.</sub> | RA-L 2026<br>2026-04 | [⭐ 6](https://github.com/wsnbws/IRON) | Off-road nighttime autonomous driving suffers from unreliable visible-light perception, making infrared modality crucial for accurate freespace detection |
+| [123D: Unifying Multi-Modal Autonomous Driving Data at Scale](https://arxiv.org/abs/2605.08084)<br><sub>Daniel Dauner, Valentin Charraut, Bastian Berle et al.</sub> | arXiv<br>2026-05<br>📑 2 | [⭐ 396](https://github.com/kesai-labs/py123d) | The pursuit of autonomous driving has produced one of the richest sensor data collections in all of robotics |
+
+## Safety, Robustness & Evaluation
+
+| Paper | Venue / Date | Code | TL;DR |
+|---|---|---|---|
+| [CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation](https://arxiv.org/abs/2607.04451)<br><sub>Ke Li, Kaidi Liang, Yuxin Ding et al.</sub> | ECCV 2026<br>2026-07 | [⭐ 3](https://github.com/KELISBU/CCFM) | Evaluation of autonomous vehicle (AV) planners in safety-critical closed-loop simulation is essential for real-world deployment |
+| [Lipschitz Optimization for Formal Verification of Homographies](https://arxiv.org/abs/2605.23203)<br><sub>Jean-Guillaume Durand, Panagiotis Kouvaros, Maxime Gariel et al.</sub> | CVPR 2026<br>2026-05 | [⭐ 2](https://github.com/jeangud/homography-verification) | The adoption of vision neural networks in regulated industries requires formal robustness guarantees, especially in safety-critical domains such as healthcare, autonomous vehicles, and aerospace |
 
 ## 🏢 Industry Tracker
 
 Latest 14 days of news, official blog posts and new open-source repos from tracked companies. Full daily feed in [`daily/`](daily/).
 
-<details><summary><b>Waymo</b> (59)</summary>
+<details><summary><b>Waymo</b> (60)</summary>
 
 - 📝 2026-09-24 [Our Vision for London: How Waymo can Support a Safer, Connected UK Capital](https://waymo.com/blog/2026/09/visionforlondon) <sub>official blog</sub>
 - 📝 2026-09-22 [Introducing transit rewards](https://waymo.com/blog/2026/09/transit-rewards) <sub>official blog</sub>
@@ -74,7 +135,7 @@ Latest 14 days of news, official blog posts and new open-source repos from track
 
 </details>
 
-<details><summary><b>Wayve</b> (32)</summary>
+<details><summary><b>Wayve</b> (33)</summary>
 
 - 📰 2026-09-25 [Nvidia says major robotaxi programmes use its stack](https://news.google.com/rss/articles/CBMihgFBVV95cUxQTHhGZTBYWHpUSEUxSHFzVkhWemRhRHNxV2haQkJoQTE3dGFRWVJUNWhTSXNqSzBha0RnZC1BcnRzRXBiRTBaVzQ5VHhhVUZZd2gwbUdtbXJLOGl2SWxuZmxrX2Y2VWVSRDdyZnBxWklQR09CODJfVGF2UEVwVThGT2dWT2xfQQ?oc=5) <sub>IT Brief UK</sub>
 - 📰 2026-09-25 [Light Hits: This Week in Collision Repair](https://news.google.com/rss/articles/CBMiogFBVV95cUxPYlJMTl9ONnlacXpzWUFMR2I1RlFNYkExeWdnZU5uRUxjYmFiY0ppMXM1TWNZZFZPV3FDQ1FWSm9oOVV6S1pGanZIa0tBazFjZ19ZTXNXOWFMTnlXLVB5RTNZb2FKN29BYW1razdqMV9GYU5HM29wRUROc2hSMUhCQVlYUXBYcDF1YVJLU0FKa3hQdENJSnpXV2tFYWxxVTZGbUE?oc=5) <sub>fenderbender.com</sub>
@@ -84,7 +145,7 @@ Latest 14 days of news, official blog posts and new open-source repos from track
 
 </details>
 
-<details><summary><b>Momenta</b> (49)</summary>
+<details><summary><b>Momenta</b> (50)</summary>
 
 - 📰 2026-09-25 [带激光雷达的豪华插混SUV哪款好？凯迪拉克全新XT5 PHEV与4款智驾SUV横评+FAQ](https://news.google.com/rss/articles/CBMickFVX3lxTE1HS2ZfcVpfS0NRLWk3MGhjMzVQdWFhbWpKSEo3WTRLbnVzZ2FJZnJGM0pWUjU3ZWxrYjZBcy10XzNzQmJCQVBEQV9PdTNaYXczSWs1Q2VsSF9HVGNLX1V5UnJvd0lBVXB6MXVHN1l2Z2dTQQ?oc=5) <sub>手机新浪网</sub>
 - 📰 2026-09-25 [新N7上市，12万级搭载激光雷达，Momenta R7智驾上车](https://news.google.com/rss/articles/CBMickFVX3lxTE91OGVib0VKRUdzWmVma2oxb2VSMGlxdDh6dXE4a0dtZ2NiVlppdXVMdUZHbl9RcE9qcWZDU3F5ckhIRE5wOTRjYlJ4elZYcVVDeXlMMlYtR2V6UlozU055SXdWTi1qeGtJUlZ4ZHJtY2M5Zw?oc=5) <sub>手机新浪网</sub>
@@ -114,7 +175,7 @@ Latest 14 days of news, official blog posts and new open-source repos from track
 
 </details>
 
-<details><summary><b>NIO</b> (50)</summary>
+<details><summary><b>NIO</b> (52)</summary>
 
 - 📰 2026-09-25 [蔚来世界模型Cedar 1.5.8 最新版本智驾，领航驶出停车场，选道能力相当优秀！](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Xcm93ZXNMeFNzMWxKRmotaTYxNENuWWE0b19OUjJUemw2N25TR2MwYm1WcVJfRFV1WG85LUF1a2psZm5CbEN3TDBuXzc2aXlDblVDNm1R?oc=5) <sub>QQ News</sub>
 - 📰 2026-09-25 [长途自驾豪华SUV横评：当问界M8和蔚来ES8还在偏科，这台车已经交出了全优答卷](https://news.google.com/rss/articles/CBMickFVX3lxTE9aV3haakdpeTBtbFlMQmx4YTF3WnJPdkM5alNVenJybThSMWJsbG5VMzFJU3gwd3Q5ZTV6dnI0VmplNm9ZZVVUWXFzMkpZdGEwUGZ1NVUyWHMxTkw2RjdBVTBTN204eWxGdjBvUnItLUxhZw?oc=5) <sub>手机新浪网</sub>
@@ -124,7 +185,7 @@ Latest 14 days of news, official blog posts and new open-source repos from track
 
 </details>
 
-<details><summary><b>Huawei</b> (91)</summary>
+<details><summary><b>Huawei</b> (95)</summary>
 
 - 📰 2026-09-25 [27.98万起，奕境X9上市，华为全栈智能上车](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iZG94RkphWlV5TW9wZVlaZnlNR1VQWFdXNjlMNXhsV2UtWUVfTS1GQ1doWWFTLXBkNGI1b2hxckw4RE5ONExQdTRuWUN3M3ZPR0pqeDBoUXh3anM?oc=5) <sub>汽车之家</sub>
 - 📰 2026-09-25 [China's autonomous-driving suppliers confront the limits of software moats](https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ1N0OTJNempXMjlfZVc0R3had1UxUll0TVQwLWp6TnJsLXQ0U3hLaUlvb2dmUzBvSjdKNnhleTlwSFlfT2J3WVFLM3ViQ0xoMW5hbmZReDByOE9PTkowTjY3ZUF1Y1pmU1ZUbms3aHNUOWE2RWpsSmE0Rkd3OXN1SVM2M2NpY3RUOGRmdFl2Znk1U3JnLWVZ?oc=5) <sub>digitimes</sub>
@@ -134,7 +195,7 @@ Latest 14 days of news, official blog posts and new open-source repos from track
 
 </details>
 
-<details><summary><b>Baidu Apollo</b> (32)</summary>
+<details><summary><b>Baidu Apollo</b> (34)</summary>
 
 - 📰 2026-09-24 [Waymo is Taking Robotaxis to Tokyo. Can Alphabet Get Ahead of Uber in Japan?](https://news.google.com/rss/articles/CBMiowFBVV95cUxNY2RtWFhhOHpQemRpdFhYNmFRdjNuaUdxbnFlNmlOa1V6djUtMkdlaUxrN3FqQk1Id2R1Z0pTTTc2YmtCWFd4aGd5Sk9vekFjM0I0VHd4UHBwQTlINEFkMzBnMWxTUXoxYUpyNkY4MktIWEdwSWZ1clV3YnBfZjI5RGFZOHJYNGdfUVhnVlZUbDU4ZnlPQ2N4WmNuY2JtUUU4amhj?oc=5) <sub>Yahoo Finance</sub>
 - 📰 2026-09-24 [亚博ag真人最新网址在哪里找？一文读懂热门游戏礼包兑换和使用攻略](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XY2t6Wnc4eVFLYldzazhheFdhdlFheGZiS2czMV9Oc3d1cEYyMVJBaDRNUjdOcU5FbVhDVmpjNzd2aXRvM2FtMXZaYnpFQUpTRFhScFhMZkZ2LTVM?oc=5) <sub>womenofchina.com</sub>
@@ -164,7 +225,7 @@ Latest 14 days of news, official blog posts and new open-source repos from track
 
 </details>
 
-<details><summary><b>Horizon Robotics</b> (42)</summary>
+<details><summary><b>Horizon Robotics</b> (45)</summary>
 
 - 💻 2026-09-24 [HorizonRobotics/CogWAM](https://github.com/HorizonRobotics/CogWAM) <sub>GitHub</sub>
 - 📰 2026-09-25 [地平线机器人-W(09660)股票股价_股价行情_讨论_资讯_财报_数据报告](https://news.google.com/rss/articles/CBMiP0FVX3lxTE5wcmdlajVOMnh2QkdteTlCUVhKMzlrT255RmY3c2RocGxMemlKNWRhcnJwbV9JcTlfT0NwQkJfYw?oc=5) <sub>雪球</sub>
@@ -184,7 +245,7 @@ Latest 14 days of news, official blog posts and new open-source repos from track
 
 </details>
 
-<details><summary><b>Mobileye</b> (7)</summary>
+<details><summary><b>Mobileye</b> (8)</summary>
 
 - 📰 2026-09-25 [Mobileye Global, Inc. Class A (MBLY) Live Share Price, Invest From India](https://news.google.com/rss/articles/CBMie0FVX3lxTE11MFdpQnBMczBkWUF5azl2bE1SaUIwT0Nhb2tLU3NPdTdtX2R0U3BSV2toUnNFN1puX3BqaEE2ZHJuRHdlN2N4dDY4a3NuZktyZFFSREFFQXhRTlVSbENxcUw3SHZ6VWRpN2tqZ0lmWHNkR3JuaXZWY0dXRQ?oc=5) <sub>INDmoney</sub>
 - 📰 2026-09-24 [VW’s MOIA Starts Robotaxi Rides In Orlando](https://news.google.com/rss/articles/CBMiekFVX3lxTE5meUdldmgzNmRkbFlWLXlHU2J1RmVQRmlreWZqdDBRMVRud1NIV2tXdDNEdFBjYmU0NmdMel95UUdITUVtZVhZQ1BPSGo3R0syb0M0aVBrZWVvRWRGeHcwVEt6TEh2emZiX0RiSURXVFFrWC1TSUdjVjBR?oc=5) <sub>finimize.com</sub>
@@ -204,13 +265,13 @@ Latest 14 days of news, official blog posts and new open-source repos from track
 
 </details>
 
-<details><summary><b>Zoox</b> (33)</summary>
+<details><summary><b>Zoox</b> (37)</summary>
 
 - 📰 2026-09-25 [Police respond to crash involving Zoox vehicle on Las Vegas Strip](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOVBQcmdTSUJsYTBBR3VhLWdJSzE1S1BIX09Dc0J5RDNTUXpUV2NXS0FhSmt3NnBacEhNdGEwT1FfSHV3bDJwYlFIbDF6TGVDRUFqOWJWZWs4RDdEeGtjWXlvb3g0ckU2V1hIMEExV1pjOFBNTlhxcXYzV05keTFMUlJncXNVTHFPU1kyeXl1OE05SURIdjFNcFEtRVFpTGU5Vk00d0gwVFRBV03SAbABQVVfeXFMUEVFNG5NRkQxZXc4REg4M0tZQV8tckpKNjNDYUNQRjN0NVJ0dWNzOF9FY3NmTjJOVWg3Qm1wb2pWUFI3eUsyeFZjTzl2cU1Rc01xd1lNNXc4cVdsSlBVYndoN3JJTnc0WGR1ZGFfMGFubEdEZEZRcnpQdGUzcFhNYTF4SHRoT0VoOUVPYjhNY2NLV203VXFIa0pIRWwxMG1xalBpMGhCOWFUNm8wTUhWOWE?oc=5) <sub>KLAS 8 News Now</sub>
 - 📰 2026-09-25 [Driver hospitalized after crash involving Zoox robotaxi on Las Vegas Boulevard](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNEdtckJRYWFvYlJoVV9XUWNrbVJFdG5QYV9ia2luX2hRaklMMEtJaldQVUFZN2lyT3k1WWk4c2RQYzZGa0NPczgwMDVxNlQtWFZKQWgxalVzcWpMX0Z0VExydWNfSlZkN1BiaHhSM05BWmdEdmVBWFE3cnk5TzZaUG00V1d4eTlZRmczb3FHNzdvcFp3NjB3WG45RTRCWHEzczNEY3BuamNWbjg?oc=5) <sub>ktnv.com</sub>
 - 📰 2026-09-25 [Zoox autonomous vehicle involved in crash on Las Vegas Strip](https://news.google.com/rss/articles/CBMihANBVV95cUxPZHBkbGdDdmlJY3UwZmZIVk9KUU9DZEpRTGh2eE1kdmhFdV9PRWRoWDRIUUp2UUhHbWQydGh1MlJ3T2I0eXE5d1QzUnBwMVo5VHd3T3dJenFXcW92X3k5RVphSG43aS1kZWtxb05iUFN0aE9LcHljSTRjZ1lzY1Q4aXJDM1dzck10S3BBeGNKVTNxOUlQR2FtV1BnNlpBa0Z3OFFEZjB0U09mS1lQWFU2R2NpblF1VzNYYlBPcVdXQ3R3ZFJxaUdJaWVXVmUzRGxnQk01Q2NRZWcxUEdjX042bjd2M3lycEphckwwYjZzWlpSM0JDX0V3bUlQSU1KRW52M0puT3hOa0xBUXBVTURKUlItU3hXel9GMkNLNWFfR2E2S29SVG1QSWdzVjB2eW1zdEhPRmpFREZ2anpiY3B2d2tfclk5SUJaTlFOM3h3aDlQbGwyMU1SbExNaWU2UHBmZ0JwTG4yYU55Y2VqUE9sUkJHLXpIbnFudnNIV0w5NjNhRlk2?oc=5) <sub>Las Vegas Review-Journal</sub>
 - 📰 2026-09-25 [Injury crash involving Zoox vehicle under investigation on Las Vegas Strip](https://news.google.com/rss/articles/CBMivAFBVV95cUxPQkJiSVY2dlRob1hVR2hHbVJyanFTYXZtR1p1OHRfYVBBT3ZhTnhFeENMLXcwa0pmSDZzVGJ4TkhaaUdxY0hPYmlSQzh6dnRoTklOQXhTQ0Z4cUZ3RFNPRXNTdEFSbXFFa25MajVjQlVSSjNrSVFFRXhDSmdlTnZJdE5xUXAtdzg5MnJiN2FqZThkeXhuQjBGbi1hb3N6MU95dFdJOFp1TU1nUk5kY0ZKZnJMYUpxemhacGpUcA?oc=5) <sub>KSNV</sub>
-- 📰 2026-09-24 [San Francisco is making news on many fronts. It's also ripe for mocking.](https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOUt0Y0FMbng0aTFQdW9lNkNzTWMxUXFyakowLTQwTHMzQ1I0enBKOFVLSEhqSWphTEdLOThtZU94N1o5dXc0a1pNTTJzWl9pVDdEOXJsTC0tN3Y4aG0zMWRyS2t4dXo1djgycTF6Z2poRUsybDl4NGtVQkVKekM3YlVSU1JWV1NyWHV0VTY5VGxPM2xfNndpZU9vcmZMWHBQNmhDVFc4X0NNbldNbGx3bjJhWnlPcUVWellIekZWd2x4TmNsVDl3cF83MkNVTG9MdWRfQWNqVTRrV3pjOU5Z?oc=5) <sub>San Francisco Examiner</sub>
+- 📰 2026-09-25 [Driver hospitalized following crash with Zoox vehicle near Las Vegas Strip](https://news.google.com/rss/articles/CBMipAFBVV95cUxNclN0cXJsUGFLYms2dW5wNE9rRFJHMDlnZGxoNTNpR0FfTmtfZG1MbVM4TnY2T0xGbnhGQjI1OXEtZEF5MDhHZGNsbjNRMWRwOGlDQjI2QkpGTmxqc0NJY0JaaDFiX3d6TW1LUko4ZDRyM3NpY3c1TTBuWE5hRWRjclpfRG5sTk5xZDloalMtcE8wS1ZsUVdITHhjTjBqNlN2ZE5KWtIBuAFBVV95cUxNSGRKVmxKMjFkZmpuZWROc3ZhMGxuZGVkTThRMVRnMnFtLUJxNEZTSEZFNHkzeWt3RFl0Z3NjWW1PeHJfLXJ6Q3ZPenhhb2JjY3NxZmdWb2o4Y243bG1TMU9sU00zaHptUHZNa2I0bExHeEZsMS1QNjFhWVBlSk05d3pKamlOVDdJWGRSNElNRWxERkVOV0I0OWhmZWxoVG1XemJZbDgzZmY0ZGNRRkdQUi15dS1Cbmhi?oc=5) <sub>FOX5 Vegas</sub>
 
 </details>
 
@@ -224,7 +285,7 @@ Latest 14 days of news, official blog posts and new open-source repos from track
 
 </details>
 
-<details><summary><b>comma.ai</b> (31)</summary>
+<details><summary><b>comma.ai</b> (32)</summary>
 
 - 📝 2026-09-16 [Bugs that broke driving: Machine Learning edition](https://blog.comma.ai/ml-bugs/) <sub>official blog</sub>
 - 💻 2026-09-15 [commaai/comma_hack_7 — some chestnut examples](https://github.com/commaai/comma_hack_7) <sub>GitHub</sub>
