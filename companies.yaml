@@ -1,0 +1,65 @@
+# Tracked autonomous-driving companies.
+#   news:     Google News query (English)
+#   news_zh:  optional Google News query (Chinese)
+#   feeds:    official blog RSS feeds
+#   github:   GitHub orgs; new repos are reported, and papers whose code lives here are tagged
+- name: Waymo
+  news: 'Waymo (robotaxi OR "self-driving" OR autonomous)'
+  feeds: [https://waymo.com/blog/rss.xml]
+  github: [waymo-research]
+- name: Tesla
+  news: 'Tesla (FSD OR "Full Self-Driving" OR robotaxi OR Autopilot)'
+  news_zh: '特斯拉 FSD'
+- name: NVIDIA
+  news: 'NVIDIA (DRIVE OR "autonomous vehicle" OR "self-driving" OR Cosmos OR Alpamayo)'
+  feeds: [https://blogs.nvidia.com/blog/category/auto/feed/]
+  github: [NVlabs, nv-tlabs, NVIDIA]
+- name: Wayve
+  news: 'Wayve (autonomous OR "self-driving" OR "embodied AI")'
+  github: [wayveai]
+- name: Momenta
+  news: 'Momenta (autonomous OR "self-driving" OR robotaxi)'
+  news_zh: 'Momenta 智驾'
+- name: XPeng
+  news: 'XPeng (XNGP OR autonomous OR "self-driving" OR robotaxi)'
+  news_zh: '小鹏 智驾'
+- name: Li Auto
+  news: '"Li Auto" (autonomous OR "self-driving" OR VLA OR "driver assistance")'
+  news_zh: '理想汽车 智驾'
+- name: NIO
+  news: 'NIO (autonomous OR "self-driving" OR "NOP+" OR "world model")'
+  news_zh: '蔚来 智驾'
+- name: Huawei
+  news: 'Huawei (ADS OR "autonomous driving" OR Qiankun)'
+  news_zh: '华为 乾崑 智驾'
+  github: [huawei-noah]
+- name: Baidu Apollo
+  news: '"Apollo Go" OR "Baidu Apollo" OR (Baidu robotaxi)'
+  news_zh: '萝卜快跑'
+  github: [ApolloAuto]
+- name: Pony.ai
+  news: '"Pony.ai" (robotaxi OR autonomous)'
+  news_zh: '小马智行'
+- name: WeRide
+  news: 'WeRide (robotaxi OR autonomous)'
+  news_zh: '文远知行'
+- name: Horizon Robotics
+  news: '"Horizon Robotics" (autonomous OR "self-driving" OR HSD OR Journey)'
+  news_zh: '地平线 智驾'
+  github: [HorizonRobotics]
+- name: DeepRoute.ai
+  news: 'DeepRoute (autonomous OR "self-driving" OR VLA)'
+  news_zh: '元戎启行'
+- name: Mobileye
+  news: 'Mobileye (autonomous OR "self-driving" OR SuperVision OR Chauffeur OR Drive)'
+- name: Aurora
+  news: '"Aurora Innovation" OR (Aurora driverless trucks)'
+- name: Zoox
+  news: 'Zoox (robotaxi OR autonomous)'
+- name: Motional
+  news: 'Motional (robotaxi OR autonomous)'
+  github: [nutonomy, motional]
+- name: comma.ai
+  news: '"comma.ai" OR openpilot'
+  feeds: [https://blog.comma.ai/feed.xml]
+  github: [commaai]

@@ -1,0 +1,133 @@
+# AD Radar configuration. Everything tunable lives here.
+
+window_months: 6           # rolling window for the curated list
+curated_size: 100          # target size of the curated list
+per_topic_cap: 25          # max papers per topic in the curated list
+
+arxiv:
+  # OAI-PMH sets to harvest. Driving papers in cs.AI / cs.LG are almost always
+  # cross-listed to cs.CV or cs.RO, so these two keep volume manageable.
+  oai_sets: ["cs:cs:CV", "cs:cs:RO"]
+  chunk_days: 7
+
+# Local relevance check on title + abstract (case-insensitive substrings).
+relevance_terms:
+  - autonomous driving
+  - self-driving
+  - autonomous vehicle
+  - end-to-end driving
+  - driving scene
+  - driving world model
+  - driving policy
+  - ego vehicle
+  - nuscenes
+  - navsim
+  - bench2drive
+  - carla
+  - waymo
+  - nuplan
+  - argoverse
+  - robotaxi
+  - motion forecasting
+  - occupancy prediction
+
+# Venue tiers. Aliases are matched as whole words in arXiv comments,
+# journal_ref and the Semantic Scholar venue string.
+venues:
+  top:
+    CVPR: [CVPR, Computer Vision and Pattern Recognition]
+    ICCV: [ICCV, International Conference on Computer Vision]
+    ECCV: [ECCV, European Conference on Computer Vision]
+    NeurIPS: [NeurIPS, NIPS, Neural Information Processing Systems]
+    ICLR: [ICLR, International Conference on Learning Representations]
+    ICML: [ICML, International Conference on Machine Learning]
+    CoRL: [CoRL, Conference on Robot Learning]
+    RSS: ["Robotics: Science and Systems", "RSS 2025", "RSS 2026", "RSS'25", "RSS'26"]
+    TPAMI: [TPAMI, T-PAMI, Pattern Analysis and Machine Intelligence]
+    IJCV: [IJCV, International Journal of Computer Vision]
+  strong:
+    ICRA: [ICRA, International Conference on Robotics and Automation]
+    IROS: [IROS, Intelligent Robots and Systems]
+    AAAI: [AAAI]
+    RA-L: [RA-L, "IEEE RAL", Robotics and Automation Letters]
+    T-RO: [T-RO, Transactions on Robotics]
+
+# GitHub owners that indicate a strong lab / company (quality signal).
+known_orgs:
+  - OpenDriveLab
+  - autonomousvision
+  - hustvl
+  - NVlabs
+  - nv-tlabs
+  - NVIDIA
+  - waymo-research
+  - wayveai
+  - commaai
+  - ApolloAuto
+  - huawei-noah
+  - HorizonRobotics
+  - fudan-zvg
+  - OpenGVLab
+  - open-mmlab
+  - facebookresearch
+  - google-research
+  - google-deepmind
+  - microsoft
+  - Tsinghua-MARS-Lab
+  - zju3dv
+  - VITA-Group
+  - ucla-mobility
+  - Thinklab-SJTU
+  - OpenPerceptionX
+  - PJLab-ADG
+  - nutonomy
+  - motional
+  - vita-epfl
+
+benchmarks: [nuScenes, NAVSIM, Bench2Drive, CARLA, Waymo Open, nuPlan, Argoverse, KITTI, Occ3D, OpenScene]
+
+# Topic rules: (term, weight). Title matches count 3x. Highest total wins.
+topics:
+  vla:
+    name: "VLA / VLM for Driving"
+    terms: [vision-language-action, " vla", vision-language, " vlm", large language model, " llm", multimodal large, chain-of-thought, reasoning]
+  world_model:
+    name: "World Models & Generative Simulation"
+    terms: [world model, video generation, driving video, scene generation, generative simulation, video diffusion, future prediction]
+  e2e:
+    name: "End-to-End Driving & Planning"
+    terms: [end-to-end, planning, planner, navsim, bench2drive, closed-loop, driving policy, imitation learning, reinforcement learning]
+  sim_recon:
+    name: "3DGS / NeRF Reconstruction & Sensor Sim"
+    terms: [gaussian splatting, 3dgs, nerf, neural rendering, reconstruction, novel view, sensor simulation]
+  perception:
+    name: "Perception: BEV, Occupancy, 3D Detection, Mapping"
+    terms: [bev, bird's-eye, occupancy, 3d object detection, detection, segmentation, lidar, hd map, vectorized map, online mapping, tracking]
+  prediction:
+    name: "Motion Prediction & Behavior Modeling"
+    terms: [motion forecasting, trajectory prediction, motion prediction, behavior prediction, multi-agent, traffic simulation]
+  data_bench:
+    name: "Datasets & Benchmarks"
+    terms: [dataset, benchmark]
+  safety:
+    name: "Safety, Robustness & Evaluation"
+    terms: [safety, adversarial, corner case, long-tail, robustness, out-of-distribution, uncertainty]
+
+# Manual overrides for precision (arXiv ids without version).
+curation:
+  include: []
+  exclude: []
+
+llm:
+  default_model: claude-sonnet-5   # used when no ANTHROPIC_DEFAULT_SONNET_MODEL / AD_RADAR_MODEL is set
+  batch_size: 8
+  max_per_run: 150
+
+github:
+  max_requests_per_run: 400
+  max_searches_per_run: 40   # code discovery via README search (slow: 10/min without token)
+  refresh_days: 3
+
+news:
+  exclude_regex: "\\b(stock|shares|price target|NASDAQ|NYSE|analyst|dividend|short interest|earnings call|options)\\b"
+  keep_days: 90

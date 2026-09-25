@@ -1,0 +1,47 @@
+name: daily
+
+on:
+  schedule:
+    - cron: "17 1 * * *"   # 01:17 UTC, after arXiv's daily announcement
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: "Harvest papers submitted since YYYY-MM-DD (empty = incremental)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ad-radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AD_RADAR_MODEL: ${{ vars.AD_RADAR_MODEL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "${{ github.event.inputs.backfill }}" ]; then
+            python scripts/run.py --backfill "${{ github.event.inputs.backfill }}"
+          else
+            python scripts/run.py
+          fi
+      - name: Commit
+        run: |
+          git config user.name "ad-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A README.md daily weekly data
+          git diff --cached --quiet || git commit -m "daily update $(date -u +%F)"
+          git push

@@ -1,0 +1,62 @@
+[
+ {
+  "citations": 7,
+  "code_url": "https://github.com/zihaosheng/ExploreVLA",
+  "id": "2604.02714",
+  "published": "2026-04-01",
+  "score": 53.8,
+  "stars": 29,
+  "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2604.02714",
+  "venue": "ECCV 2026"
+ },
+ {
+  "citations": 1,
+  "code_url": "https://github.com/VAIL-UCLA/DreamStream",
+  "id": "2609.26792",
+  "published": "2026-09-22",
+  "score": 47.7,
+  "stars": 9,
+  "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2609.26792",
+  "venue": "CoRL 2026"
+ },
+ {
+  "citations": 0,
+  "code_url": "https://github.com/PointLAM/PointLAM",
+  "id": "2609.21780",
+  "published": "2026-09-18",
+  "score": 42.2,
+  "stars": 3,
+  "title": "PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection",
+  "topic": "perception",
+  "url": "https://arxiv.org/abs/2609.21780",
+  "venue": "ECCV 2026"
+ },
+ {
+  "citations": 11,
+  "code_url": "https://github.com/nv-tlabs/omni-dreams",
+  "id": "2606.03159",
+  "published": "2026-06-01",
+  "score": 30.9,
+  "stars": 342,
+  "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2606.03159",
+  "venue": null
+ },
+ {
+  "citations": 3,
+  "code_url": "https://github.com/QwenLM/Qwen-Drive-1.0",
+  "id": "2609.00111",
+  "published": "2026-09-01",
+  "score": 28.6,
+  "stars": 476,
+  "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2609.00111",
+  "venue": null
+ }
+]
