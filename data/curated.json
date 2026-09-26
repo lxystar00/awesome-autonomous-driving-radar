@@ -4,7 +4,7 @@
   "code_url": "https://github.com/haha-yuki-haha/AutoDrive-P3",
   "id": "2603.28116",
   "published": "2026-03-30",
-  "score": 55.2,
+  "score": 55.1,
   "stars": 20,
   "title": "$AutoDrive\\text{-}P^3$: Unified Chain of Perception-Prediction-Planning Thought via Reinforcement Fine-Tuning",
   "topic": "e2e",
@@ -76,7 +76,7 @@
   "code_url": "https://github.com/daehyunwe/FrozenDrive",
   "id": "2606.20110",
   "published": "2026-06-18",
-  "score": 48.9,
+  "score": 48.8,
   "stars": 10,
   "title": "FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model",
   "topic": "world_model",
@@ -106,6 +106,18 @@
   "topic": "perception",
   "url": "https://arxiv.org/abs/2604.14563",
   "venue": "CVPR 2026"
+ },
+ {
+  "citations": 4,
+  "code_url": "https://github.com/the-masses/FreeOcc",
+  "id": "2604.28115",
+  "published": "2026-04-30",
+  "score": 47.8,
+  "stars": 138,
+  "title": "FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction",
+  "topic": "perception",
+  "url": "https://arxiv.org/abs/2604.28115",
+  "venue": "RSS"
  },
  {
   "citations": 1,
@@ -160,7 +172,7 @@
   "code_url": "https://github.com/MICLAB-BUPT/CritiqueDriveVLM",
   "id": "2607.04179",
   "published": "2026-07-05",
-  "score": 43.0,
+  "score": 42.9,
   "stars": 1,
   "title": "CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving",
   "topic": "vla",
@@ -240,6 +252,18 @@
   "venue": "ECCV 2026"
  },
  {
+  "citations": 0,
+  "code_url": "https://github.com/iis-esslingen/searchad_devkit",
+  "id": "2604.08008",
+  "published": "2026-04-09",
+  "score": 39.0,
+  "stars": 9,
+  "title": "SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving",
+  "topic": "data_bench",
+  "url": "https://arxiv.org/abs/2604.08008",
+  "venue": "CVPR 2026"
+ },
+ {
   "citations": 4,
   "code_url": "https://github.com/HangYuu/G2DP",
   "id": "2606.26017",
@@ -250,6 +274,18 @@
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2606.26017",
   "venue": "IROS 2026"
+ },
+ {
+  "citations": 0,
+  "code_url": "https://github.com/Zizzzzzzz/MVPruner",
+  "id": "2606.27660",
+  "published": "2026-06-01",
+  "score": 37.4,
+  "stars": 3,
+  "title": "MVPruner: Dynamic Token Pruning for Accelerating Multi-view Vision-Language Models in Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2606.27660",
+  "venue": "ECCV 2026"
  },
  {
   "citations": 0,
@@ -304,7 +340,7 @@
   "code_url": "https://github.com/autonomousvision/fail2drive",
   "id": "2604.08535",
   "published": "2026-04-09",
-  "score": 34.8,
+  "score": 34.7,
   "stars": 172,
   "title": "Fail2Drive: Benchmarking Closed-Loop Driving Generalization",
   "topic": "e2e",
@@ -412,7 +448,7 @@
   "code_url": "https://github.com/swc-17/SparseDriveV2",
   "id": "2603.29163",
   "published": "2026-03-31",
-  "score": 28.0,
+  "score": 27.9,
   "stars": 255,
   "title": "SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving",
   "topic": "e2e",
@@ -420,27 +456,27 @@
   "venue": null
  },
  {
-  "citations": 4,
-  "code_url": "https://github.com/Thinklab-SJTU/Bench2Drive-VL",
-  "id": "2604.01259",
-  "published": "2026-04-01",
-  "score": 27.1,
-  "stars": 225,
-  "title": "Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2604.01259",
-  "venue": null
- },
- {
   "citations": 10,
   "code_url": "https://github.com/wzzheng/DVGT",
   "id": "2604.00813",
   "published": "2026-04-24",
-  "score": 27.1,
+  "score": 27.0,
   "stars": 362,
   "title": "DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2604.00813",
+  "venue": null
+ },
+ {
+  "citations": 4,
+  "code_url": "https://github.com/Thinklab-SJTU/Bench2Drive-VL",
+  "id": "2604.01259",
+  "published": "2026-04-01",
+  "score": 27.0,
+  "stars": 225,
+  "title": "Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2604.01259",
   "venue": null
  },
  {
@@ -472,7 +508,7 @@
   "code_url": "https://github.com/liujiuming123/Awesome-Interactive-World-Model",
   "id": "2606.01164",
   "published": "2026-06-01",
-  "score": 19.9,
+  "score": 19.8,
   "stars": 236,
   "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
   "topic": "world_model",
