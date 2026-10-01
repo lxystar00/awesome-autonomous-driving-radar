@@ -12,15 +12,15 @@
   "venue": "CVPR 2026"
  },
  {
-  "citations": 7,
-  "code_url": "https://github.com/zihaosheng/ExploreVLA",
-  "id": "2604.02714",
-  "published": "2026-04-01",
-  "score": 53.8,
+  "citations": 1,
+  "code_url": "https://github.com/ShivaTeam/DriveTeach-VLA",
+  "id": "2607.01658",
+  "published": "2026-07-02",
+  "score": 51.3,
   "stars": 30,
-  "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2604.02714",
+  "title": "Teaching Vision-Language-Action Models What to See and Where to Look",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2607.01658",
   "venue": "ECCV 2026"
  },
  {
@@ -36,18 +36,6 @@
   "venue": "ICML 2026"
  },
  {
-  "citations": 0,
-  "code_url": "https://github.com/ShivaTeam/DriveTeach-VLA",
-  "id": "2607.01658",
-  "published": "2026-07-02",
-  "score": 49.9,
-  "stars": 30,
-  "title": "Teaching Vision-Language-Action Models What to See and Where to Look",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2607.01658",
-  "venue": "ECCV 2026"
- },
- {
   "citations": 4,
   "code_url": "https://github.com/H-EmbodVis/HERMESV2",
   "id": "2604.28196",
@@ -60,6 +48,18 @@
   "venue": "ICCV 2025"
  },
  {
+  "citations": 5,
+  "code_url": "https://github.com/the-masses/FreeOcc",
+  "id": "2604.28115",
+  "published": "2026-04-30",
+  "score": 48.9,
+  "stars": 138,
+  "title": "FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction",
+  "topic": "perception",
+  "url": "https://arxiv.org/abs/2604.28115",
+  "venue": "RSS"
+ },
+ {
   "citations": 1,
   "code_url": "https://github.com/daehyunwe/FrozenDrive",
   "id": "2606.20110",
@@ -70,18 +70,6 @@
   "topic": "world_model",
   "url": "https://arxiv.org/abs/2606.20110",
   "venue": "ECCV 2026"
- },
- {
-  "citations": 0,
-  "code_url": "https://github.com/7uHeng/ProOOD",
-  "id": "2604.01081",
-  "published": "2026-04-01",
-  "score": 48.6,
-  "stars": 21,
-  "title": "ProOOD: Prototype-Guided Out-of-Distribution 3D Occupancy Prediction",
-  "topic": "perception",
-  "url": "https://arxiv.org/abs/2604.01081",
-  "venue": "CVPR 2026"
  },
  {
   "citations": 1,
@@ -108,18 +96,6 @@
   "venue": "CVPR 2026"
  },
  {
-  "citations": 4,
-  "code_url": "https://github.com/the-masses/FreeOcc",
-  "id": "2604.28115",
-  "published": "2026-04-30",
-  "score": 47.7,
-  "stars": 138,
-  "title": "FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction",
-  "topic": "perception",
-  "url": "https://arxiv.org/abs/2604.28115",
-  "venue": "RSS"
- },
- {
   "citations": 0,
   "code_url": "https://github.com/geonhobang/Horizon3D",
   "id": "2606.31096",
@@ -133,6 +109,18 @@
  },
  {
   "citations": 0,
+  "code_url": "https://github.com/SecMindLab/Saliency_LiDAR",
+  "id": "2606.29963",
+  "published": "2026-06-01",
+  "score": 44.8,
+  "stars": 2,
+  "title": "Explainability-Aware Frustum Attack: Exposing Structural Vulnerabilities in LiDAR-Based 3D Object Detectors",
+  "topic": "perception",
+  "url": "https://arxiv.org/abs/2606.29963",
+  "venue": "ECCV"
+ },
+ {
+  "citations": 0,
   "code_url": "https://github.com/LogosRoboticsGroup/DriveWeaver",
   "id": "2606.31918",
   "published": "2026-06-01",
@@ -142,18 +130,6 @@
   "topic": "sim_recon",
   "url": "https://arxiv.org/abs/2606.31918",
   "venue": "ECCV 2026"
- },
- {
-  "citations": 0,
-  "code_url": "https://github.com/SecMindLab/Saliency_LiDAR",
-  "id": "2606.29963",
-  "published": "2026-06-01",
-  "score": 44.1,
-  "stars": 1,
-  "title": "Explainability-Aware Frustum Attack: Exposing Structural Vulnerabilities in LiDAR-Based 3D Object Detectors",
-  "topic": "perception",
-  "url": "https://arxiv.org/abs/2606.29963",
-  "venue": "ECCV"
  },
  {
   "citations": 2,
@@ -172,31 +148,19 @@
   "code_url": "https://github.com/PointLAM/PointLAM",
   "id": "2609.21780",
   "published": "2026-09-18",
-  "score": 42.2,
-  "stars": 3,
+  "score": 42.7,
+  "stars": 4,
   "title": "PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection",
   "topic": "perception",
   "url": "https://arxiv.org/abs/2609.21780",
   "venue": "ECCV 2026"
  },
  {
-  "citations": 1,
-  "code_url": "https://github.com/Yifeng-Bai/TopoHR",
-  "id": "2604.24119",
-  "published": "2026-04-01",
-  "score": 42.0,
-  "stars": 3,
-  "title": "TopoHR: Hierarchical Centerline Representation for Cyclic Topology Reasoning in Driving Scenes with Point-to-Instance Relations",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2604.24119",
-  "venue": "CVPR 2026"
- },
- {
   "citations": 0,
   "code_url": "https://github.com/ShenZheng2000/WarpI2I",
   "id": "2606.31018",
   "published": "2026-06-30",
-  "score": 42.0,
+  "score": 41.9,
   "stars": 31,
   "title": "WarpI2I: Image Warping for Image-to-Image Translation",
   "topic": "e2e",
@@ -225,18 +189,6 @@
   "title": "ASTAD: Asymmetric Style Transfer for Synthetic-to-Real Adaptation in Autonomous Driving",
   "topic": "world_model",
   "url": "https://arxiv.org/abs/2606.29286",
-  "venue": "ECCV 2026"
- },
- {
-  "citations": 1,
-  "code_url": "https://github.com/TUM-AVS/EgoDyn-Bench",
-  "id": "2604.22851",
-  "published": "2026-04-01",
-  "score": 39.6,
-  "stars": 5,
-  "title": "EgoDyn-Bench: Evaluating Ego-Motion Understanding in Vision-Centric Foundation Models for Autonomous Driving",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2604.22851",
   "venue": "ECCV 2026"
  },
  {
@@ -292,8 +244,8 @@
   "code_url": "https://github.com/TUM-AVS/Chat2scenic",
   "id": "2607.14387",
   "published": "2026-07-15",
-  "score": 36.6,
-  "stars": 26,
+  "score": 36.7,
+  "stars": 27,
   "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2607.14387",
@@ -304,47 +256,59 @@
   "code_url": "https://github.com/UMN-ZhaoLab/Pocket-SLAM",
   "id": "2606.24796",
   "published": "2026-06-23",
-  "score": 35.7,
-  "stars": 11,
+  "score": 35.9,
+  "stars": 12,
   "title": "Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM",
   "topic": "sim_recon",
   "url": "https://arxiv.org/abs/2606.24796",
   "venue": "ICRA"
  },
  {
-  "citations": 13,
+  "citations": 15,
   "code_url": "https://github.com/autonomousvision/fail2drive",
   "id": "2604.08535",
   "published": "2026-04-09",
-  "score": 34.6,
-  "stars": 172,
+  "score": 35.1,
+  "stars": 173,
   "title": "Fail2Drive: Benchmarking Closed-Loop Driving Generalization",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2604.08535",
   "venue": null
  },
  {
-  "citations": 14,
+  "citations": 15,
   "code_url": "https://github.com/xiaomi-research/unidrivevla",
   "id": "2604.02190",
   "published": "2026-04-02",
-  "score": 33.5,
-  "stars": 246,
+  "score": 33.7,
+  "stars": 247,
   "title": "UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2604.02190",
   "venue": null
  },
  {
-  "citations": 12,
+  "citations": 14,
   "code_url": "https://github.com/nv-tlabs/omni-dreams",
   "id": "2606.03159",
   "published": "2026-06-01",
-  "score": 31.0,
-  "stars": 343,
+  "score": 32.0,
+  "stars": 344,
   "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2606.03159",
+  "venue": null
+ },
+ {
+  "citations": 6,
+  "code_url": "https://github.com/QwenLM/Qwen-Drive-1.0",
+  "id": "2609.00111",
+  "published": "2026-09-01",
+  "score": 31.8,
+  "stars": 482,
+  "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2609.00111",
   "venue": null
  },
  {
@@ -361,6 +325,18 @@
  },
  {
   "citations": 0,
+  "code_url": "https://github.com/rai-opensource/vernata",
+  "id": "2608.06919",
+  "published": "2026-08-07",
+  "score": 29.3,
+  "stars": 18,
+  "title": "Vernata: Self-Supervised Learning of LiDAR Point Representations",
+  "topic": "perception",
+  "url": "https://arxiv.org/abs/2608.06919",
+  "venue": "IROS 2026"
+ },
+ {
+  "citations": 0,
   "code_url": "https://github.com/codingmlinprocess/LCS",
   "id": "2608.00237",
   "published": "2026-08-01",
@@ -369,18 +345,6 @@
   "title": "Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2608.00237",
-  "venue": "IROS 2026"
- },
- {
-  "citations": 0,
-  "code_url": "https://github.com/rai-opensource/vernata",
-  "id": "2608.06919",
-  "published": "2026-08-07",
-  "score": 29.1,
-  "stars": 17,
-  "title": "Vernata: Self-Supervised Learning of LiDAR Point Representations",
-  "topic": "perception",
-  "url": "https://arxiv.org/abs/2608.06919",
   "venue": "IROS 2026"
  },
  {
@@ -396,18 +360,6 @@
   "venue": "RA-L"
  },
  {
-  "citations": 3,
-  "code_url": "https://github.com/QwenLM/Qwen-Drive-1.0",
-  "id": "2609.00111",
-  "published": "2026-09-01",
-  "score": 28.6,
-  "stars": 477,
-  "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2609.00111",
-  "venue": null
- },
- {
   "citations": 1,
   "code_url": "https://github.com/nesl/cadet",
   "id": "2606.04072",
@@ -420,24 +372,12 @@
   "venue": "ICRA 2026"
  },
  {
-  "citations": 4,
-  "code_url": "https://github.com/Thinklab-SJTU/Bench2Drive-VL",
-  "id": "2604.01259",
-  "published": "2026-04-01",
-  "score": 27.0,
-  "stars": 225,
-  "title": "Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2604.01259",
-  "venue": null
- },
- {
-  "citations": 10,
+  "citations": 11,
   "code_url": "https://github.com/wzzheng/DVGT",
   "id": "2604.00813",
   "published": "2026-04-24",
-  "score": 26.9,
-  "stars": 362,
+  "score": 27.6,
+  "stars": 363,
   "title": "DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2604.00813",
@@ -461,7 +401,7 @@
   "id": "2605.31066",
   "published": "2026-05-29",
   "score": 25.9,
-  "stars": 1103,
+  "stars": 1105,
   "title": "Can Aerial VLA Models Cooperate? Evaluating Closed-Loop Air-Ground Coordination with CARLA-Air",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2605.31066",
@@ -480,27 +420,27 @@
   "venue": null
  },
  {
+  "citations": 4,
+  "code_url": "https://github.com/worldbench/WorldLens",
+  "id": "2605.10858",
+  "published": "2026-05-11",
+  "score": 19.3,
+  "stars": 253,
+  "title": "Is Your Driving World Model an All-Around Player?",
+  "topic": "world_model",
+  "url": "https://arxiv.org/abs/2605.10858",
+  "venue": null
+ },
+ {
   "citations": 2,
   "code_url": "https://github.com/kesai-labs/py123d",
   "id": "2605.08084",
   "published": "2026-05-08",
   "score": 19.0,
-  "stars": 396,
+  "stars": 399,
   "title": "123D: Unifying Multi-Modal Autonomous Driving Data at Scale",
   "topic": "data_bench",
   "url": "https://arxiv.org/abs/2605.08084",
-  "venue": null
- },
- {
-  "citations": 3,
-  "code_url": "https://github.com/worldbench/WorldLens",
-  "id": "2605.10858",
-  "published": "2026-05-11",
-  "score": 18.7,
-  "stars": 253,
-  "title": "Is Your Driving World Model an All-Around Player?",
-  "topic": "world_model",
-  "url": "https://arxiv.org/abs/2605.10858",
   "venue": null
  }
 ]
