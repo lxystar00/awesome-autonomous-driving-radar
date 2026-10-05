@@ -19352,7 +19352,7 @@
   "venue_tier": null
  },
  "2606.03915": {
-  "abstract": "We propose PatchScene, a novel diffusion-based framework for large-scale LiDAR scene completion. Unlike existing methods that rely on global latent representations or dense voxel grids, PatchScene adopts a patch-based voxel diffusion paradigm that explicitly generates fine-grained geometry within localized 3D regions. To ensure coherent reconstruction at both spatial and temporal scales, we introduce a confidence-guided spatio-temporal fusion mechanism that integrates overlapping patches and adjacent frames in a unified generative process. Furthermore, we design an Annular-Flow diffusion strategy that leverages the radial density pattern of LiDAR scans to progressively propagate high-fidelity information from near-range to far-range regions, enabling spatially unbounded scene completion. Extensive experiments on the SemanticKITTI benchmark demonstrate that PatchScene achieves state-of-the-art performance across all standard metrics, surpassing previous approaches in both geometric accuracy and temporal consistency. Remarkably, the model trained on 20 m LiDAR ranges generalizes effectively to 50 m scenes without retraining, highlighting its strong scalability and generalization capability for real-world autonomous driving applications.",
+  "abstract": "We propose PatchScene, a novel diffusion-based framework for large-scale LiDAR scene completion. Unlike existing methods that rely on global latent representations or dense voxel grids, PatchScene adopts a patch-based voxel diffusion paradigm that explicitly generates fine-grained geometry within localized 3D regions. To ensure coherent reconstruction at both spatial and temporal scales, we introduce a confidence-guided spatio-temporal fusion mechanism that integrates overlapping patches and adjacent frames in a unified generative process. Furthermore, we design an Annular-Flow diffusion strategy that leverages the radial density pattern of LiDAR scans to progressively propagate high-fidelity information from near-range to far-range regions, enabling spatially unbounded scene completion. Extensive experiments on the SemanticKITTI benchmark demonstrate that PatchScene achieves state-of-the-art performance across all standard metrics, surpassing previous approaches in both geometric accuracy and temporal consistency. Remarkably, the model trained on 20 m LiDAR ranges generalizes effectively to 50 m scenes without retraining, highlighting its strong scalability and generalization capability for real-world autonomous driving applications. Project page: https://patchscene.github.io/",
   "age_months": 4.1,
   "authors": [
    "Qingdong Xu",
@@ -19368,25 +19368,26 @@
   ],
   "citations": 0,
   "cites_per_month": 0.0,
+  "code_search_at": "2026-10-05",
   "code_url": null,
-  "comments": "10 pages, 5 figures, 5 tables",
+  "comments": "Accepted at CVPR 2026",
   "first_seen": "2026-09-25",
   "hf_at": "2026-10-02",
   "id": "2606.03915",
   "influential_citations": 0,
   "journal_ref": "",
   "known_org": false,
-  "published": "2026-06-02",
+  "published": "2026-06-01",
   "s2_at": "2026-10-04",
   "s2_venue": "",
   "s2_year": 2026,
-  "score": 8.0,
+  "score": 38.0,
   "title": "PatchScene: Patch-based Voxel Diffusion for Large-Scale Scene Completion",
   "topic": "perception",
-  "updated": "2026-06-03",
+  "updated": "2026-10-05",
   "url": "https://arxiv.org/abs/2606.03915",
-  "venue": null,
-  "venue_tier": null
+  "venue": "CVPR 2026",
+  "venue_tier": "top"
  },
  "2606.04072": {
   "abstract": "Deep learning models are increasingly central to autonomous vehicle (AV) pipelines, yet their integration has traditionally followed a monolithic design where perception, planning, and control execute on a single onboard computer. This design overlooks the emerging paradigm of cooperative autonomy, where vehicles interact with roadside units (RSUs), edge servers, and cloud-hosted intelligence through vehicle-to-everything (V2X) connectivity. Cooperative perception and control improve safety and efficiency, but also introduce systems-level challenges: network latency, compute heterogeneity, and multi-tenant contention, all critically affect real-time decision-making. These challenges are further amplified by the increasing reliance on large foundation models, whose scale necessitates cloud deployment. We present CADET (Cooperative Autonomy through Distributed Experimentation Toolkit), a modular platform for systematic and reproducible evaluation of distributed cooperative autonomy systems under realistic deployment conditions. CADET decouples the AV stack into composable modules that can be flexibly deployed across vehicles, infrastructure, and edge/cloud tiers. The framework integrates state-of-the-art models, incorporates trace-driven network and workload emulation, and provides synchronized model-, system-, and task-level instrumentation. Through V2V and V2I experiments, we show that distributed deployment choices fundamentally shape safety, with V2V intent packets outperforming cloud-based perception and RSU-assisted perception sustaining safety until overloaded by concurrent requests. Although designed for AV pipelines, CADET also supports dataset-driven experimentation, enabling systems and ML researchers to benchmark distributed inference workloads independently of full vehicle simulation. CADET is open source, with code and demo available at https://nesl.github.io/cadet-web.",
@@ -50570,6 +50571,166 @@
   "topic": "data_bench",
   "updated": "2026-10-02",
   "url": "https://arxiv.org/abs/2610.02000",
+  "venue": null,
+  "venue_tier": null
+ },
+ "2610.02513": {
+  "abstract": "Large-scale vectorized HD maps provide structured road information that is essential for perception, localization, and planning in autonomous driving. Constructing such maps requires aggregating noisy, fragmented, and overlapping local predictions collected along a vehicle trajectory into a coherent global map. Existing aggregation methods typically rely on hand-crafted rules for fragment association and refinement. However, a fixed set of thresholds cannot effectively handle variations in road structures and prediction errors, often requiring detector-specific tuning or manual adjustment. To address this limitation, we propose MapMergeLLM, a data-driven framework that formulates vectorized map aggregation as conditional sequence generation with a large language model. Given serialized local vectorized maps, our model directly predicts the aggregated global map polylines. To reduce dependence on any particular upstream detector, we train the model on synthetic local maps generated from clean vector maps using corruptions that simulate representative prediction errors. We further introduce a coordinate tokenizer with geometry-aware pretraining to precisely represent map coordinates. In addition, we propose a line-level association loss that explicitly supervises correspondences between local observations of the same map element. Experiments on Argoverse2 and nuScenes using multiple recent upstream detectors demonstrate that MapMergeLLM substantially outperforms heuristic and optimization-based aggregation baselines without detector-specific retraining.",
+  "age_months": 1.0,
+  "authors": [
+   "Ziwei Li",
+   "Yi-Tang Chen",
+   "Xiaoqi Wang",
+   "Wenbin He",
+   "Han-Wei Shen",
+   "Liu Ren"
+  ],
+  "categories": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "cites_per_month": 0.0,
+  "code_url": null,
+  "comments": "",
+  "first_seen": "2026-10-05",
+  "hf_at": "2026-10-05",
+  "id": "2610.02513",
+  "journal_ref": "",
+  "known_org": false,
+  "published": "2026-10-01",
+  "score": 8.0,
+  "title": "From Fragments to Global Maps: Learning Vectorized Map Aggregation with Large Language Models",
+  "topic": "perception",
+  "updated": "2026-10-05",
+  "url": "https://arxiv.org/abs/2610.02513",
+  "venue": null,
+  "venue_tier": null
+ },
+ "2610.02726": {
+  "abstract": "Flow-matching-based multi-view world models generate realistic videos, but are commonly restricted to fixed camera rigs. Extending them to continuously varying camera poses requires paired pose--video observations with dense pose coverage, which are costly to acquire. We introduce \\emph{SymRegFlow}, a symmetry-regularized flow-matching framework for multi-view-consistent video generation across continuous viewpoints without ground-truth novel-view RGB supervision. For each target pose, SymRegFlow geometrically warps source views into noisy anchors and combines masked dual-anchor supervision with cross-anchor denoising-output consistency to mitigate anchor-specific errors. Under an affine Gaussian surrogate, we prove that suitable consistency regularization recovers the clean-reference optimum at fixed noise levels, strictly outperforming single- and merged-anchor baselines. Experiments on Cosmos-Drive-Dreams and nuScenes demonstrate high-quality, multi-view-consistent autonomous-driving video generation: on nuScenes, SymRegFlow achieves the lowest FVD and FVMD among the evaluated baselines, reducing FVD by over 31\\% relative to the best baseline, and source-conditioned inference also attains the best FID and instance preservation.",
+  "age_months": 1.0,
+  "authors": [
+   "Xi Ye",
+   "Yuzhu Wang",
+   "Xiaoyang Liu",
+   "Jiayi Wang",
+   "Yangyang Xu",
+   "Ruyu Wang",
+   "Wenlin Chen",
+   "Duo Su",
+   "Jun Zhu"
+  ],
+  "categories": [
+   "cs.CV"
+  ],
+  "cites_per_month": 0.0,
+  "code_url": null,
+  "comments": "",
+  "first_seen": "2026-10-05",
+  "hf_at": "2026-10-05",
+  "id": "2610.02726",
+  "journal_ref": "",
+  "known_org": false,
+  "published": "2026-10-02",
+  "score": 4.0,
+  "title": "SymRegFlow: Symmetry-Regularized Flow Matching for Video World Models",
+  "topic": "world_model",
+  "updated": "2026-10-05",
+  "url": "https://arxiv.org/abs/2610.02726",
+  "venue": null,
+  "venue_tier": null
+ },
+ "2610.02765": {
+  "abstract": "Monitoring planned driving trajectories requires accurately estimating the collision likelihood with actors whose motion is itself impacted by the ego motion. Existing classical approaches are often limited by the quality of their forecasting model. Vision-language models (VLMs) have shown promise in reasoning about the consequences of high-level actions, yet their approximate predictions are unsuitable for safety-critical applications such as autonomous driving. Conformal prediction (CP) has emerged as a data-driven framework for quantifying the uncertainty of black-box model predictions. We propose Split Label-Localized Conformal Prediction (SLLCP), a post-hoc calibration layer over frozen VLMs that transforms their unreliable predictions into probabilistically calibrated safety prediction sets. We consider how the ability to estimate safety can depend on the observed driving scene and introduce a localized procedure that upweights relevant past experience when calculating uncertainty thresholds. We provide label-conditional finite-sample distribution-free coverage under exchangeability. Evaluated over 15k CARLA trajectories from unseen scenarios, SLLCP correctly flags 89.6% of collision-causing trajectories with a Qwen backbone and 88.4% with a Cosmos backbone, while the base VLMs only flagged 4.6% and 39.1% of the collision-causing trajectories, respectively. These results indicate that local, label-conditional calibration can reduce missed unsafe trajectories.",
+  "age_months": 1.0,
+  "authors": [
+   "Luís Marques",
+   "Rong Fang",
+   "Disha Kamale",
+   "Dmitry Berenson"
+  ],
+  "categories": [
+   "cs.RO",
+   "cs.LG"
+  ],
+  "cites_per_month": 0.0,
+  "code_url": null,
+  "comments": "5 pages, 2 figures, 1 table. Extended abstract. Disha Kamale and Dmitry Berenson are joint senior authors",
+  "first_seen": "2026-10-05",
+  "hf_at": "2026-10-05",
+  "id": "2610.02765",
+  "journal_ref": "",
+  "known_org": false,
+  "published": "2026-10-02",
+  "score": 4.0,
+  "title": "Localized Conformal Safety Monitoring with Vision-Language Models for Autonomous Driving",
+  "topic": "safety",
+  "updated": "2026-10-05",
+  "url": "https://arxiv.org/abs/2610.02765",
+  "venue": null,
+  "venue_tier": null
+ },
+ "2610.02825": {
+  "abstract": "Road geometry (e.g., crests, sags, and speed humps) and surface conditions (e.g., wet or icy pavement) affect how vehicles move, what drivers and onboard cameras observe, and how much clearance remains between vehicles. Editing these properties in a driving scene therefore requires corresponding changes in vehicle motion. Capturing these differences in a driving video requires a road edit to propagate to vehicle motion, camera viewpoint, and the clearance between vehicles. We present TerrainForge, a framework for generating road geometry-focused counterfactuals from reconstructed multi-vehicle driving episodes. A unified road model connects scene deformation with four-wheel vehicle dynamics, allowing crests, sags, speed humps, and friction changes to propagate through vehicle motion, camera viewpoint, and inter-vehicle clearance. Vehicle dynamics are evaluated against CarSim, and prescribed road geometry is verified in reconstructed Waymo scenes. Across 18 episodes, leaving surrounding vehicles on their recorded trajectories instead of recomputing their responses produces median peak differences in predicted ego-lead distance of 1.52 m for crests and 1.41 m for sags. We further simulate the ego response to 15,758 road edits across 983 braking episodes, pairing each edit with its safety outcomes relative to an unedited replay. These pairs train a first-stage screening surrogate that takes the original driving context and candidate road-edit parameters as input and predicts the resulting change in the ego's terminal gap. On held-out scenes, this prediction achieves 22-40% lower mean absolute error than predicting no change, so candidates can be screened cheaply before the full multi-vehicle rollout.",
+  "age_months": 1.0,
+  "authors": [
+   "Yang Chen",
+   "Yicheng Zhu",
+   "zhenning Li",
+   "Tao Li",
+   "Zilin Bian"
+  ],
+  "categories": [
+   "cs.CV"
+  ],
+  "cites_per_month": 0.0,
+  "code_url": null,
+  "comments": "",
+  "first_seen": "2026-10-05",
+  "hf_at": "2026-10-05",
+  "id": "2610.02825",
+  "journal_ref": "",
+  "known_org": false,
+  "published": "2026-10-02",
+  "score": 0.0,
+  "title": "TerrainForge: Physics-Grounded road geometry Editing for Counterfactual Autonomous Driving",
+  "topic": "world_model",
+  "updated": "2026-10-05",
+  "url": "https://arxiv.org/abs/2610.02825",
+  "venue": null,
+  "venue_tier": null
+ },
+ "2610.03031": {
+  "abstract": "Monocular semantic scene completion (SSC) for quadruped robots remains underexplored in real crowded indoor environments, where human-scene occlusion disrupts static geometry and human occupancy predictions are often incomplete or spatially misplaced. We present CrowdOcc, an RGB-D dataset and monocular SSC framework for this setting. CrowdOcc contains 25.1K frames from 11 indoor scenes, with semantic occupancy annotations constructed through static dynamic decoupling. Our framework combines: (i) Normal Guided Scene Geometry Fusion (NGSGF) to complement depth-aware lifting with surface-normal cues for occlusion robust geometry; and (ii) Human-Centric Sparse Interaction (HCSI) to selectively model human-human and local human scene relations in 3D. Our method achieves state-of-the-art SSC performance on CrowdOcc's scene-disjoint test set, reaching 15.80 IoU, 11.40 mIoU, and 46.23 Human IoU, demonstrating generalization to unseen indoor scenes.",
+  "age_months": 1.0,
+  "authors": [
+   "Feiyang Chen",
+   "Jincheng Hu",
+   "Yiduo Chen",
+   "Jihao Li",
+   "Yue Liang",
+   "Bingzhao Gao",
+   "Yanjun Huang",
+   "Yuanjian Zhang"
+  ],
+  "categories": [
+   "cs.CV",
+   "cs.RO"
+  ],
+  "cites_per_month": 0.0,
+  "code_url": null,
+  "comments": "8 pages, 4 figures. Submitted to IEEE International Conference on Robotics and Automation (ICRA) 2027",
+  "first_seen": "2026-10-05",
+  "hf_at": "2026-10-05",
+  "id": "2610.03031",
+  "journal_ref": "",
+  "known_org": false,
+  "published": "2026-10-02",
+  "score": 4.0,
+  "title": "CrowdOcc: Monocular Semantic Scene Completion for Quadruped Robots in Crowded Indoor Environments",
+  "topic": "perception",
+  "updated": "2026-10-05",
+  "url": "https://arxiv.org/abs/2610.03031",
   "venue": null,
   "venue_tier": null
  }
