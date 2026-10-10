@@ -17,7 +17,7 @@
   "id": "2607.01658",
   "published": "2026-07-02",
   "score": 51.3,
-  "stars": 32,
+  "stars": 33,
   "title": "Teaching Vision-Language-Action Models What to See and Where to Look",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2607.01658",
@@ -132,6 +132,18 @@
   "venue": "ECCV 2026"
  },
  {
+  "citations": 0,
+  "code_url": "https://github.com/PointLAM/PointLAM",
+  "id": "2609.21780",
+  "published": "2026-09-18",
+  "score": 43.1,
+  "stars": 5,
+  "title": "PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection",
+  "topic": "perception",
+  "url": "https://arxiv.org/abs/2609.21780",
+  "venue": "ECCV 2026"
+ },
+ {
   "citations": null,
   "code_url": "https://github.com/liujiuming123/Messenger",
   "id": "2610.10759",
@@ -142,18 +154,6 @@
   "topic": "world_model",
   "url": "https://arxiv.org/abs/2610.10759",
   "venue": "NeurIPS 2026"
- },
- {
-  "citations": 0,
-  "code_url": "https://github.com/PointLAM/PointLAM",
-  "id": "2609.21780",
-  "published": "2026-09-18",
-  "score": 42.7,
-  "stars": 4,
-  "title": "PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection",
-  "topic": "perception",
-  "url": "https://arxiv.org/abs/2609.21780",
-  "venue": "ECCV 2026"
  },
  {
   "citations": 2,
@@ -229,6 +229,18 @@
  },
  {
   "citations": 0,
+  "code_url": "https://github.com/ASH-2046/SUV",
+  "id": "2608.03084",
+  "published": "2026-08-04",
+  "score": 37.3,
+  "stars": 20,
+  "title": "SUV: Future Scene Understanding as Video Generation for End-to-End Driving",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2608.03084",
+  "venue": "RA-L 2026"
+ },
+ {
+  "citations": 0,
   "code_url": "https://github.com/jeangud/homography-verification",
   "id": "2605.23203",
   "published": "2026-05-22",
@@ -264,27 +276,27 @@
   "venue": "ICRA"
  },
  {
-  "citations": 15,
+  "citations": 9,
+  "code_url": "https://github.com/QwenLM/Qwen-Drive-1.0",
+  "id": "2609.00111",
+  "published": "2026-09-01",
+  "score": 32.5,
+  "stars": 500,
+  "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2609.00111",
+  "venue": null
+ },
+ {
+  "citations": 16,
   "code_url": "https://github.com/nv-tlabs/omni-dreams",
   "id": "2606.03159",
   "published": "2026-06-01",
-  "score": 31.9,
+  "score": 32.2,
   "stars": 345,
   "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2606.03159",
-  "venue": null
- },
- {
-  "citations": 7,
-  "code_url": "https://github.com/QwenLM/Qwen-Drive-1.0",
-  "id": "2609.00111",
-  "published": "2026-09-01",
-  "score": 31.5,
-  "stars": 490,
-  "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2609.00111",
   "venue": null
  },
  {
@@ -304,7 +316,7 @@
   "code_url": "https://github.com/codingmlinprocess/LCS",
   "id": "2608.00237",
   "published": "2026-08-01",
-  "score": 30.9,
+  "score": 30.8,
   "stars": 2,
   "title": "Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving",
   "topic": "e2e",
@@ -336,28 +348,28 @@
   "venue": "IROS 2026"
  },
  {
+  "citations": 13,
+  "code_url": "https://github.com/wzzheng/DVGT",
+  "id": "2604.00813",
+  "published": "2026-04-24",
+  "score": 28.0,
+  "stars": 367,
+  "title": "DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2604.00813",
+  "venue": null
+ },
+ {
   "citations": 1,
   "code_url": "https://github.com/nesl/cadet",
   "id": "2606.04072",
   "published": "2026-06-02",
-  "score": 28.1,
+  "score": 28.0,
   "stars": 0,
   "title": "CADET: A Modular Platform for Evaluating Distributed Cooperative Autonomy in Connected Autonomous Vehicles",
   "topic": "safety",
   "url": "https://arxiv.org/abs/2606.04072",
   "venue": "ICRA 2026"
- },
- {
-  "citations": 11,
-  "code_url": "https://github.com/wzzheng/DVGT",
-  "id": "2604.00813",
-  "published": "2026-04-24",
-  "score": 27.4,
-  "stars": 365,
-  "title": "DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2604.00813",
-  "venue": null
  },
  {
   "citations": 0,
@@ -388,8 +400,8 @@
   "code_url": "https://github.com/louiszengCN/CarlaAir",
   "id": "2605.31066",
   "published": "2026-05-29",
-  "score": 25.8,
-  "stars": 1112,
+  "score": 25.7,
+  "stars": 1114,
   "title": "Can Aerial VLA Models Cooperate? Evaluating Closed-Loop Air-Ground Coordination with CARLA-Air",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2605.31066",
@@ -408,35 +420,35 @@
   "venue": null
  },
  {
-  "citations": 5,
-  "code_url": "https://github.com/worldbench/WorldLens",
-  "id": "2605.10858",
-  "published": "2026-05-11",
-  "score": 19.7,
-  "stars": 254,
-  "title": "Is Your Driving World Model an All-Around Player?",
-  "topic": "world_model",
-  "url": "https://arxiv.org/abs/2605.10858",
-  "venue": null
- },
- {
-  "citations": 4,
+  "citations": 6,
   "code_url": "https://github.com/liujiuming123/Awesome-Interactive-World-Model",
   "id": "2606.01164",
   "published": "2026-06-01",
-  "score": 19.5,
-  "stars": 239,
+  "score": 20.6,
+  "stars": 242,
   "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
   "topic": "world_model",
   "url": "https://arxiv.org/abs/2606.01164",
   "venue": null
  },
  {
-  "citations": 2,
+  "citations": 5,
+  "code_url": "https://github.com/worldbench/WorldLens",
+  "id": "2605.10858",
+  "published": "2026-05-11",
+  "score": 19.7,
+  "stars": 256,
+  "title": "Is Your Driving World Model an All-Around Player?",
+  "topic": "world_model",
+  "url": "https://arxiv.org/abs/2605.10858",
+  "venue": null
+ },
+ {
+  "citations": 3,
   "code_url": "https://github.com/kesai-labs/py123d",
   "id": "2605.08084",
   "published": "2026-05-08",
-  "score": 18.9,
+  "score": 19.5,
   "stars": 400,
   "title": "123D: Unifying Multi-Modal Autonomous Driving Data at Scale",
   "topic": "data_bench",
