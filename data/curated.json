@@ -144,7 +144,7 @@
   "venue": "ECCV 2026"
  },
  {
-  "citations": null,
+  "citations": 0,
   "code_url": "https://github.com/liujiuming123/Messenger",
   "id": "2610.10759",
   "published": "2026-10-07",
@@ -160,7 +160,7 @@
   "code_url": "https://github.com/MICLAB-BUPT/CritiqueDriveVLM",
   "id": "2607.04179",
   "published": "2026-07-05",
-  "score": 42.6,
+  "score": 42.5,
   "stars": 1,
   "title": "CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving",
   "topic": "vla",
@@ -280,7 +280,7 @@
   "code_url": "https://github.com/QwenLM/Qwen-Drive-1.0",
   "id": "2609.00111",
   "published": "2026-09-01",
-  "score": 32.4,
+  "score": 32.3,
   "stars": 500,
   "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
   "topic": "vla",
@@ -293,7 +293,7 @@
   "id": "2606.03159",
   "published": "2026-06-01",
   "score": 32.1,
-  "stars": 345,
+  "stars": 346,
   "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2606.03159",
@@ -348,18 +348,6 @@
   "venue": "IROS 2026"
  },
  {
-  "citations": 13,
-  "code_url": "https://github.com/wzzheng/DVGT",
-  "id": "2604.00813",
-  "published": "2026-04-24",
-  "score": 28.0,
-  "stars": 367,
-  "title": "DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2604.00813",
-  "venue": null
- },
- {
   "citations": 1,
   "code_url": "https://github.com/nesl/cadet",
   "id": "2606.04072",
@@ -370,6 +358,18 @@
   "topic": "safety",
   "url": "https://arxiv.org/abs/2606.04072",
   "venue": "ICRA 2026"
+ },
+ {
+  "citations": 13,
+  "code_url": "https://github.com/wzzheng/DVGT",
+  "id": "2604.00813",
+  "published": "2026-04-24",
+  "score": 27.9,
+  "stars": 367,
+  "title": "DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2604.00813",
+  "venue": null
  },
  {
   "citations": 0,
@@ -449,7 +449,7 @@
   "id": "2605.08084",
   "published": "2026-05-08",
   "score": 19.5,
-  "stars": 400,
+  "stars": 401,
   "title": "123D: Unifying Multi-Modal Autonomous Driving Data at Scale",
   "topic": "data_bench",
   "url": "https://arxiv.org/abs/2605.08084",
