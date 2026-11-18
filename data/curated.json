@@ -12,11 +12,11 @@
   "venue": "CVPR 2026"
  },
  {
-  "citations": 2,
+  "citations": 3,
   "code_url": "https://github.com/ShivaTeam/DriveTeach-VLA",
   "id": "2607.01658",
   "published": "2026-07-02",
-  "score": 51.9,
+  "score": 52.5,
   "stars": 38,
   "title": "Teaching Vision-Language-Action Models What to See and Where to Look",
   "topic": "vla",
@@ -28,7 +28,7 @@
   "code_url": "https://github.com/mumucc01/MOJITO",
   "id": "2607.23511",
   "published": "2026-07-26",
-  "score": 49.9,
+  "score": 49.8,
   "stars": 32,
   "title": "MOJITO: Modal Joint Learning for Unified End-to-End Autonomous Driving",
   "topic": "e2e",
@@ -36,11 +36,11 @@
   "venue": "ECCV 2026"
  },
  {
-  "citations": 14,
+  "citations": 15,
   "code_url": "https://github.com/xiaomi-mlab/UNIVERSE",
   "id": "2607.05133",
   "published": "2026-07-01",
-  "score": 49.3,
+  "score": 49.5,
   "stars": 6,
   "title": "UNIVERSE: Unified Video Action Models for Autonomous Driving with Flexible Mask-Modulated Modality Generation",
   "topic": "e2e",
@@ -76,7 +76,7 @@
   "code_url": "https://github.com/lmb-freiburg/orbis2",
   "id": "2607.15898",
   "published": "2026-07-01",
-  "score": 48.1,
+  "score": 48.0,
   "stars": 31,
   "title": "Orbis 2: A Hierarchical World Model for Driving",
   "topic": "world_model",
@@ -100,7 +100,7 @@
   "code_url": "https://github.com/VAIL-UCLA/DreamStream",
   "id": "2609.26792",
   "published": "2026-09-22",
-  "score": 47.0,
+  "score": 46.9,
   "stars": 15,
   "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
   "topic": "e2e",
@@ -216,6 +216,18 @@
   "venue": "NeurIPS 2026"
  },
  {
+  "citations": 3,
+  "code_url": "https://github.com/MICLAB-BUPT/CritiqueDriveVLM",
+  "id": "2607.04179",
+  "published": "2026-07-05",
+  "score": 42.6,
+  "stars": 1,
+  "title": "CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2607.04179",
+  "venue": "ECCV 2026"
+ },
+ {
   "citations": 0,
   "code_url": "https://github.com/PointLAM/PointLAM",
   "id": "2609.21780",
@@ -225,18 +237,6 @@
   "title": "PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection",
   "topic": "perception",
   "url": "https://arxiv.org/abs/2609.21780",
-  "venue": "ECCV 2026"
- },
- {
-  "citations": 2,
-  "code_url": "https://github.com/MICLAB-BUPT/CritiqueDriveVLM",
-  "id": "2607.04179",
-  "published": "2026-07-05",
-  "score": 41.9,
-  "stars": 1,
-  "title": "CritiqueDriveVLM: From Verifier-Guided Reinforcement Learning to Latent Thought Distillation for Autonomous Driving",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2607.04179",
   "venue": "ECCV 2026"
  },
  {
@@ -348,18 +348,6 @@
   "venue": "CVPR 2026"
  },
  {
-  "citations": 0,
-  "code_url": "https://github.com/UMN-ZhaoLab/Pocket-SLAM",
-  "id": "2606.24796",
-  "published": "2026-06-23",
-  "score": 36.1,
-  "stars": 15,
-  "title": "Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM",
-  "topic": "sim_recon",
-  "url": "https://arxiv.org/abs/2606.24796",
-  "venue": "ICRA"
- },
- {
   "citations": 1,
   "code_url": "https://github.com/TUM-AVS/Chat2scenic",
   "id": "2607.14387",
@@ -370,6 +358,30 @@
   "topic": "vla",
   "url": "https://arxiv.org/abs/2607.14387",
   "venue": "IROS"
+ },
+ {
+  "citations": 0,
+  "code_url": "https://github.com/UMN-ZhaoLab/Pocket-SLAM",
+  "id": "2606.24796",
+  "published": "2026-06-23",
+  "score": 36.0,
+  "stars": 15,
+  "title": "Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM",
+  "topic": "sim_recon",
+  "url": "https://arxiv.org/abs/2606.24796",
+  "venue": "ICRA"
+ },
+ {
+  "citations": 21,
+  "code_url": "https://github.com/QwenLM/Qwen-Drive-1.0",
+  "id": "2609.00111",
+  "published": "2026-09-01",
+  "score": 34.3,
+  "stars": 562,
+  "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2609.00111",
+  "venue": null
  },
  {
   "citations": 0,
@@ -384,23 +396,11 @@
   "venue": "IROS 2026"
  },
  {
-  "citations": 19,
-  "code_url": "https://github.com/QwenLM/Qwen-Drive-1.0",
-  "id": "2609.00111",
-  "published": "2026-09-01",
-  "score": 33.6,
-  "stars": 562,
-  "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2609.00111",
-  "venue": null
- },
- {
   "citations": 3,
   "code_url": "https://github.com/groundingpi/GroundingPI",
   "id": "2609.39601",
   "published": "2026-09-01",
-  "score": 33.6,
+  "score": 33.5,
   "stars": 439,
   "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
   "topic": "vla",
@@ -408,11 +408,11 @@
   "venue": null
  },
  {
-  "citations": 15,
+  "citations": 17,
   "code_url": "https://github.com/H-EmbodVis/SimWAM",
   "id": "2608.07468",
   "published": "2026-08-01",
-  "score": 32.7,
+  "score": 33.3,
   "stars": 211,
   "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
   "topic": "e2e",
@@ -424,7 +424,7 @@
   "code_url": "https://github.com/nv-tlabs/omni-dreams",
   "id": "2606.03159",
   "published": "2026-06-01",
-  "score": 32.2,
+  "score": 32.1,
   "stars": 365,
   "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
   "topic": "e2e",
@@ -456,6 +456,18 @@
   "venue": "ICRA 2026"
  },
  {
+  "citations": 1,
+  "code_url": "https://github.com/codingmlinprocess/LCS",
+  "id": "2608.00237",
+  "published": "2026-08-01",
+  "score": 30.1,
+  "stars": 2,
+  "title": "Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2608.00237",
+  "venue": "IROS 2026"
+ },
+ {
   "citations": 0,
   "code_url": "https://github.com/rai-opensource/vernata",
   "id": "2608.06919",
@@ -469,18 +481,6 @@
  },
  {
   "citations": 0,
-  "code_url": "https://github.com/codingmlinprocess/LCS",
-  "id": "2608.00237",
-  "published": "2026-08-01",
-  "score": 28.9,
-  "stars": 2,
-  "title": "Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2608.00237",
-  "venue": "IROS 2026"
- },
- {
-  "citations": 0,
   "code_url": "https://github.com/seulbinHwang/flow-erd-project-page",
   "id": "2607.06957",
   "published": "2026-07-01",
@@ -490,18 +490,6 @@
   "topic": "prediction",
   "url": "https://arxiv.org/abs/2607.06957",
   "venue": "RA-L"
- },
- {
-  "citations": 2,
-  "code_url": "https://github.com/heat2026/heat2026.github.io",
-  "id": "2605.19631",
-  "published": "2026-05-19",
-  "score": 28.4,
-  "stars": 0,
-  "title": "HEAT: Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2605.19631",
-  "venue": "RA-L 2026"
  },
  {
   "citations": 1,
@@ -556,7 +544,7 @@
   "code_url": "https://github.com/oskarnatan/compact-perception",
   "id": "2606.02979",
   "published": "2026-06-02",
-  "score": 25.2,
+  "score": 25.1,
   "stars": 9,
   "title": "Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion",
   "topic": "perception",
@@ -568,7 +556,7 @@
   "code_url": "https://github.com/Jiaaqiliu/Awesome-Training-Ecosystem-for-E2E-AD",
   "id": "2610.00926",
   "published": "2026-10-01",
-  "score": 22.6,
+  "score": 22.5,
   "stars": 110,
   "title": "A Survey on End-to-End Autonomous Driving Training from the Perspectives of Data, Strategy, and Platform",
   "topic": "e2e",
@@ -585,6 +573,18 @@
   "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
   "topic": "world_model",
   "url": "https://arxiv.org/abs/2606.01164",
+  "venue": null
+ },
+ {
+  "citations": null,
+  "code_url": "https://github.com/autowarefoundation/auto_e2e",
+  "id": "2611.22374",
+  "published": "2026-11-17",
+  "score": 17.1,
+  "stars": 227,
+  "title": "AutoE2E: Don't speak - Language free end-to-end autonomy A Real-Time Driving Model for L2++ ADAS and L4 Robotaxis",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2611.22374",
   "venue": null
  }
 ]
