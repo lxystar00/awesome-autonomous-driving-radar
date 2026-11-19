@@ -24,6 +24,18 @@
   "venue": "ECCV 2026"
  },
  {
+  "citations": 1,
+  "code_url": "https://github.com/ASGuard-UCI/safedrive-vla",
+  "id": "2610.20609",
+  "published": "2026-10-14",
+  "score": 51.8,
+  "stars": 36,
+  "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2610.20609",
+  "venue": "CoRL 2026"
+ },
+ {
   "citations": 0,
   "code_url": "https://github.com/mumucc01/MOJITO",
   "id": "2607.23511",
@@ -48,30 +60,6 @@
   "venue": "NeurIPS 2026"
  },
  {
-  "citations": 0,
-  "code_url": "https://github.com/ASGuard-UCI/safedrive-vla",
-  "id": "2610.20609",
-  "published": "2026-10-14",
-  "score": 48.8,
-  "stars": 36,
-  "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2610.20609",
-  "venue": "CoRL 2026"
- },
- {
-  "citations": 1,
-  "code_url": "https://github.com/daehyunwe/FrozenDrive",
-  "id": "2606.20110",
-  "published": "2026-06-18",
-  "score": 48.1,
-  "stars": 10,
-  "title": "FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model",
-  "topic": "world_model",
-  "url": "https://arxiv.org/abs/2606.20110",
-  "venue": "ECCV 2026"
- },
- {
   "citations": 2,
   "code_url": "https://github.com/lmb-freiburg/orbis2",
   "id": "2607.15898",
@@ -84,6 +72,18 @@
   "venue": "NeurIPS 2026"
  },
  {
+  "citations": 1,
+  "code_url": "https://github.com/daehyunwe/FrozenDrive",
+  "id": "2606.20110",
+  "published": "2026-06-18",
+  "score": 47.9,
+  "stars": 9,
+  "title": "FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model",
+  "topic": "world_model",
+  "url": "https://arxiv.org/abs/2606.20110",
+  "venue": "ECCV 2026"
+ },
+ {
   "citations": 0,
   "code_url": "https://github.com/yang-luvu/Scene-Adaptive-VLA",
   "id": "2610.24590",
@@ -93,6 +93,18 @@
   "title": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2610.24590",
+  "venue": "NeurIPS 2026"
+ },
+ {
+  "citations": 4,
+  "code_url": "https://github.com/KIT-MRT/kitscenes",
+  "id": "2606.02956",
+  "published": "2026-06-01",
+  "score": 47.0,
+  "stars": 30,
+  "title": "The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset",
+  "topic": "data_bench",
+  "url": "https://arxiv.org/abs/2606.02956",
   "venue": "NeurIPS 2026"
  },
  {
@@ -120,18 +132,6 @@
   "venue": "ECCV 2026"
  },
  {
-  "citations": 3,
-  "code_url": "https://github.com/KIT-MRT/kitscenes",
-  "id": "2606.02956",
-  "published": "2026-06-01",
-  "score": 45.8,
-  "stars": 30,
-  "title": "The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset",
-  "topic": "data_bench",
-  "url": "https://arxiv.org/abs/2606.02956",
-  "venue": "NeurIPS 2026"
- },
- {
   "citations": 0,
   "code_url": "https://github.com/geonhobang/Horizon3D",
   "id": "2606.31096",
@@ -142,6 +142,18 @@
   "topic": "perception",
   "url": "https://arxiv.org/abs/2606.31096",
   "venue": "ECCV 2026"
+ },
+ {
+  "citations": 1,
+  "code_url": "https://github.com/yfwang0824/MCSplat",
+  "id": "2610.25345",
+  "published": "2026-10-18",
+  "score": 44.8,
+  "stars": 12,
+  "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes",
+  "topic": "sim_recon",
+  "url": "https://arxiv.org/abs/2610.25345",
+  "venue": "NeurIPS 2026"
  },
  {
   "citations": 0,
@@ -244,7 +256,7 @@
   "code_url": "https://github.com/ShenZheng2000/WarpI2I",
   "id": "2606.31018",
   "published": "2026-06-30",
-  "score": 41.7,
+  "score": 41.6,
   "stars": 32,
   "title": "WarpI2I: Image Warping for Image-to-Image Translation",
   "topic": "e2e",
@@ -262,18 +274,6 @@
   "topic": "safety",
   "url": "https://arxiv.org/abs/2607.04451",
   "venue": "ECCV 2026"
- },
- {
-  "citations": 0,
-  "code_url": "https://github.com/yfwang0824/MCSplat",
-  "id": "2610.25345",
-  "published": "2026-10-18",
-  "score": 40.9,
-  "stars": 12,
-  "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes",
-  "topic": "sim_recon",
-  "url": "https://arxiv.org/abs/2610.25345",
-  "venue": "NeurIPS 2026"
  },
  {
   "citations": 0,
@@ -384,23 +384,11 @@
   "venue": null
  },
  {
-  "citations": 0,
-  "code_url": "https://github.com/Zjj587/NIDAR",
-  "id": "2609.36878",
-  "published": "2026-09-29",
-  "score": 34.1,
-  "stars": 25,
-  "title": "NIDAR: NIR-Guided Intrinsic Decomposition for Scalable Scene-Agnostic LiDAR Intensity Reconstruction",
-  "topic": "sim_recon",
-  "url": "https://arxiv.org/abs/2609.36878",
-  "venue": "IROS 2026"
- },
- {
-  "citations": 3,
+  "citations": 4,
   "code_url": "https://github.com/groundingpi/GroundingPI",
   "id": "2609.39601",
   "published": "2026-09-01",
-  "score": 33.5,
+  "score": 34.3,
   "stars": 439,
   "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
   "topic": "vla",
@@ -408,11 +396,23 @@
   "venue": null
  },
  {
+  "citations": 0,
+  "code_url": "https://github.com/Zjj587/NIDAR",
+  "id": "2609.36878",
+  "published": "2026-09-29",
+  "score": 34.0,
+  "stars": 25,
+  "title": "NIDAR: NIR-Guided Intrinsic Decomposition for Scalable Scene-Agnostic LiDAR Intensity Reconstruction",
+  "topic": "sim_recon",
+  "url": "https://arxiv.org/abs/2609.36878",
+  "venue": "IROS 2026"
+ },
+ {
   "citations": 17,
   "code_url": "https://github.com/H-EmbodVis/SimWAM",
   "id": "2608.07468",
   "published": "2026-08-01",
-  "score": 33.3,
+  "score": 33.2,
   "stars": 211,
   "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
   "topic": "e2e",
@@ -420,11 +420,11 @@
   "venue": null
  },
  {
-  "citations": 20,
+  "citations": 21,
   "code_url": "https://github.com/nv-tlabs/omni-dreams",
   "id": "2606.03159",
   "published": "2026-06-01",
-  "score": 32.1,
+  "score": 32.0,
   "stars": 365,
   "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
   "topic": "e2e",
@@ -432,11 +432,11 @@
   "venue": null
  },
  {
-  "citations": 19,
+  "citations": 20,
   "code_url": "https://github.com/allenai/molmo-motion",
   "id": "2606.18558",
   "published": "2026-06-01",
-  "score": 31.3,
+  "score": 31.5,
   "stars": 153,
   "title": "MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction",
   "topic": "prediction",
@@ -533,7 +533,7 @@
   "id": "2605.31066",
   "published": "2026-05-29",
   "score": 26.0,
-  "stars": 1133,
+  "stars": 1139,
   "title": "Can Aerial VLA Models Cooperate? Evaluating Closed-Loop Air-Ground Coordination with CARLA-Air",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2605.31066",
@@ -552,11 +552,11 @@
   "venue": null
  },
  {
-  "citations": 5,
+  "citations": 6,
   "code_url": "https://github.com/Jiaaqiliu/Awesome-Training-Ecosystem-for-E2E-AD",
   "id": "2610.00926",
   "published": "2026-10-01",
-  "score": 22.5,
+  "score": 23.1,
   "stars": 110,
   "title": "A Survey on End-to-End Autonomous Driving Training from the Perspectives of Data, Strategy, and Platform",
   "topic": "e2e",
@@ -564,11 +564,11 @@
   "venue": null
  },
  {
-  "citations": 9,
+  "citations": 10,
   "code_url": "https://github.com/liujiuming123/Awesome-Interactive-World-Model",
   "id": "2606.01164",
   "published": "2026-06-01",
-  "score": 20.8,
+  "score": 21.1,
   "stars": 251,
   "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
   "topic": "world_model",
@@ -576,7 +576,7 @@
   "venue": null
  },
  {
-  "citations": null,
+  "citations": 0,
   "code_url": "https://github.com/autowarefoundation/auto_e2e",
   "id": "2611.22374",
   "published": "2026-11-17",
