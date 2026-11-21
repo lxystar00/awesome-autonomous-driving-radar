@@ -36,6 +36,18 @@
   "venue": "CoRL 2026"
  },
  {
+  "citations": 17,
+  "code_url": "https://github.com/xiaomi-mlab/UNIVERSE",
+  "id": "2607.05133",
+  "published": "2026-07-01",
+  "score": 50.6,
+  "stars": 6,
+  "title": "UNIVERSE: Unified Video Action Models for Autonomous Driving with Flexible Mask-Modulated Modality Generation",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2607.05133",
+  "venue": "NeurIPS 2026"
+ },
+ {
   "citations": 0,
   "code_url": "https://github.com/mumucc01/MOJITO",
   "id": "2607.23511",
@@ -46,18 +58,6 @@
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2607.23511",
   "venue": "ECCV 2026"
- },
- {
-  "citations": 15,
-  "code_url": "https://github.com/xiaomi-mlab/UNIVERSE",
-  "id": "2607.05133",
-  "published": "2026-07-01",
-  "score": 49.5,
-  "stars": 6,
-  "title": "UNIVERSE: Unified Video Action Models for Autonomous Driving with Flexible Mask-Modulated Modality Generation",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2607.05133",
-  "venue": "NeurIPS 2026"
  },
  {
   "citations": 2,
@@ -100,7 +100,7 @@
   "code_url": "https://github.com/KIT-MRT/kitscenes",
   "id": "2606.02956",
   "published": "2026-06-01",
-  "score": 47.0,
+  "score": 46.9,
   "stars": 30,
   "title": "The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset",
   "topic": "data_bench",
@@ -112,7 +112,7 @@
   "code_url": "https://github.com/VAIL-UCLA/DreamStream",
   "id": "2609.26792",
   "published": "2026-09-22",
-  "score": 46.9,
+  "score": 46.8,
   "stars": 15,
   "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
   "topic": "e2e",
@@ -124,7 +124,7 @@
   "code_url": "https://github.com/ori-drs/drs-vpt",
   "id": "2609.12557",
   "published": "2026-09-01",
-  "score": 46.2,
+  "score": 46.1,
   "stars": 25,
   "title": "DRS-VPT: Directly Relocalizing in a Scan with Vision Point Transformers",
   "topic": "perception",
@@ -144,6 +144,18 @@
   "venue": "ECCV 2026"
  },
  {
+  "citations": 1,
+  "code_url": "https://github.com/yfwang0824/MCSplat",
+  "id": "2610.25345",
+  "published": "2026-10-18",
+  "score": 44.9,
+  "stars": 13,
+  "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes",
+  "topic": "sim_recon",
+  "url": "https://arxiv.org/abs/2610.25345",
+  "venue": "NeurIPS 2026"
+ },
+ {
   "citations": 0,
   "code_url": "https://github.com/SecMindLab/Saliency_LiDAR",
   "id": "2606.29963",
@@ -154,18 +166,6 @@
   "topic": "perception",
   "url": "https://arxiv.org/abs/2606.29963",
   "venue": "ECCV"
- },
- {
-  "citations": 1,
-  "code_url": "https://github.com/yfwang0824/MCSplat",
-  "id": "2610.25345",
-  "published": "2026-10-18",
-  "score": 44.7,
-  "stars": 12,
-  "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes",
-  "topic": "sim_recon",
-  "url": "https://arxiv.org/abs/2610.25345",
-  "venue": "NeurIPS 2026"
  },
  {
   "citations": 0,
@@ -252,6 +252,18 @@
   "venue": "ECCV 2026"
  },
  {
+  "citations": 1,
+  "code_url": "https://github.com/VISION-SJTU/PixelPilot",
+  "id": "2607.04637",
+  "published": "2026-07-06",
+  "score": 42.3,
+  "stars": 3,
+  "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2607.04637",
+  "venue": "ECCV 2026"
+ },
+ {
   "citations": 0,
   "code_url": "https://github.com/ShenZheng2000/WarpI2I",
   "id": "2606.31018",
@@ -285,18 +297,6 @@
   "title": "ASTAD: Asymmetric Style Transfer for Synthetic-to-Real Adaptation in Autonomous Driving",
   "topic": "world_model",
   "url": "https://arxiv.org/abs/2606.29286",
-  "venue": "ECCV 2026"
- },
- {
-  "citations": 0,
-  "code_url": "https://github.com/VISION-SJTU/PixelPilot",
-  "id": "2607.04637",
-  "published": "2026-07-06",
-  "score": 40.8,
-  "stars": 2,
-  "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2607.04637",
   "venue": "ECCV 2026"
  },
  {
@@ -336,18 +336,6 @@
   "venue": "IROS 2026"
  },
  {
-  "citations": 0,
-  "code_url": "https://github.com/jeangud/homography-verification",
-  "id": "2605.23203",
-  "published": "2026-05-22",
-  "score": 37.2,
-  "stars": 3,
-  "title": "Lipschitz Optimization for Formal Verification of Homographies",
-  "topic": "safety",
-  "url": "https://arxiv.org/abs/2605.23203",
-  "venue": "CVPR 2026"
- },
- {
   "citations": 1,
   "code_url": "https://github.com/TUM-AVS/Chat2scenic",
   "id": "2607.14387",
@@ -372,27 +360,39 @@
   "venue": "ICRA"
  },
  {
-  "citations": 4,
-  "code_url": "https://github.com/groundingpi/GroundingPI",
-  "id": "2609.39601",
-  "published": "2026-09-01",
-  "score": 34.3,
-  "stars": 441,
-  "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2609.39601",
-  "venue": null
- },
- {
-  "citations": 21,
+  "citations": 25,
   "code_url": "https://github.com/QwenLM/Qwen-Drive-1.0",
   "id": "2609.00111",
   "published": "2026-09-01",
-  "score": 34.2,
+  "score": 35.0,
   "stars": 563,
   "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2609.00111",
+  "venue": null
+ },
+ {
+  "citations": 22,
+  "code_url": "https://github.com/H-EmbodVis/SimWAM",
+  "id": "2608.07468",
+  "published": "2026-08-01",
+  "score": 34.4,
+  "stars": 212,
+  "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2608.07468",
+  "venue": null
+ },
+ {
+  "citations": 4,
+  "code_url": "https://github.com/groundingpi/GroundingPI",
+  "id": "2609.39601",
+  "published": "2026-09-01",
+  "score": 34.2,
+  "stars": 441,
+  "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2609.39601",
   "venue": null
  },
  {
@@ -406,18 +406,6 @@
   "topic": "sim_recon",
   "url": "https://arxiv.org/abs/2609.36878",
   "venue": "IROS 2026"
- },
- {
-  "citations": 17,
-  "code_url": "https://github.com/H-EmbodVis/SimWAM",
-  "id": "2608.07468",
-  "published": "2026-08-01",
-  "score": 33.2,
-  "stars": 212,
-  "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2608.07468",
-  "venue": null
  },
  {
   "citations": 21,
@@ -436,7 +424,7 @@
   "code_url": "https://github.com/allenai/molmo-motion",
   "id": "2606.18558",
   "published": "2026-06-01",
-  "score": 31.5,
+  "score": 31.4,
   "stars": 154,
   "title": "MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction",
   "topic": "prediction",
@@ -448,7 +436,7 @@
   "code_url": "https://github.com/HongliXiao/MM-TRELLIS",
   "id": "2606.24301",
   "published": "2026-06-23",
-  "score": 31.3,
+  "score": 31.2,
   "stars": 10,
   "title": "MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving",
   "topic": "sim_recon",
@@ -556,7 +544,7 @@
   "code_url": "https://github.com/Jiaaqiliu/Awesome-Training-Ecosystem-for-E2E-AD",
   "id": "2610.00926",
   "published": "2026-10-01",
-  "score": 23.0,
+  "score": 22.9,
   "stars": 110,
   "title": "A Survey on End-to-End Autonomous Driving Training from the Perspectives of Data, Strategy, and Platform",
   "topic": "e2e",
@@ -580,8 +568,8 @@
   "code_url": "https://github.com/autowarefoundation/auto_e2e",
   "id": "2611.22374",
   "published": "2026-11-17",
-  "score": 17.1,
-  "stars": 227,
+  "score": 17.2,
+  "stars": 229,
   "title": "AutoE2E: Don't speak - Language free end-to-end autonomy A Real-Time Driving Model for L2++ ADAS and L4 Robotaxis",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2611.22374",
