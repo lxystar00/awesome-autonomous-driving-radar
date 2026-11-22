@@ -28,7 +28,7 @@
   "code_url": "https://github.com/ASGuard-UCI/safedrive-vla",
   "id": "2610.20609",
   "published": "2026-10-14",
-  "score": 51.7,
+  "score": 51.6,
   "stars": 36,
   "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
   "topic": "vla",
@@ -88,7 +88,7 @@
   "code_url": "https://github.com/yang-luvu/Scene-Adaptive-VLA",
   "id": "2610.24590",
   "published": "2026-10-17",
-  "score": 47.1,
+  "score": 47.0,
   "stars": 5,
   "title": "Scene-Adaptive VLA: Efficient Autonomous Driving via Dynamic Layer Routing",
   "topic": "vla",
@@ -120,6 +120,18 @@
   "venue": "CoRL 2026"
  },
  {
+  "citations": 1,
+  "code_url": "https://github.com/geonhobang/Horizon3D",
+  "id": "2606.31096",
+  "published": "2026-06-30",
+  "score": 46.1,
+  "stars": 26,
+  "title": "Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving",
+  "topic": "perception",
+  "url": "https://arxiv.org/abs/2606.31096",
+  "venue": "ECCV 2026"
+ },
+ {
   "citations": 0,
   "code_url": "https://github.com/ori-drs/drs-vpt",
   "id": "2609.12557",
@@ -132,23 +144,11 @@
   "venue": "ECCV 2026"
  },
  {
-  "citations": 0,
-  "code_url": "https://github.com/geonhobang/Horizon3D",
-  "id": "2606.31096",
-  "published": "2026-06-30",
-  "score": 45.2,
-  "stars": 26,
-  "title": "Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving",
-  "topic": "perception",
-  "url": "https://arxiv.org/abs/2606.31096",
-  "venue": "ECCV 2026"
- },
- {
   "citations": 1,
   "code_url": "https://github.com/yfwang0824/MCSplat",
   "id": "2610.25345",
   "published": "2026-10-18",
-  "score": 44.9,
+  "score": 44.8,
   "stars": 13,
   "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes",
   "topic": "sim_recon",
@@ -184,12 +184,24 @@
   "code_url": "https://github.com/alessandro-canevaro/DriveMLP",
   "id": "2610.29676",
   "published": "2026-10-21",
-  "score": 43.5,
+  "score": 43.4,
   "stars": 6,
   "title": "DriveMLP: When Training Strategy Outperforms Model Complexity in Autonomous Driving",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2610.29676",
   "venue": "CoRL"
+ },
+ {
+  "citations": 0,
+  "code_url": "https://github.com/ShivaTeam/AutoVLA-D",
+  "id": "2611.12382",
+  "published": "2026-11-09",
+  "score": 43.1,
+  "stars": 5,
+  "title": "AutoVLA-D: Learn a Trajectory-Geometric Condition from Reasoning for Autonomous Driving VLA",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2611.12382",
+  "venue": "NeurIPS 2026"
  },
  {
   "citations": 0,
@@ -213,18 +225,6 @@
   "title": "Locating and Repairing Domain Shift in VLM Trajectory Planning",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2611.10720",
-  "venue": "NeurIPS 2026"
- },
- {
-  "citations": 0,
-  "code_url": "https://github.com/ShivaTeam/AutoVLA-D",
-  "id": "2611.12382",
-  "published": "2026-11-09",
-  "score": 42.7,
-  "stars": 4,
-  "title": "AutoVLA-D: Learn a Trajectory-Geometric Condition from Reasoning for Autonomous Driving VLA",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2611.12382",
   "venue": "NeurIPS 2026"
  },
  {
@@ -336,18 +336,6 @@
   "venue": "IROS 2026"
  },
  {
-  "citations": 1,
-  "code_url": "https://github.com/TUM-AVS/Chat2scenic",
-  "id": "2607.14387",
-  "published": "2026-07-15",
-  "score": 36.1,
-  "stars": 33,
-  "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2607.14387",
-  "venue": "IROS"
- },
- {
   "citations": 0,
   "code_url": "https://github.com/UMN-ZhaoLab/Pocket-SLAM",
   "id": "2606.24796",
@@ -358,6 +346,18 @@
   "topic": "sim_recon",
   "url": "https://arxiv.org/abs/2606.24796",
   "venue": "ICRA"
+ },
+ {
+  "citations": 1,
+  "code_url": "https://github.com/TUM-AVS/Chat2scenic",
+  "id": "2607.14387",
+  "published": "2026-07-15",
+  "score": 36.0,
+  "stars": 33,
+  "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2607.14387",
+  "venue": "IROS"
  },
  {
   "citations": 25,
@@ -372,6 +372,18 @@
   "venue": null
  },
  {
+  "citations": 5,
+  "code_url": "https://github.com/groundingpi/GroundingPI",
+  "id": "2609.39601",
+  "published": "2026-09-01",
+  "score": 34.9,
+  "stars": 441,
+  "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2609.39601",
+  "venue": null
+ },
+ {
   "citations": 22,
   "code_url": "https://github.com/H-EmbodVis/SimWAM",
   "id": "2608.07468",
@@ -381,18 +393,6 @@
   "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2608.07468",
-  "venue": null
- },
- {
-  "citations": 4,
-  "code_url": "https://github.com/groundingpi/GroundingPI",
-  "id": "2609.39601",
-  "published": "2026-09-01",
-  "score": 34.2,
-  "stars": 441,
-  "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2609.39601",
   "venue": null
  },
  {
@@ -412,7 +412,7 @@
   "code_url": "https://github.com/nv-tlabs/omni-dreams",
   "id": "2606.03159",
   "published": "2026-06-01",
-  "score": 32.0,
+  "score": 31.9,
   "stars": 367,
   "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
   "topic": "e2e",
@@ -521,7 +521,7 @@
   "id": "2605.31066",
   "published": "2026-05-29",
   "score": 26.0,
-  "stars": 1139,
+  "stars": 1140,
   "title": "Can Aerial VLA Models Cooperate? Evaluating Closed-Loop Air-Ground Coordination with CARLA-Air",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2605.31066",
@@ -532,7 +532,7 @@
   "code_url": "https://github.com/oskarnatan/compact-perception",
   "id": "2606.02979",
   "published": "2026-06-02",
-  "score": 25.1,
+  "score": 25.0,
   "stars": 9,
   "title": "Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion",
   "topic": "perception",
@@ -540,11 +540,11 @@
   "venue": null
  },
  {
-  "citations": 6,
+  "citations": 7,
   "code_url": "https://github.com/Jiaaqiliu/Awesome-Training-Ecosystem-for-E2E-AD",
   "id": "2610.00926",
   "published": "2026-10-01",
-  "score": 22.9,
+  "score": 23.4,
   "stars": 110,
   "title": "A Survey on End-to-End Autonomous Driving Training from the Perspectives of Data, Strategy, and Platform",
   "topic": "e2e",
