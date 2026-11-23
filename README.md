@@ -2,7 +2,7 @@
 
 > A **curated, auto-maintained** list of ~100 high-quality, open-source autonomous-driving
 > papers from the last 6 months, plus a daily industry tracker.
-> Updated 2026-11-22 · 1,278 papers tracked · 48 curated.
+> Updated 2026-11-23 · 1,273 papers tracked · 48 curated.
 
 **Selection rule.** A paper is listed only if it (1) is primarily about autonomous driving,
 (2) has public code, and (3) shows at least one strong signal: accepted at a top venue
@@ -117,177 +117,177 @@ with a per-topic cap. See [`scripts/rank.py`](scripts/rank.py).
 
 Latest 14 days of news, official blog posts and new open-source repos from tracked companies. Full daily feed in [`daily/`](daily/).
 
-<details><summary><b>Waymo</b> (241)</summary>
+<details><summary><b>Waymo</b> (257)</summary>
 
-- 📰 2026-11-22 [Waymo issues double safety recall days after California bans robotaxis from freeways](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT2ZkUHhXcVlDSGkyVjZONVotRGdoREg0WG4yQk9VX3FCSjN0TkE0QXY2VHRQWU5Vd3Y2ZFdsbXRYUXkxbzFlOFBDSXJKUlo4SnJkQVpReEs1T2hsLTJpdkliYUdfeHpwUEI2U2tmRFZsSWZ1czVQNWwxdW5rNFk1N0hYYzNkeHFkVDFlS21JbzdVellJNWVnOElmNTZFZWtUQmpwZTJBel9hZi1YNmVscXdRREE4aXY0MGg1QXR1UUXSAcYBQVVfeXFMTTFFdGt0aTZ5YXh5b1pNSmFTeVhHY21FSVJ3VUI1NXBDdk95aDRkNkxodlZIWUQ2V3h4WUdQWXg0cWpYWjdmT0pqTlF4YzRBNWlPQmdTQm1kd0k4RUM3Ny1PMjlET1JMdkFpN3hLV1lQOXdCVUc2ZDRQNjRhU25BTUxNMzRfRVQ1QUhncV9DWjdXbHN0eVd4RUxyZjVPdU5CZDJPbXZnbE9xMjZ1X2NSaUU0aDdwWElvY3FfTHhNSUxUMUNYem1n?oc=5) <sub>Fox Business</sub>
-- 📰 2026-11-22 [Can Waymo drive on freeways now? No: California's ban stands and Waymo has filed two new robotaxi recalls](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNUFwWVM2WGVCeElUT3VYcEw4Z2RpelJNVTVZbzJSdzhvVzhwNXlzZmM0WEF3LV8xZjZaT1JWb3cwSjVXVDQwS1VLYlE0YVR1aVVmUzNka3lGbmh5amQyOXF1RjFUX2VBU2FHeTNMMzFVWGxBZlAxbFQ5M25DZ1FnVXlTWHR2Uml3ZUFZMFhxa0ZfUUEtaDg3Rm0tMEhuSk8xUVUzLTA4SUZwRk1SVlZzVWx5cjZ0VGVlX1hxTmhEOXM?oc=5) <sub>Nacionale</sub>
-- 📰 2026-11-21 [Waymo Recall Shuts Freeway Lanes, Forces Manual Control](https://news.google.com/rss/articles/CBMikwFBVV95cUxPeUFuM2R4a3FLa3l3V1FtVXUyU1lTRjVxdWlIajZFV1UzNmFldDFWSzE1dFlUalVsRlV0NW9SWDhHYTJtR01tYTh4X1dkSHE1OTJQZ2lhUlZhRHpBakV2TlFwU05CaVNVdmQxZjVQQnh0alJMRTgtNVlHcy1KRml0a0JvRUlodE14TDZUZ1R0blpFR1U?oc=5) <sub>shattered.io</sub>
-- 📰 2026-11-21 [Waymo Robotaxis Face 2 Recalls Over Closed Freeway Lane Violations, Traffic Control Issues](https://news.google.com/rss/articles/CBMilAFBVV95cUxQeWIwMTV4bS1fdnVHT3NrdkptejF6NURtRDdHX1JUbTFhZ2Z3NmZOaC1BM1M0bkVLQ1FwWjFBbnVzengxSU10UUI3U3NvcE1Vc1pxMjEtR015LVRyeFk5b3dpYmpSdVBKLTJKVVdqMmYyVkVCMkJJb2FSd3czd19RRGZYRFZhOWNyZmdPbTJHb2JNUTlj?oc=5) <sub>Benzinga</sub>
-- 📰 2026-11-21 [Opinion \| I’m a former Lyft driver. This is why I believe in robotaxis.](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ2NJeEtCTlp1bEtlMGpZdWZGUmxEa1NmU3dxVjBjMkM4SWdXTlpFeVZ4czcxai1GUVVZNnJnWnA4akg4eGFwbUFadWhNNjhvMGhJVTRLVHlKaUVLcW03djFXZDlOZFlHNHBHdTNsbUNBc1RlU2FzQUE1RU02RV9tX3I1a0VHSU5ueTdCa3luXzhNdS1pMFlyTzMyMnIzV1l2Q2NoTjBuZ3Y?oc=5) <sub>The Washington Post</sub>
-
-</details>
-
-<details><summary><b>Tesla</b> (350)</summary>
-
-- 📰 2026-11-22 [Tesla FSD v15 Is Rolling Out: New Gestures and Quiet Mode](https://news.google.com/rss/articles/CBMibEFVX3lxTE1XcVpObUVKMU5FYTEyZnVHck9jQXlIbFJPRWZQWWZzWnJxR3pjZi1UT0E2RnR3QmxRWU5EMzhMUWZXSW5QT1FnLUlXMWJzRk5HUFJjbHF5LXpyTWtxUVdleVhFVzkwaXhlWXA2TA?oc=5) <sub>BASENOR - Tesla Accessories</sub>
-- 📰 2026-11-22 [Tesla FSD V14 and Disabled Drivers: 1 Test, 1 Warning](https://news.google.com/rss/articles/CBMimgFBVV95cUxOYm10VE8wUUUtNmloS3lGdmFNVHBxRC1vMndiblR4U2tTUXI0anBnSGJrbmRWME9xenFraHh2WklZNmE5OXY0X0Y0SDNfaWhJMlJQdnAtRExYbUlXcXU3cXJhUVBaWHNFTVJwRTJMc0NjdzdkakVIQ25KMkxaQjVmMmF2NHJCNmpmYmhsSEZvaVlBanU2NjREUnZB?oc=5) <sub>shattered.io</sub>
-- 📰 2026-11-22 [Tesla Begins FSD v15 Rollout to First-Wave Customers](https://news.google.com/rss/articles/CBMijwFBVV95cUxQNGJpaG1ROFlUQzE0TWkzZFlXSkhVampmNlNxS2JsQnpxSXNXYVRBYV9TUzd1X21tNXdhM2ZYalpDQThZQ01DN1gzckJlSEczY0JxblpVQWZFZ194SnB0VUVvQUtBY3hlWkg0RTdMTi0wbTI5d1luRlF6bXVzTUV4Rm43WU82MGNiek1Ya2V3NA?oc=5) <sub>The Defiant</sub>
-- 📰 2026-11-22 [Tesla FSD v15 Rollout: 25x Claim, Full Release Notes](https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ0lkaV9YZlF1NzEydGZ2U2xlWERQY3RyODFLSm9FQXpmTVpaTGdqTTFDdjA5NUItOVIxWFBXZHlManBza1FtS09mQUg0VE5IbENhb0NfU2FDZVJwd2FnT1l1Tml0enh0TVFua2lBcThXVlZZVzVOcnQwNTFOX2lFRDk3a3NsaXoyaHBFYzZHZTBWYWs?oc=5) <sub>shattered.io</sub>
-- 📰 2026-11-22 [Is FSD v15 coming to Europe and the UK? Not yet: Europe runs v14 as Tesla Assisted Driving](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdTdoZWdwdGhmNWUtRjB6Tm8yX294SW1wdjQ4bEZKZF9jdUJnUnYwcXNQYk9vZk9xNnV2eVF2QmRmVHQ0TTdFRGtUUERNTHh6VFZGdmdDSkxQMzQ4eExZNEFHZExUZUhZN00xM3ZZd0c5d2NDUm9nU0syZ3dObVVBYmJlT1FTOTBKQ1ZyMXo3LWZXWVM5LUtMMWdwWmI4Q0dhQXVsdE5zWXRBZw?oc=5) <sub>Nacionale</sub>
+- 📰 2026-11-23 [‘How Can TSLA Compete With Waymo?’ Gary Black Questions Tesla’s Robotaxi Strategy, Predicts Waymo Will Le](https://news.google.com/rss/articles/CBMihAJBVV95cUxQaHRMZGMzSm9RNU1iR1NDZml3bkhBWHRVQjVmbWNZUVNxZ1VkdUtQWk12UF91N2hiVnFBOXNEM29zeHBRTGJ3YWFWZGNYcVhsLXcwNnprWEFqQWtiQ0V5TGk4TE8tYUZkSGtxZ0JXaFMyR0k4NTFKX0xydUt0Z2M3aTdVOUpuNVRkbS1UYlliNjlqRWNZeE5UMFZ0RHJhTmhxZi13MEw4M3owNUZJYWlsRmdRNkJNZUVva0g4YWZ1ZDFpamtUU2N0M216b2J2UWhvbmpVUkMyNVk5QW03RjU5MFp0Q1hEVHdFN1h1ejJhX3duMndEdFNFU0lzWTdlMWJhVWFxSA?oc=5) <sub>Benzinga</sub>
+- 📰 2026-11-23 [SF mayor Lurie says Waymo agrees to pause service Monday ahead of storm](https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmx5dV9Ib2VyTzE0czRkU2NIY0hPcHpqTV9CWi1sQjFfTzRNRDNYbnd2UlY3N1I5cUFzWjN4VlJRUVRSRDlna2l0VGx1a0RqTWl1Sktpb1dVWlhoYlYzdmVuMkRMSm8tcW81M1VuanJrdVM2VUdreEM2ampnclctUHNRN09nYXV0SVJEbndVOEYtUzhucmdFZnpIQjFPdzIzekE?oc=5) <sub>SFGATE</sub>
+- 📰 2026-11-23 [Waymo is pausing Bay Area robotaxi service again as Thanksgiving storm approaches](https://news.google.com/rss/articles/CBMilAFBVV95cUxQbzdKTDJubW4wLXR2amh6bXpTZEpiUmpGQmZlN2dLOHNtVkdpaEtHbW40WHQ0UG9ySWZZeG4wZGU2c3FRYkNMeUNCNF9PcHFnU0pOeEVNTWZHQ3lfSWRIbXA4WTFPcGFBUVFxV2I4YnFuOWszazFFVWNYWTVkTW1EMURqVlVvY3hmdWg1NjRta2d5eXk2?oc=5) <sub>Yahoo</sub>
+- 📰 2026-11-23 [Waymo Files Second Freeway-Closure Recall in 5 Months Amid Freeway Ban](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaHRUQmR6QW04cUxXRG8yTmNlZkNhOTNNUVg4a1ZJLW4zX1l3cy1qMkhXSFNaODhVa3N4cWlZMG9NOTJ2ak5OQzhhMHJ3a2dpZXFCYTMzcEVXTWx5dFVVRWJMeDc5M2QzUFNWaHc4aEhkenZWZUxYQlJJVHhlTmhLdXZ1OUZ2R1VrZ25DWGtxNk8xbUJBMGE4NHFqYlRXa0NvdW04ZjhhbTBFUQ?oc=5) <sub>Electric Vehicles</sub>
+- 📰 2026-11-23 [Waymo to pause service ahead of severe storm coming to San Francisco](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR29ZMEV2cW5xYzh5TkZKVkFKdGNBVElubExIWHNnVUxaa3lOSzBRbEtGMG5JaUF6X0lFWk1uR0RJMFVrYTcxWUZDclROZ1JSSjhFTF9DeFBESkFfbXU1ZlpueGxYS2NRTEI5X0JqUXhGQXp4Zkl3RjR5WkhfclpiUmRmbS1GRUZTYVVySWQydm1jby1pNENRcGxlbGVxQzZRSXRkcXlzWUXSAa4BQVVfeXFMUF9TMkZvdkNURXd5cEU0Y3NsSVFjaWdTZy05WXV2RUt3VjA1SGx0SFZuRzNpQmo4bzNmeVRJUUZ6YTJnMDFPcmRXN3h2cE04ekpTTmYxVmZDQUFhR1IxNTk0bUVOWlBBYUlGOVRkc0g4MnM2MXVydWR6WHRIWHkwMlpsb3JzQ1EwWVZvR05ERlFfZkhCNGFhcEQ2dEJpYmItRUZ5V1hEbnRzYWhRdmNB?oc=5) <sub>KRON4</sub>
 
 </details>
 
-<details><summary><b>NVIDIA</b> (219)</summary>
+<details><summary><b>Tesla</b> (380)</summary>
+
+- 📰 2026-11-23 [Tesla FSD V15 Adds 6 Detection Upgrades, Puddles Unproven](https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnNyYVNVTEc0Z0FNX05JdUdsWGdONUdSMmI5cUZnSkdGOW9DaUFyc0hOamJJQnlDc25pNWtvdXV5TDZ1VVhpdTNIMlNZaC1nLWNXc05uNHl0aHhFcXZZaGpibHlmZWNMRklhRGQtZ0FhMm5kZ3EwcGtfNTFkZWVTajFBMERwZmMtSzVWc3hsUUNia21TaURsMVE1Zw?oc=5) <sub>shattered.io</sub>
+- 📰 2026-11-23 [‘How Can TSLA Compete With Waymo?’ Gary Black Questions Tesla’s Robotaxi Strategy, Predicts Waymo Will Le](https://news.google.com/rss/articles/CBMihAJBVV95cUxQaHRMZGMzSm9RNU1iR1NDZml3bkhBWHRVQjVmbWNZUVNxZ1VkdUtQWk12UF91N2hiVnFBOXNEM29zeHBRTGJ3YWFWZGNYcVhsLXcwNnprWEFqQWtiQ0V5TGk4TE8tYUZkSGtxZ0JXaFMyR0k4NTFKX0xydUt0Z2M3aTdVOUpuNVRkbS1UYlliNjlqRWNZeE5UMFZ0RHJhTmhxZi13MEw4M3owNUZJYWlsRmdRNkJNZUVva0g4YWZ1ZDFpamtUU2N0M216b2J2UWhvbmpVUkMyNVk5QW03RjU5MFp0Q1hEVHdFN1h1ejJhX3duMndEdFNFU0lzWTdlMWJhVWFxSA?oc=5) <sub>Benzinga</sub>
+- 📰 2026-11-23 [Tesla rolls out FSD Supervised v15 with improved pothole and animal detection](https://news.google.com/rss/articles/CBMi7gFBVV95cUxNM1d1NWVtTVBOdk9mZmU1WkxMdlM0WHhZT2JIaWNUZDQxTlpzQ0dMLXNHMVJ6MU56eDgzWlIwODBiUXk0QkZ3NlQ3ZzE1LU81bV9EQ1VnaG5LN2FnbWV0NUstcWJ2OVdjTmFORG1zWFNOLUZORjE0QmVmSS0wWE9DOG9OUFdlMmRFVTczcWlyN0w2MU83cTRhaVZNdFNxalNhWHdlMU5SLUJEMm5ubmxWalVEb3VpX0pOb3NneWNJS0RjbW4xNnBYTkdMTXpiaU5icVFLT3pJN25WMWJWQURqd3k5VTlfc1FWaW9OS2VB?oc=5) <sub>The Driven</sub>
+- 📰 2026-11-23 [Tesla Rolls Out FSD v15 Featuring 25x Better Handling of Critical Safety, Reality View, and More Upgrades](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUDhKX2FUY0dYZWotTWt5aDg4U1Z2UUgxR0FCaERKZ3RVUnhMd2VoY0tWcWQ2UkJQUy1uM0xQbEhqRnlLV0tfRXFHUElrNG15STFSbHVYLUF3UUVBd0o0TThLWmVPMm8yQTJQRVUwMEtWamlRekFyVGVyeDhiZjk2RDdFZnlGeEJxcVpyR0kxdjJjUXNYZFBmVzNiSzFGVVZQM1c0NlEySUQyY0VRLVJxUF8zQkNGaldCV3RQeTZBdTBjZkpqZVZFcnJnQmlGTnl4V3NwV0RuUG5JNkVJbGhESzRMZHk0dw?oc=5) <sub>Tech Times</sub>
+- 📰 2026-11-23 [Tesla’s Unsupervised FSD future likely to bring Starlink to every model](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BUHFDNWF5Q200N0tDSmgzamt0VXJWUDRsRkxEdlM5T0dxXzdvUGJibmpxRFRSOW1qd3ExSkd4VHRmVjdLUjBIYml4UXhjRjVqY2RFZTg4Z2lCR0VwOEhGZy0xWnI?oc=5) <sub>Teslarati</sub>
+
+</details>
+
+<details><summary><b>NVIDIA</b> (234)</summary>
 
 - 💻 2026-11-19 [NVIDIA/nvidia-linux-utils](https://github.com/NVIDIA/nvidia-linux-utils) <sub>GitHub</sub>
 - 💻 2026-11-16 [NVIDIA/scadactl](https://github.com/NVIDIA/scadactl) <sub>GitHub</sub>
-- 📰 2026-11-22 [GPU Audio raises $1.1M to bring sound zones to cars](https://news.google.com/rss/articles/CBMijAFBVV95cUxNd00zazZhOWxxSEltUEVTTlJTMHpQYzY0N2RWX2VTaVhHdDkwcTZKTjlpb0RiN1FaNHRkMlNSOUVSeXdVVHo4cFNEdzJUTFBVVEZxcG8zMFZDWXB4cGx4TFprU0hhNUVzbWE0bVdPZUNnNnNWN2tjN1ctRzlzZXgxNEFYckVRcTJORmQyYw?oc=5) <sub>Dealroom</sub>
-- 📰 2026-11-22 [Nvidia says RTX 50 cards are unaffected by its SSD-write bug, but some owners disagree](https://news.google.com/rss/articles/CBMihAFBVV95cUxQT0VjSTVLQndPc0lSZWhJWHJhNUFlQzVHZWpCbDh1TUFyNjhvYklwNlJiNktOdE93cmlqcGp2d2xnTFk1dHl1WndGWWNxcG1yZzNEcC1CRExHQXBhMmE4bTJ4a3R4VHRUOTdrYnNmNUFsd3VLLUlsSDVEMUY1YnVGU2dGMHA?oc=5) <sub>MIXED News</sub>
-- 📰 2026-11-21 [NVIDIA Releases Hotfix Driver 621.35 to Fix Excessive SSD Writes Caused by Background Process](https://news.google.com/rss/articles/CBMickFVX3lxTE9mcVZCOElhRmFTYU5tSkQtSHRWRVlnbXFuQTE2Y1lscnl3aTF1VmRsUmNSaV9KOUxJdUlEM2FORjluRUpFXy14dmtnN0l2YTJKQ3BodlViYThXRzR1ODdJTlFDRk5QWWxQSWk4alhIVENtdw?oc=5) <sub>TwistedVoxel</sub>
+- 📰 2026-11-23 [AMD vs Nvidia: 7 RTX Tiers, 1 Confirmed Radeon Price](https://news.google.com/rss/articles/CBMilAFBVV95cUxNV2poY2pWbE85OWdaZDVSaXJSUUV6RmxucFYxYmViNzhlajV5THVEQldqNVg4Ymhjc3BpdG9xVzBYSXFyTTZ5Yms4clFhbjQ3eWxsaG1WNEdkWEhvbTN1WlRFMHd4SzRoaTVLYml0OEkyZHFnVWptTDRxbkp1Yll3SFZvSnY1WUpzQVNKdWdnd3p4dldo?oc=5) <sub>shattered.io</sub>
+- 📰 2026-11-23 [Nvidia pushes out-of-schedule GeForce hotfix 621.35 after SSD write reports](https://news.google.com/rss/articles/CBMiekFVX3lxTE42Rm9EdXJLV2NITUN0QjJmakRQX21UVzNpV2NLd1Zha3lIel85WjFLTTZOckMwWHJ5Z215Y0JOMXFMNklhOVFKSWIxZldXUXE5eF8xN1N4eUNnX1k1bjNwby1BTjJXRFFndFZJRllQYWNUb0JmWTBBU0JB?oc=5) <sub>MMOs.com</sub>
+- 📰 2026-11-23 [Nvidia rushes out GeForce hotfix 621.35 after reports of 30GB-an-hour SSD writes](https://news.google.com/rss/articles/CBMisgFBVV95cUxOODNsa1lVOHRVUHM0UFBXZEM3T2h6emNwNml1ejUxUUhvVldtQXE1ejRnRmUweTF1emxwV0k4ZFdGUDhXMDlPSEpxWnFQaDd1NHdUQTFlWjFSZnItSnlBMWxBLTVncm9ZZG9QQml5UWh6Vy1NSHNUU0ZuU0x5MnByMXdFRlFqTThrbHpPYmt5WGlVdkhyWnJObjJJeXl3cF9mbXVaaXVKNFZJZnMzbFQ5b1Nn?oc=5) <sub>WellPlayed</sub>
 
 </details>
 
-<details><summary><b>Wayve</b> (47)</summary>
+<details><summary><b>Wayve</b> (49)</summary>
 
+- 📰 2026-11-22 [Kakao Mobility partners with Nvidia to develop Level 4 autonomous driving technology](https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUnMwVTdET0JiaXlkcm83bUZkQUt0TFpJd1lkZG13a1JIUWl3dW81UXlGbHN1Q2Z4VDZGVE5GcFNmeTRsNG1kODJpTTJCclVueHQ1LVFTOTFFWUVpRUpQYmMwc0ZSUHJqN05IR292WVBsOTFUMDl5VldhWUd2UkRfd1NXZ1BQcnI2TFFJdmx1cHN6RFY3aWl0VnppeUxYV2xPWjdZRWRJVzkwWFZ6SWdXQ3FLdTNLMFE5bTRMUkZRRWdlamhhT3ZZNXVOLW5LbnVaX3h6STh2VGM?oc=5) <sub>Robotics & Automation News</sub>
+- 📰 2026-11-22 [Nvidia to Continue Robotics Investments After Huang's Departure, Assures Portfolio Companies Directly Under Interim CEO](https://news.google.com/rss/articles/CBMidkFVX3lxTE1IbWJob3hvWTZuUDRrRXFpZ2phdjVSWllyTmpLN2VSMlR0MV9NaExQVjJ3cHdlVUQ0czI1Y09HM256ZWY4QVhUZ3VLbUFBSTN1RU1GLVdENTdIcmNvSzlibnluYTlHUFc3b2M1TGRWTjNTeXNNZmc?oc=5) <sub>BigGo Finance</sub>
 - 📰 2026-11-21 [California Bans Waymo Robotaxis From Motorways](https://news.google.com/rss/articles/CBMilwFBVV95cUxQSnRJcXd3Z0dtS3FZTzh4cHoxclA2Unh0ZWRwZTBKbVZxd0VBSEtOUXBQVWduZjFyMmtfOTdoQldVMUlGQWhtenRwRVNnOElQamx2V1lXUEFINGxrV3FQYUVFTHhWcHhFVmRkYUxDbGZoa2d5VWItS3BFaDBBSklVakFnSlFIOEMzcXRuSWxnMlkzQzNyWGFR?oc=5) <sub>Wisevoter</sub>
 - 📰 2026-11-20 [First Shift: Tesla to sell Cybercabs for private ownership](https://news.google.com/rss/articles/CBMikwFBVV95cUxQcmhja0Z6TGs3XzF1eW9pcUc1Ry0wQU8tVDhWOG9UVWhfZHhRNXJNc3hicjdmQVBiV3JnWGxsVGZwd1hhRXV4Mmkxa09vNDYwb3dOLVhPNnhQMDVEdlFoVDRGV3FxbnhHXzNnRnBIUlB0cEliQmJHeEF2OW9rU1piSmdVWEIzQnBnMFVnMzJFNFlJVlU?oc=5) <sub>Automotive News</sub>
 - 📰 2026-11-20 [CoreWeave and Humatica: Scaling Proprietary Enterprise AI](https://news.google.com/rss/articles/CBMijAFBVV95cUxNUlZMWTNaYTJnT0RvcFhBWXFRQlg4aVF3WWFNTkRPZVJ3S09zX2p3UzBSTTcwWnJGci1Pb0JHb3ROTG1RY0NRMElaRUI1SG91bXpvdHRrc3ExRktrcllHV2IwbTgwTzBjVmNvR1lNcGdDSlJhOVphTk1YQU0xSlBRYmphZ191U3lZSXZKSA?oc=5) <sub>AI Magazine</sub>
-- 📰 2026-11-19 [Qualcomm takes on Wayve, Chinese rivals with new AI driving platform](https://news.google.com/rss/articles/CBMihwFBVV95cUxPSmpFQkxRLWs0ZU16X1hveXRWQlJDbnpiZDZoa2FnVDRVYloySE5qSHpGQUNJb2ZEZjFLcGxrRTViWmhYS3pybUp1SHFuZWU4eWNSX0o0REtSa0NVVDJCaTMxRzlKbGhpN0RNRzVUVFhsMmx1RUk4V1dFYzJoSFhvLUZXMWZFM1k?oc=5) <sub>Automotive News</sub>
-- 📰 2026-11-19 [Bolt and Stellantis plan autonomous vehicle trials in Greater Paris from 2028](https://news.google.com/rss/articles/CBMizwFBVV95cUxNVmF4U3dEUHlQTHB6NTdHSVhBT2dwblNQSXhLbnlMQUVCQnFTSVJ0TW9KcTdlTmhLZkdsRDg2TGxBMGVvdkNSamNaV3lmaXdkSXI4UVlyZFd1Z2hYT3gtU3NGVmVXY3N4WHZQMjRxSEM0OENfVndrT1E0Q2pOQ0pfUExTYXdadzlUNFhxaF8tTWdwVmszVm9NM0JlaktadFJPaWZ1eFkzMUVSdXVOSlpPZVhLNG40THc1aTdaaGJ1c0F2R0tnMjBkY25FakJfRzA?oc=5) <sub>Robotics & Automation News</sub>
 
 </details>
 
 <details><summary><b>Momenta</b> (109)</summary>
 
+- 📰 2026-11-23 [在德国用优步打车，来的竟是智己LS6，还是辆Robotaxi](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeDlLeHp2TndxQ1YzS3RSMTNhZWM3R0xHVG04b2FBV1Zka29CRURZSjA4SkwzZWhzLVJabDdjVURYdEZsZnpMdzBWMW1wbncwR0M3VjlpdktuN1FESDlzc2RtZ1hLWHVOeU5admxiS1NMRlM4RUZvNHQ1MnhFREMxdEdsUDR5VHVh?oc=5) <sub>Sohu</sub>
 - 📰 2026-11-22 [Uber and Momenta Launch Supervised Robotaxi Pilot in Munich](https://news.google.com/rss/articles/CBMikgFBVV95cUxOeXdWeUxBNWpfNEg3UmEwMUd4U2l2SmVtYkR2VjlibUZoWl9iNVNUd2lXSWx6Y1M2NnB5LWxnLVF4MExobHJ6UTJGcWNHN1VaWDA4SVBYOTN5TTRhVTZqWWNhXzlqQmpXSVdTNmE1WVlZalJCbFprRDE4TEg3LXlqdzN0bFJIaVZWa1pHcHA1X0lHZw?oc=5) <sub>Electric Cars Report</sub>
 - 📰 2026-11-22 [Kakao, Hyundai Motor, and Socar Compete in Robotaxi Services… They Need to Join Hands to Get Moving](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLTWFnNExOTUIzcG5MMTVtNUh2VXB5VjBRRXhySXRiNF93OUQ1RFJDYXVNODFxUi01aFRxZmhhZVZlUC1xdzlRaXF1VlUzaktudl9aMzducnI2d2I1NEE?oc=5) <sub>경향신문</sub>
-- 📰 2026-11-21 [中国Robotaxi出海， 开始接受欧洲乘客检验](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CZkF5cmJhbkg2SkhFZXRJb0xPdDgydDlTTWJaMWRZR25sWWFVQ1BUYVVlSTVnbDA1emkzU3VzNXp1TUZ6XzQ0VzAybTZ3azBx?oc=5) <sub>盖世汽车</sub>
-- 📰 2026-11-21 [Momenta获得了全栈ASIL D认证，智驾更安全？](https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2ZEZEZ3gzdlFjdjYyN2VLN01aNXNQSl82aGhseGZDOEJqRkc4VG1sWjNiYUVZTUpna2ltZVh2SV9NTHAyaWVpNUdCNFV5dXBSMFNFa2swVmc5SDg?oc=5) <sub>汽车之家</sub>
-- 📰 2026-11-21 [【视频】带你看MG 07，845km+Momenta R7激光雷达智驾，15万内超哇塞！](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jcWVHbGoxQlZtYV9JMi00WC10ajh2Ml95S3BZNWd0NXloMTFLc2RrNmRESkVHMDJ0Tlg2emh5MC1KODM1QTZnbHRjbFBZM3M5UmFNbDEzWWVWSFk?oc=5) <sub>汽车之家</sub>
+- 📰 2026-11-22 [Free Autonomous Taxis in Germany ᐉ News from Fakti.bg - Auto](https://news.google.com/rss/articles/CBMieEFVX3lxTE1HUzJrTEJxc3hDWXBOLWM0c2VMQjFlUnBlWmV1SW5MWkl6OVFyb3RncWp6ejJnMEdzQ2NHczR5emxfUm5Rd2EyZmlsbDdwQVVDTllUMklVaW52QWh0TmI5d2pORmhURTd0XzlQRzRZMXRHdDdOYnNvLQ?oc=5) <sub>Fakti.bg</sub>
+- 📰 2026-11-22 [东风日产NX7预售12.99万起 14.99万版配激光雷达](https://news.google.com/rss/articles/CBMicEFVX3lxTE9wV0YyWURndjctY21JOFZUczlpQjhyUTREbGxsRkVDVURVNFFIc0ZvNGtLTmI4YlY5U1dPV0szV2xocXBQLVRsOElmbEwwdlJwTUtmb3E3MVktZnpyVW9DY3p0WGlDTWYyWHg4RjctUWY?oc=5) <sub>手机新浪网</sub>
 
 </details>
 
-<details><summary><b>XPeng</b> (203)</summary>
+<details><summary><b>XPeng</b> (220)</summary>
 
-- 📰 2026-11-22 [XPENG Is Weighing Its First Ute, and Australia Is a Big Reason Why](https://news.google.com/rss/articles/CBMif0FVX3lxTE5aT1h5SzNlTGZsVDJwcHJPbFE3aDBsQWtNeEFld3RvYTVSWEhGV2REd1R5ZnJrc05ieEQ5N0luQVFKZ2VJaHQweHdwME4ySm80UU1iRnZCT2xsa3NRRWZVbGRRRzllUW5RMTBxYmhRbF85cFFEczdnTGJXeE92Wms?oc=5) <sub>CarSauce</sub>
-- 📰 2026-11-21 [The XPENG G9L’s First Right-Hand-Drive Price Is In, and Australia’s Next](https://news.google.com/rss/articles/CBMigAFBVV95cUxNR1BpWXNvRVVjY3R0di1pQ3hMNjV5NkJ0Vjktc25Xdy1CT1FOb251bEtNeFZvWFRzUl9mWWxYakZDVjFJeVNTdDdKZ29UUmUxOUVpelZHN0tFT05vSkVia2I5Tk9YN211WEx5ZDl4OWgxR3JFMW0tYUxBWGpHZEk2NA?oc=5) <sub>CarSauce</sub>
-- 📰 2026-11-21 [小鹏行业首发VLA人驾版，AI共驾实现自适应减速](https://news.google.com/rss/articles/CBMic0FVX3lxTE1LWkNXTDBQZFc5LVdmNlJYaGIzVi1leFdfbF9HVVR1Q3NMaTZJbnBnX3lMUzJlNnNGSUNOR0VKYWQ2SnFxeWMtaHAzRjd4V0RIbW1ETFNfaEJuRVZMcGZHR0toa3YtR29XTGRrWFlCXy03WDQ?oc=5) <sub>手机新浪网</sub>
-- 📰 2026-11-21 [WeRide Robotaxi Revenue Tops RMB 100M, Up 204%](https://news.google.com/rss/articles/CBMiigFBVV95cUxNVk5SQllVeEx0a0lnanJYUy1WOUtWTWFxY2tNV0pMcWxoYUxJc3dXWU92WXdQMzJxci11ZTFwcEVNYUdUcndsWkZSLUFoVHh1Sy1NSWY4SGVOeGs2MkxwUzctajRncmZJcHRzendzNDNwNlJINi1nbmU5dmRSNmVMbEYtV3BNQ2xPU1E?oc=5) <sub>shattered.io</sub>
-- 📰 2026-11-21 [While Tesla Argues With Regulators, Others Push Their Automated Driving Systems Into the Mainstream](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOa3FSZzI4bldWaUwtTlU2ZENRcS02WGN5eGxKWlptV2czTEVNWUcxRUVmYU1VRl9SYWJydWl5cDlaQ1duVjdfaVJyLVpjdS1BT2lLbE55SDVwTHlzWG5fczFnZmxMcEtkMEgtMHJkTkJncHJiNTlNd1lmVWM1Vklib0NxeUdGc3BOVGViNUFtN1U3ZnRiZkZOZTNrS3JaWkdYUlRDMXA4ak5IaGc4bHc1Q3FaNDFMZ05FNmVYc1JnTEpINXRkVFR2NGZrb0s2ZVZ3TEFSMUhRZ1h2bmtGV1E?oc=5) <sub>autoevolution</sub>
-
-</details>
-
-<details><summary><b>Li Auto</b> (183)</summary>
-
-- 📰 2026-11-22 [Automechanika Shanghai showcases smart fleet technology as the Middle East advance commercial transport innovation](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMzR1YmFBeDJraE5oM1czUEtnWm9QMlJPaVRjX3daNVJjcV9oZTU1WWx1NURYY0s4S0VLcVBkc2pKclpGNE50M28wSEJsaFM1TWpMWEd6V0UxT0JqSnJpUTc1YmthZGhFVWJETnBaRFlRUGQyTHM0NUpCanBUN1VLS2x5R1pRQmx3MGcw?oc=5) <sub>Al-Bawaba</sub>
-- 📰 2026-11-22 [2026年四款六座SUV横评：从理想L9到奕境X9，30万级多了个满配新答案](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xS25kcllQdnYwd2x6NTF1QnJJZlltbExOMkFPNWlLWnVWSDdhSHl2NFdQd2VDYWlvZmZKeWFtQjBUWWlOZTlmcHIwX0JtSVYxMXhWUXdvcThxLVBfNVhJ?oc=5) <sub>手机新浪网</sub>
-- 📰 2026-11-21 [LEPAS L8 PHEV launches in Gulf, offering luxury hybrid SUV with advanced tech and long electric range.](https://news.google.com/rss/articles/CBMinwFBVV95cUxObWk1QW9mQjROaWl1UDRtYm5qeUZFSVlyVDFWdDhXbnJtUThwN2pRaF9hejdFN3hWUGRUUURnYnk4VW02cGF4VWFjRGhwRDlZdU1kMVQ2UG55TTBSQ1M5X0RRS0V6NDIteUpILU9mS1ZWY0FyX3pSMFptanNIRWMtWXhLa3JyUEdEcDFfOENZSkRiVWM0NHZmMC1ZQk9IQ1E?oc=5) <sub>Pluang</sub>
-- 📰 2026-11-21 [小米极氪理想拆车，智驾标定与OTA承诺才是软质量](https://news.google.com/rss/articles/CBMia0FVX3lxTE4yeG1BbTRuUUpmajdVYnhNSFNQcDRuM2I4MktaZEJYaVhDRFd3amRfZzJzTUJ4elA4MnJSWVhMSFZJclZXRkZ3MmhZaXBmQ2piOVVKT1hSZVZ4Y2dwNlhUcnhNajJsRDVIVmpJ?oc=5) <sub>汽车之家</sub>
-- 📰 2026-11-21 [高配置增程SUV怎么选？奕境X9、问界M8增程版、理想L9、领克900四车横评，入门即超配才是2026年的答案](https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2clZkUThjT2Q5U3ltUk9wZlQ3Rl9KNXZZSWlLRVAzYkZGczBub1kyWXF0dWVucXZMZjRZSjJlMk5MYXBzWTFnQzFDZUdqbWRyYVZSOXdKYTB2bjdyTXk4?oc=5) <sub>手机新浪网</sub>
+- 📰 2026-11-23 [XPENG Moves Public NGP Rides Into Its Paris Retail Store](https://news.google.com/rss/articles/CBMihAFBVV95cUxQOWZXbTFHMGlpekhDbGZUWmhJZTRsVGY2dXd0dkw5RVdreC1DYXAzVGxjZkthMkdiQXRyQ0ZEMmJYVlNodmlMU1Z4aGdVS2VFaVhwLS1XbjYxaUF3VDRKT21OZUowSjYtQmJHcExid1NOZ2NCT1p0d2htZlhxUFcxN1IwVXA?oc=5) <sub>Unite.AI</sub>
+- 📰 2026-11-23 [Following BYD, Zeekr and Xpeng ramp up South Korea expansion; Chinese vehicles target premium market beyond price competitiveness](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Pa2JLN25EWUZSelg1Sm54U0VnU3d1OFB6dllqX0cyb2VfdWtQV0Q5RUpaRklQUEJfUUlkS0lTdjNDQVkwLXRlM1hUajg1RVdxRmhKdXU5RGVaUWZabnd4YkdR?oc=5) <sub>재경일보</sub>
+- 📰 2026-11-23 [Xpeng says Mona L05 November deliveries exceed 10,000 as Mona lineup set to top 400,000 owners](https://news.google.com/rss/articles/CBMigAFBVV95cUxOOUE4d0VVZE5nTXJQTERCMExpV0FoS0lDbXZIdWVfckRLRGZQdDI0cy1zTHNwV3RiS2JGLU5xMXpxWVNEQ0JPZXZmeXludkxXUmFhMXo1MmZaZmZ2a3dSeWNlbzdoMGgycV9uTG1ZVGR2d0VSV2JxTVFTSUJmazZfcw?oc=5) <sub>CnEVPost</sub>
+- 📰 2026-11-23 [XPENG Opens ADAS Test Rides in Paris \| Europe First](https://news.google.com/rss/articles/CBMia0FVX3lxTFA4bkNZUWFVd2FaVDhudUVtVWpZaUppcE0zZEhJZ3EwR2dBSm9zU1Q0cDV1d3pBYTZXX3Y2YVhFTVNOM2hkYXdocGNoZ21lMVNjcUdiV0Ntb25WaERKS1Q4YUQxSzFUZkRudjJZ?oc=5) <sub>XPENG</sub>
+- 📰 2026-11-23 [Xpeng launches G9L in Thailand and Indonesia, accelerating global roll-out of flagship SUV](https://news.google.com/rss/articles/CBMiekFVX3lxTE45U3lMNURoSU1WX19heGt6MDF3eHNBREFoV3VXblBvNC1Ia240T1oyQVc2SkhGMXRRa0JCVzBlenZ1bzZtRzZ0Sm5yb0FsTFNxX1VRRlR5M29laS1qc1FNT2xzekM5UVBYanVKMGZ6c05rVWNPeHZWbXdn?oc=5) <sub>CnEVPost</sub>
 
 </details>
 
-<details><summary><b>NIO</b> (186)</summary>
+<details><summary><b>Li Auto</b> (192)</summary>
 
-- 📰 2026-11-22 [Nio Firefly debuts Haven special edition in Oslo, plans spring 2027 launch in Europe](https://news.google.com/rss/articles/CBMinAFBVV95cUxNenFKVkNaZ3diUWY0MEI5SzdsMUlTQ19sTy1YYWFBdVFkWE1scm4yNXFwb01od29OSFNVUHNOeXpma3FvNmhoSm02N0s4Sk5aZVYwcDlrRXlRWWF4WnVjNi10WUVrUktSVS1vSDgybnR4M3NXazE2b0hUV2UyUGdwejZyNXhycDQzMWtXcWdZNHJjbW8yTzhyeVJjMWo?oc=5) <sub>CnEVPost</sub>
-- 📰 2026-11-22 [Dutch court bars EU sales of BYD Ti7, citing infringement of Land Rover Defender design rights](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQmhlbzgybVc4OWlPcGJjZ3NrMUhpVDRCeUZiY3V1LVlnUzNjWDdtTS1Ta191UUhZclU2ekdSc2RtM2FtNWo0ZFE1bUFCdXE1LXJwMy02eVFNcGxrYUFZZVptY2psSVh6RVd1dlUtOGpaRGttX3FGSkRmY3ZaYkFDM0hsUXJtTDJDUGlRcGJLRzVGUDJUT2dTag?oc=5) <sub>CnEVPost</sub>
-- 📰 2026-11-22 [【视频】蔚来EC6 2020款430KM运动版买断版](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HMndBRVhTZHFSSkpicXYwMXFtWkNUd2FFWGhXZ1dTT0xXUk5kb05HSWJ1clN3QUxFMGFYVTZ5OFVYTHJ1Szk1MWstdUVzMXBmRExGeTVaZzc0djg?oc=5) <sub>汽车之家</sub>
-- 📰 2026-11-22 [【视频】2024年蔚来es8](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ITXpJeE02eExoVXhuQlhLMUZWbVRfQXRNTlk3QzdYM3Rjd2FRa1dOUDdFb0IxVV9QT2NYdGlDMHRDY2NhWk50bFMwMXAxdUJWeWo2dlM3ejlQcms?oc=5) <sub>汽车之家</sub>
-- 📰 2026-11-22 [50万预算带娃长途，ES9换电和M9充电的差距有多大？](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zRzhGOVN5MVpzRDVDb0VwT0NUU0IyOGxNemV0SVZIZUoxcmtibm1NYW9GQkpoRTRsS240S0VLMmlQbWJ5TUx1ZXVvdWk0dlNWOVVkMW43OHUyblk?oc=5) <sub>汽车之家</sub>
+- 📰 2026-11-23 [Nio to begin deliveries of refreshed ET5 Touring and ES6 in H1 2027, no updates planned for ET5 and EC6 next year](https://news.google.com/rss/articles/CBMilAFBVV95cUxOT1BIblYxYUxjaXc2UE5fS1hxVlA5S1NXLVZYWk1KdXM0OFBES1diV1A1NWstckQ1U3FnZzRuNkVUNmZzNE1IX2E3ZGlpajZaMU1BcE9OTUVhY2dhSHZtQlU5d1U3NFBXcmpPWFR0QjQxcmhOQy1Dc2FxemI0Ykx5eW5DQU1YYVNqQkZ5TjVYR3ZFVkRr?oc=5) <sub>CnEVPost</sub>
+- 📰 2026-11-23 [理想ONE二手车还值得买吗？2026年11万起3个维度说透+FAQ](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RWnJ2cGlLbWJUODVES1duMnQwdjdTaEIwdHJYYTA2OVpidDlqYUt1cjhJZWtXamFJUDhGYm1RTE90andudWh6M2tlVExBY0piRG9iaXZfaVppZG52UldR?oc=5) <sub>手机新浪网</sub>
+- 📰 2026-11-23 [全新理想L7谍照流出，2027年上市前先睹为快](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIWGRHVURuNUkzSUdnZWpLNE5GVTJNWV9kWURQVkZWc0pweFlSQ2d3bWdncmJuRVFXZXAzVGJXd2hWcjdqZE9XdWVCUXhzWktlR0xsZHpMekpjbWM?oc=5) <sub>汽车之家</sub>
+- 📰 2026-11-23 [理想ONE 21款现在还值多少钱？新车33.8万二手10万，3个维度说清+FAQ](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vQktKMHg4aVJ2cHpIMXRFbDFWbmZwN01jOVM3ckhiX2tvcS03MG9Ia0hDRS12TE4zUjNKR1ZwMU5iSmVUZEpZSlRSSWRqSGJVeW1PeTB6cTlsR1hsd3Bz?oc=5) <sub>手机新浪网</sub>
+- 📰 2026-11-23 [理想ONE二手车21款值得买吗？11万抄底还是9万捡漏？3个维度说清+FAQ](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnem9vVHRpbThZOU9aYXEwNTVMQUpLdVl4VmlnMFRoTFZpa19VS0FidGRmWnc0c3I5dVAycVlzclZ0T1Z5Q2l4aFZ5MWJQaGtEZHRTMHRfSkFGS2hlcWxv?oc=5) <sub>手机新浪网</sub>
 
 </details>
 
-<details><summary><b>Huawei</b> (337)</summary>
+<details><summary><b>NIO</b> (194)</summary>
 
-- 📰 2026-11-22 [China unveils a 7-seat electric luxury minivan with up to 910 miles of range](https://news.google.com/rss/articles/CBMitwFBVV95cUxNZEdleWcyNmRVVDNjQXExa1UwNWhSQ2JaWnliVGoxTG42RUptRndscHVsNHN5WDlzc2xxMkg1MjVsX2dGa1REWEVTREh0ODdJdnBrVmdMdC1vWlREU3hrSFlCRHppWXJmZVVIVFpGWFpFUk1rYUk4QUFqUy1tR3JodzdPYXcxYXJiWjE3VFU3LWNCTFRzNFJQaWZ1S1p6b2R0eDdzTk9tbkhWYUxFV2pwY2Z3S1ZLSzA?oc=5) <sub>Interesting Engineering</sub>
-- 📰 2026-11-22 [WATCH: China EV Attempts To Park Itself 868 Times Overnight, Refuses To Give Up As Owner Sleeps; Internet Says ' Respect The Dedication'](https://news.google.com/rss/articles/CBMijwJBVV95cUxQU0duNTRBVWlzUnZERVlMY3o1N1IwRV8xRVFiUlc5RXFfSWxkTEFqZWdtWXBabWxOYUFrRkxqUndCZDZfYnRpenctUTA2TUt5VXBFMjd1d1RUdWJFblZSRUlHRThoOGdHTzhScFRKdVZzY1dPZjA5cGUweG5sNmdZU2RJQ2ZaRWY4bEFFd2FqdVkwLTNkZDJwOXAtaVNGcERVcEc0N011NU53TktTTWxmd0ZpTU81UUlKU3dvZHdJbHNYcm9KcURzYUFaSWFFUm5zUnpfR1hKYVB0WDFJdEZCRE1XMDJxRmJ5U1Zma2Ftd0UxMTMzTVV6b0JVbFJjRVh6NFQ1Z3cxdVZqQS04b01R?oc=5) <sub>The Sunday Guardian</sub>
-- 📰 2026-11-22 [【视频】13万起配华为智驾？探店阿尔法T7](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jbzdHVkYxR1lZMlNYY0NWR2lSV0FJTkt4bVF1LWFVTlgyWms5QXB2YzlYS084bXpsV1Y3a0lRTGtteGJ5WUxOZzBEWERkT0hPMHl6VFFYRXV2QlU?oc=5) <sub>汽车之家</sub>
-- 📰 2026-11-22 [智驾硬件、座舱AI与底盘智控，四款三十万级增程大六座横向评测](https://news.google.com/rss/articles/CBMikgFBVV95cUxQWTd3aW1ET3M2b1Nla2xCQlYwRnA0M3V0Z3Qwb0VEVndMdmZxMGVaaWsyb01ULXFuLXJrYVE5U1h6UjI4dVZZajZ5MnhHTmpnUld2eTROVE04bGxuUk0tRk5WVGdUcDhydmM4Nlg5S1NTRDI3SmhzdXlRWGc1czF0Y0RPVXF6MUU3eHdoVFMtTnVnUQ?oc=5) <sub>新浪财经</sub>
-- 📰 2026-11-22 [预售高喊有几千订单，落地月销仅68台，这车真“凉”了？](https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0T0d4aTA1V0Rmd0Fsa0ZiT1QyX0ZGWVU2NHBJVUFVdkVCZlVaTmE3bFRQRHhYZ3Q2UjVTUmlXNU54Zld6YzVtSUh6TUNweEQ1TEtlT3pueVlodG8?oc=5) <sub>汽车之家</sub>
+- 📰 2026-11-23 [Nio CEO Says AI Sent Memory Prices Up Fivefold, Echoing 2022 Lithium Shock](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY1ZkMXQ0aW5DREx1M01lM3M5U2ROWENHMXdHYjc5Z1FDbk4wRl9oVzdzMFcweGRiYTJ0U1hteE1ZMlRxWWxMZjloSmNJUUI2U1FMRFUzQmI5ZmM5bUhUS3BJc1ExaGlpM3BKSXJ3bzBVUXlQR0tvWVlHTTRuSVc2ODhTQlJlZmsyaDhtSUp6UEQyLTQ0dkJXYmtMbWtxTnZURzhTQmhqaEZmalk?oc=5) <sub>eletric-vehicles.com</sub>
+- 📰 2026-11-23 [New Nio ET5 Touring spied in China as CEO confirms 2027 rollout amid Europe delays](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ0doR2ZKdHNza2VweldxSTA0amc5Z3k0OHVCZzFwUjUwc2ZPcFdtRmRXcDdfXzF3bllYcDBDS05yNm1BQk1uQ3JqTlRVR0FCNlhiTzFfQzB4a1lRVmhiUmVQY2JhazNTVHJYVFFxUExBODlOY3lJNjFVUjRsaGV0SHlsd0hxaEwtTy1XSTQ3YmJUZUlZamhJVnFzaWZUX2g1RUFSZGZGYjFBc0c3YXotbmNWazNjam90cXNV?oc=5) <sub>CarNewsChina.com</sub>
+- 📰 2026-11-23 [Nio to deliver 170,000th third-gen ES8 this week, about 1 month after last milestone](https://news.google.com/rss/articles/CBMihAFBVV95cUxOTmYzeGFreVFJdElYSDduVTFkYjdmT2xoZDBfV2UyUWFtUWlSbkk4aEx4SnFLdEJJWTBueUJ0aTRyQi1YaVRpQWg5SW9leThReVlYQkU2N2JSWjY0MGdURVRmZ2pSZGtMcnU3ajEzRVRsY29nY1pZblgzUW5Pal9XVHk4bEc?oc=5) <sub>CnEVPost</sub>
+- 📰 2026-11-23 [Nio to begin deliveries of refreshed ET5 Touring and ES6 in H1 2027, no updates planned for ET5 and EC6 next year](https://news.google.com/rss/articles/CBMilAFBVV95cUxOT1BIblYxYUxjaXc2UE5fS1hxVlA5S1NXLVZYWk1KdXM0OFBES1diV1A1NWstckQ1U3FnZzRuNkVUNmZzNE1IX2E3ZGlpajZaMU1BcE9OTUVhY2dhSHZtQlU5d1U3NFBXcmpPWFR0QjQxcmhOQy1Dc2FxemI0Ykx5eW5DQU1YYVNqQkZ5TjVYR3ZFVkRr?oc=5) <sub>CnEVPost</sub>
+- 📰 2026-11-23 [【视频】昆明蔚来ES9装贴XPEL隐形车衣细节欣赏](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEdVdZREszMVJuNGNpV2MwVnRfdTZucktzY01zRTJXZ29ScDBXcTI3VHJrN1dSWGZ6TUY0bmtRdFlBZl9TWHdhV01YS3JXYWM0ajlncmp2aWdTU0U?oc=5) <sub>汽车之家</sub>
+
+</details>
+
+<details><summary><b>Huawei</b> (360)</summary>
+
+- 📰 2026-11-23 [‘More anxiety than me’: Driverless car attempts to park 868 times overnight](https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQnlLSmFVODh3a2oyeklNYVhaWGM1WUJNZnl3LV93R2Fwd2p3R3QzQk1CRkJ3b1VpR2J3QWpMV09yX255eVRZM3phU3p5TG9XSjdFem5LelA0a3VlckdST29haWFBRjZoLXpNNWZvWGlLbXpuWWdyc0tIZjlxcGZidXRRemlzYnpWT2tQLVRXN1NJWlhwc1gtMnJ2WktYVzVkSkhKZGdqemNVaG5MTlFwWktOZzVaWlh4WEo0YV8zNEZDY3RKcVBDedIBzwFBVV95cUxOYTdwRTRMWllNYU9SdWhYbnZKdm9KN2xidEpnZENNZDJLeWpWT2tHR3hRMjFRNGtOVDdFeHJzMW9yVTY2Zm8yNUx6ZGFUNXVaR04yMVVLbHJxTkF4R0NPa3dRTlZBNzRBbDQ0V2JpdDZCMXJ1YzAtYTFYV05FLUt1YjdMVmdGaXZJdUtLVEFpNFpRSm9wUUVQMWVqbVZrZS04RlJNUVY5SkZKd0hkcjFnLWNtTDZLVmFicWNtLVRxRXNBYXpCQWF5VXYtVEdTZzA?oc=5) <sub>The Indian Express</sub>
+- 📰 2026-11-23 [Why is someone alone in the parking lot at dawn… The truth behind China’s late-night ‘ghost electric vehicle’ footage](https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlNHa2gwTUJHQy1GaHJRcEhvZ3FEUXE3b3FxOERSZVJtX0VMejd3RVBVLVd5WEhoR3FPRXlCQmszM00xSjRZU2FrQTZWM25ud18tV3U2cDU1Y1pYTXY2Z0ROQnZYYktPajcwcWNHVzJkcHBURUdqVjdCYjR5YlpFQTFxbw?oc=5) <sub>스타뉴스</sub>
+- 📰 2026-11-23 [Nio to deliver 170,000th third-gen ES8 this week, about 1 month after last milestone](https://news.google.com/rss/articles/CBMihAFBVV95cUxOTmYzeGFreVFJdElYSDduVTFkYjdmT2xoZDBfV2UyUWFtUWlSbkk4aEx4SnFLdEJJWTBueUJ0aTRyQi1YaVRpQWg5SW9leThReVlYQkU2N2JSWjY0MGdURVRmZ2pSZGtMcnU3ajEzRVRsY29nY1pZblgzUW5Pal9XVHk4bEc?oc=5) <sub>CnEVPost</sub>
+- 📰 2026-11-23 [Huawei Unites Europe's Creative Talent at the HUAWEI Watch Faces Summit Milano 2026](https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeGFoNWNGSTBJU1g1c0RuYVduMDh0UVgwMFpSX1pSOVFORmlDVEh5NU83SFpHemdkUTJ4LXRqM29WMDVFY2U1eGpVUFRKajVKVHo0OWF4LW1hQjZsZkFOeVdzNHJpTHltUm1BcWxpalBLNDRqazJkNU9UbTR6N2dXRlFqOHMzcFMtMHVIcXdQTzRXbjR1Wkl5ZUx2MFo4aHhnYjJjMWFUTldZV3cwX0RhT29hWEFISEVzdmQ2dmxqUVFwNGVfRGUxT3AxRk9oNkNrTVZidDVZaw?oc=5) <sub>PR Newswire UK</sub>
+- 📰 2026-11-23 [Xpeng says Mona L05 November deliveries exceed 10,000 as Mona lineup set to top 400,000 owners](https://news.google.com/rss/articles/CBMigAFBVV95cUxOOUE4d0VVZE5nTXJQTERCMExpV0FoS0lDbXZIdWVfckRLRGZQdDI0cy1zTHNwV3RiS2JGLU5xMXpxWVNEQ0JPZXZmeXludkxXUmFhMXo1MmZaZmZ2a3dSeWNlbzdoMGgycV9uTG1ZVGR2d0VSV2JxTVFTSUJmazZfcw?oc=5) <sub>CnEVPost</sub>
 
 </details>
 
 <details><summary><b>Baidu Apollo</b> (58)</summary>
 
 - 📰 2026-11-22 [中国公司全球化周报｜阿里国际站前两季度GMV增速均超20% / 镁伽科技获近2亿美元融资-36氪](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsQTVqMHlBdmNaQkZ4TXQ2VTBSNklrbWhsekU3VFQ4TFhnQm1rNkFiT3YxTDVpUE50bmJQVHVKalVHSXFQeDhaUGFpV1V1Rk0?oc=5) <sub>36kr</sub>
-- 📰 2026-11-21 [百度世界2026发布多项AI成果，李彦宏：AI下一幕是“智能组织”](https://news.google.com/rss/articles/CBMidEFVX3lxTFB2QXdyQXJBd0xyTDBIeENlSDVSN0htT1haRWU0NEprc3ZBYlJPTU54ejlFVjBwZUpzc004aGdMYW42NzFrM3V3LVBsX3Z5ZlRXQWNzb0lkd20tdTJuVmR3V2otWHo4NXRrTi1aYVluaXBEVmg1?oc=5) <sub>风闻</sub>
+- 📰 2026-11-22 [特斯拉在美推出FSDv 15 智驾产业链中长期空间或进一步打开](https://news.google.com/rss/articles/CBMiRkFVX3lxTE0tRk1rNHlrU0ltOFcxVHJ1VGtTRHRIODRfQXJoQjBKZmJVSGkzZUJYbld0NkI3UzNDWUNaUFhNZEtVVW1VWlE?oc=5) <sub>财联社电报</sub>
 - 📰 2026-11-21 [APEC期间深圳街头无人车驶入全球30座城市](https://news.google.com/rss/articles/CBMigAFBVV95cUxOLS16MmVLY29WTFBTSFpwWk1xa0NDYlZvOW1UY3hZelZlSHZQNkpPM3hWVENURllxNTdSRk1OUEFLZmpxZHhYQ3FCSVpnN2h0QTdnUjYteGRRYWtFVmZOSTZ2ZnlaelQ3cE9JQ1JSMnFWS1lJazhmT05ORWNuOHZ6cA?oc=5) <sub>手机新浪网</sub>
+- 📰 2026-11-21 [百度世界2026发布多项AI成果，李彦宏：AI下一幕是“智能组织”](https://news.google.com/rss/articles/CBMidEFVX3lxTFB2QXdyQXJBd0xyTDBIeENlSDVSN0htT1haRWU0NEprc3ZBYlJPTU54ejlFVjBwZUpzc004aGdMYW42NzFrM3V3LVBsX3Z5ZlRXQWNzb0lkd20tdTJuVmR3V2otWHo4NXRrTi1aYVluaXBEVmg1?oc=5) <sub>风闻</sub>
 - 📰 2026-11-20 [Google 开放 Genie4世界模型 API，支持实时交互与原生音频生成](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9sLURMU3dDZHJRN0N0U25LV19oWlBvTThkQVI5TzNCVnBHYlFkNUREbzJxYXBnWVV0SHQ2WGRpQUViM0ZKbXpIdUw0Y0dZQQ?oc=5) <sub>AIBase</sub>
-- 📰 2026-11-20 [边玩边改的世界：谷歌 Genie 4 向开发者开放，一分钟约 6 美元](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NYnUzSE5kS20yVDJXRC1iZWEwcnhTaVlfRGt4MEFfOFhUZjJ2YmEtUFFrcElvc3hyVFZtQk1rY1liNFBMSTNQRjBJMWhLQQ?oc=5) <sub>AIBase</sub>
 
 </details>
 
-<details><summary><b>Pony.ai</b> (144)</summary>
+<details><summary><b>Pony.ai</b> (148)</summary>
 
+- 📰 2026-11-23 [Amplitude And 2 Other AI Stocks To Watch](https://news.google.com/rss/articles/CBMilgFBVV95cUxQVmFzWW00a2ltdVRFWmNveFpQc2VzX09NeW1JRWRYWm1kc2I1RVZpNGY3MF84aGtyTkp2Z2FoRTRFeE44ZjB2MFJoZnphTkhjVVVuaFF5VlhRNTd4THgwVUd3WmdEa1lHOXM2Vm5hclpzR2FSNnRSSnJ5NXVvTkdBS3hTTDdaa240QlVzZUU3RWl2My1PVUE?oc=5) <sub>Yahoo Finance</sub>
 - 📰 2026-11-22 [Tesla Cybercab Orders Open: $29,990, 2027 Push Unproven](https://news.google.com/rss/articles/CBMikwFBVV95cUxQZUVWZXdCQkhLNFVuWHZ4T19oUV9GVDFyZ012bHBHbDBJbWNxX0cwdzY0Z3ZlLUhyTWJ6RHpJQ3hTbzRwQTJ5YU1LRnhwNm1QcjhldjNHZnFpV0I1bC1BU2RMRTJNbWpoelp3NGl5XzJ5WVJ4Ulo1dkVOWmdFd0tvbXJoV3BweGJVN0cyOENDbDJEc2s?oc=5) <sub>shattered.io</sub>
-- 📰 2026-11-21 [WeRide Robotaxi Revenue Tops RMB 100M, Up 204%](https://news.google.com/rss/articles/CBMiigFBVV95cUxNVk5SQllVeEx0a0lnanJYUy1WOUtWTWFxY2tNV0pMcWxoYUxJc3dXWU92WXdQMzJxci11ZTFwcEVNYUdUcndsWkZSLUFoVHh1Sy1NSWY4SGVOeGs2MkxwUzctajRncmZJcHRzendzNDNwNlJINi1nbmU5dmRSNmVMbEYtV3BNQ2xPU1E?oc=5) <sub>shattered.io</sub>
-- 📰 2026-11-21 [Amid US-China tech rivalry, S’pore wants to be open to both: PM Wong](https://news.google.com/rss/articles/CBMiygFBVV95cUxQOWM2QVNGb2Y5MGw5WGtFQmxBMDhINGFaVmRndTRQUkhObk9QcHRfNHQyZms1dzFUUDBpWFR5MnBPZy1MZUJFcDNOV1ZXTjZYMGtxbDdPOUZSaUt6Z1lFWndrdDdhM1dZUVkxbjhkN2xMVEhmMTY2dklSVEJqWlowcjlHdUtReldRY3ZlRUlLSG9KbVNBMHVZUERVaG1YSVFzYTNRLUNPSVpGcFlnanVrYzhOdnFvSWhOWFBXSmRtbnh1M09iazVlWkRn?oc=5) <sub>The Straits Times</sub>
-- 📰 2026-11-21 [文远知行Robotaxi 第三季营收首破1亿人民币](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKR0ExcmFhRjFPRktiYnRyS3huS0NuTS1jdmU0VXBVTGFoSklJWmdWbTlva1JBZUFVSkZEbXRwWlZaTHpfNUdSZnJKaTF3QnZES1R6aEcxc1M4ODg0UWlZWnRiWQ?oc=5) <sub>e南洋</sub>
-- 📰 2026-11-20 [Pony AI’s robotaxi fares surge nearly 400% but its operating losses barely budge](https://news.google.com/rss/articles/CBMipgFBVV95cUxQejkzT3hlZnI4SG9LdWVCc0FKMF91cW1TWVBTNlJ5enRQOUxMOEFzTUg1STVDRHpOVTBpanlFNHgzd3RzN3ZDLTRaNV83azIxVEZTR09FWGx0OF9rWVR1bFlod050WlRzWTY2TVd4cHRQeGNrVklWcWNtUlV3QlZyYzB4WEZSZGtRd0pvWDlDU2kxTVB4Q3FYN1ZpeXlmeXVWZmRpOUFn?oc=5) <sub>CryptoSlate</sub>
+- 📰 2026-11-22 [Kakao Mobility partners with Nvidia to develop Level 4 autonomous driving technology](https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUnMwVTdET0JiaXlkcm83bUZkQUt0TFpJd1lkZG13a1JIUWl3dW81UXlGbHN1Q2Z4VDZGVE5GcFNmeTRsNG1kODJpTTJCclVueHQ1LVFTOTFFWUVpRUpQYmMwc0ZSUHJqN05IR292WVBsOTFUMDl5VldhWUd2UkRfd1NXZ1BQcnI2TFFJdmx1cHN6RFY3aWl0VnppeUxYV2xPWjdZRWRJVzkwWFZ6SWdXQ3FLdTNLMFE5bTRMUkZRRWdlamhhT3ZZNXVOLW5LbnVaX3h6STh2VGM?oc=5) <sub>Robotics & Automation News</sub>
+- 📰 2026-11-22 [Nvidia's AI Demand, Alibaba's Chip Pressure and More: This Week in Tech](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX3hjMW9mc2hoVVBHWmxhVXRmNW01V1BpM0VFRTNJYlhhN3VXby1JVWR4dHhjeEVGMm1EbWZPM3RPQkVxbXo4WHByYmNkQmdBUUJtZFhSZ0pITnVSYWFUaEhkQWlmWmg4cWNmdXBxMmY1cXFNMUFMdDJNQUN0NnQ1cE9iYTM2VkN5azBJ?oc=5) <sub>Benzinga</sub>
+- 📰 2026-11-22 [Vectigo launches road-embedded safety system for autonomous vehicles in Colorado](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbkprNzRNMkRHWnVNRDVfeHUtTHQzOTlTd3FVeHpNS0pXUU4ySTBOUUhHeDlTb1VmUTBHSFZqeVZBQzdhMmplUWlLV3BWVU1ab1BPVENSVHdtUms3NlZIVm5xYlVLb2FRU2RxbXRtYWtnWUVDRXRfallSVnJ4WVJGUmkyVkZtQVB4MXhJMDlqYkZuZlBmNEJiRG1vbVNRUjBRcHNBWmRVWXRmTzdndjlRM2loOUdFdUtQRW5GdjZIOEJQQUJPTXZ5MVFWeXlwR05ia3Nv?oc=5) <sub>Robotics & Automation News</sub>
 
 </details>
 
-<details><summary><b>WeRide</b> (132)</summary>
+<details><summary><b>WeRide</b> (143)</summary>
 
-- 📰 2026-11-21 [单季营收3.2亿元创历史新高、大超市场预期：文远知行增长确定性持续释放](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVlVCZV8wbEFQNGJQOXZSSXNxeUxlbkFNMHZZUHhEQmZ3WHMwTkZNOGN0U3B3UzNXU3RBd2swVFotdWdIbUFYVGZxVU9QaXNaVV9IZ0ZpMFdmbVVfSEV2aDJTTElhcW1OQWNVOWtBbXFXdmtPSkNuX05PY2JMRlY4VkNwblRPWDll?oc=5) <sub>Sohu</sub>
-- 📰 2026-11-21 [文远知行全球Robotaxi第三季营收首次突破1亿人民币](https://news.google.com/rss/articles/CBMia0FVX3lxTE1ROVRINE9GdV9KSENISmhMUXNkX2hFbGo3QXdKajQ4bHFqaGlUck1FWXBwYmM1azBDQnVRdWd4VGJuZDVXM0tvTjJWa0JBUkNsdXZLSFhEUjQ3MTgxWmtlOFlMMmVKSVRLb3pN?oc=5) <sub>联合早报</sub>
-- 📰 2026-11-21 [11万级后驱激光雷达搭载文远知行L4同源辅助驾驶](https://news.google.com/rss/articles/CBMickFVX3lxTFB5ZWRUSmtLTmFFV2pUZEIwaEtfODJ3SEhRWGRHdzJ3ZzE3RWZ1RERhRXBZRkZSOUM0SHZ0RTUtUk9od2pyUXdyMTF4RjQxYUdudFVqem5vaFBUWktzSXVWWnVVMHc1LTM1TXhBN1YtNnk1dw?oc=5) <sub>手机新浪网</sub>
-- 📰 2026-11-21 [WeRide Robotaxi Revenue Tops RMB 100M, Up 204%](https://news.google.com/rss/articles/CBMiigFBVV95cUxNVk5SQllVeEx0a0lnanJYUy1WOUtWTWFxY2tNV0pMcWxoYUxJc3dXWU92WXdQMzJxci11ZTFwcEVNYUdUcndsWkZSLUFoVHh1Sy1NSWY4SGVOeGs2MkxwUzctajRncmZJcHRzendzNDNwNlJINi1nbmU5dmRSNmVMbEYtV3BNQ2xPU1E?oc=5) <sub>shattered.io</sub>
-- 📰 2026-11-21 [WeRide’s global robotaxi revenue tops 100 million yuan for first time in third quarter](https://news.google.com/rss/articles/CBMiugFBVV95cUxNaXVUV0VvcVIwcF9mTFFLdjM0eUdiVld0SVJ0ZWRIbF9KTmJLeFRJekQxbTQwMkFGSG8zSW5HZW9tTEhKSlo5WVQwcWNZRFNQX2g1bzdnOWs0ejhYNEk1S3R1cVNJdy1GQlNoX1pmVkw5OVZKMEVKYXRCekxiTVJmYzhTdUtuMGRIR2hwZnNqWFFEZ3RQVkNyT0dDQ1lyVTZrSFhGTGZnMkpzWFBHVVFkbUQzZ3FiZWQ1WlE?oc=5) <sub>联合早报</sub>
+- 📰 2026-11-23 [How Is WeRide's Global Robotaxi Expansion Driving 88% Revenue Growth in Q3 2026?](https://news.google.com/rss/articles/CBMitwFBVV95cUxOOTZVSEY5VzBhMTBrM1lEWkNRbHpRWUVrRE1hbHV0WUlDQWU0NVVwYzdETS1JdTZVd1ZJNjdaaGRhRTJpSE5iMDBzUVQwTDhuYWZSbnI1T1NKVm1DdmdoNkIyLTV6dHFfZWc1T2o2UFE2WGlZbnhpb0cxSHotQzJzMmE3c29TSHVtLTNIVjZJeFlDN0lzT0NJb1AtSUJncEw5UXg3ZWhUYW9vcF96VzJfUmlacjdYcWM?oc=5) <sub>Kalkine</sub>
+- 📰 2026-11-23 [海外收入暴增172%、占总收入近半：文远知行国际化成果持续突显](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sTkN1aUJXUjVZb0VlRExZVUpzcHVGclhHandicFdGejNJZWhsWXhmUExXRjVVbjFUSXhXQjJoR3luSHBnRmY2RmF6WVlZMEV5NHFHZlBvOVY?oc=5) <sub>驱动之家</sub>
+- 📰 2026-11-23 [文远知行执行长称计画在欧洲部署1000辆自动驾驶出租车](https://news.google.com/rss/articles/CBMia0FVX3lxTE1pYklSWmQxWnFwVjJTczI0TzMzS3hGYXF4bDIycDROa2dZUW9SNDdTQlhSQkNoaEFZUzZKWk94d08wUmdZLVRlbnNNNlFyQ0hXY1pjM3lsdjNqR21sUVh5YVJxWEh3MlZtRTdV?oc=5) <sub>汽车之家</sub>
+- 📰 2026-11-23 [物理AI数据需求爆发，文远知行AI Infra收入接近翻番，未来增长潜力有多大？](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tMzFlTXBVZWN0UWNJT0FuQVBxQmdNTDNaRVVyNE5McXowQ0t5SzVldzlkZlhzZGJUcHBVM21wRG9JbjkteFFKX0o5RGlGQVJ1VFE?oc=5) <sub>人工智能</sub>
+- 📰 2026-11-23 [【百强透视】绩后股价再创新低！文远知行（00800.HK）盈利困境难解？](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQUQ4TVJ6WndnUXEyeEpNdXVLN29TSGc3TkxCT2dFMGFpRlZnS1RwMnMtSmFqcDluT1Bkd090WVNnTFo4LXJ1MEI3V3JsVC1KQzA0UUhodFUybWd0bWpsX1ZmQW5qNE1vOHVnU2EzREQxVF96T0hmZWlId1hZZTh1M2NvYlNNaTVG?oc=5) <sub>Sohu</sub>
 
 </details>
 
-<details><summary><b>Horizon Robotics</b> (120)</summary>
+<details><summary><b>Horizon Robotics</b> (130)</summary>
 
+- 💻 2026-11-22 [HorizonRobotics/HoloBrain](https://github.com/HorizonRobotics/HoloBrain) <sub>GitHub</sub>
 - 💻 2026-11-19 [HorizonRobotics/LoFT](https://github.com/HorizonRobotics/LoFT) <sub>GitHub</sub>
-- 📰 2026-11-22 [捷达M6混动值得买吗？7.98万起19小时锁单破万，3个维度说透+FAQ](https://news.google.com/rss/articles/CBMikgFBVV95cUxPUGJjZTZSYzkxenUzbnR6ellQMnlrRHl5bEx0NDdfLWZmVUR0by15cTljSjFzRU9mcTdLVTVwVzgyaG9vVFhyT2VtLXMyZTRUUUxlbkJmcTVYcFhPNzBIQ3MzakJUMENWNW5ETHpSY3Zac2EyUmtnRmtySTllUXBJd2NGQnV6cUcxRF9QdE1hSC1oZw?oc=5) <sub>新浪财经</sub>
-- 📰 2026-11-21 [蔚来ES9地平线鎏金特别版上市24K鎏金车标](https://news.google.com/rss/articles/CBMiTEFVX3lxTFBhTTdRUkhBSlZFcFBqenRsQkc1VEZVNUw2UVRFbkdVNk9DaktyTHFtX1R1djF5djdVSVJpQXdwbVYyNFFvYkxSRWx0eko?oc=5) <sub>www.itsdw.cn</sub>
-- 📰 2026-11-21 [蔚来ES9地平线鎏金版上市，BaaS方案53万元起售](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Ic2ZiUHoxaXplYUpuLUV0N0trWU9FRk16bDlMWjhhZVdydjd0V0lDNVBJbXoyMzJGdUtJS01MWmRJa3dGMmpLb2lrbkFnSy1pM21ybjJIVm9CMGc?oc=5) <sub>汽车之家</sub>
-- 📰 2026-11-21 [捷达M6智驾靠谱吗？7.98万起配地平线城区NOA，3个维度说清+FAQ](https://news.google.com/rss/articles/CBMickFVX3lxTE1Yd2dxeW9hWjJQUmtxRTYzNWt5ZlJGdENRdGw5ZXhqUlBkaHdlWlRWUkpvdk5QOHZRaEJySkktaWkwanc2SkNxd2owc0Z5WjMtZi1CMmVUVFJYNlZSRmdsYUFBZ2hFVFdaam5XSGVyUHAzUQ?oc=5) <sub>手机新浪网</sub>
+- 📰 2026-11-23 [方盒子造型想要激光雷达和高阶智驾：旅行者7对比iCAR V23、哈弗猛龙，油电同智怎么选](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTX3A5RDNCc1Q5dFgxSjJRVkdrb2pfSUJIY2t2Z2xMTzRjOVN0U01kc3hNdmdHeVZIOUdCSWJ5d1FWSVJ0ZWMwUDBES1VNdmpCamNROXdHSEJBN0hWZUFR?oc=5) <sub>手机新浪网</sub>
+- 📰 2026-11-23 [三款方正SUV智驾横评：旅行者7油电同智，猎鹰500和华为乾崑ADS 5怎么选？](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WMFhXQllIc05aNFF3MWRVYUR6TS1jZk5jbDhtYk4xRnZSMFRqV3pTTjdtbzQtS0M1NVN2dlFWQkNOZWJNOEl5eG5pdnh1Q21mcVY1QkpyalhXM29SMFdN?oc=5) <sub>手机新浪网</sub>
+- 📰 2026-11-23 [【视频】24K金车标！蔚来ES9地平线鎏金特别版开售，十周年排面拉满！](https://news.google.com/rss/articles/CBMiW0FVX3lxTE54a1pqTzlMQ3g2VWtaN2xvSEVSRzlMd0hhWDRSc2ZWeHNaV0MybjdZejFZTS1zcWp2ZFRjWnRsQWhNdnNEeGFGT0FfRVo4OFcyUFpicG96bnVwQ0k?oc=5) <sub>汽车之家</sub>
 
 </details>
 
-<details><summary><b>DeepRoute.ai</b> (21)</summary>
+<details><summary><b>DeepRoute.ai</b> (24)</summary>
 
+- 📰 2026-11-23 [【视频】#奥迪E7X用车日记# Model YL和奥迪E7X 我为什么选了它](https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xXzI3eHc3Y0NkcVFIQk5FcWdFMzZidmtYTm1oWlZFamVaSDlRbk5obWlYQzNfMzVPc3I5VzA5Z1BRWU5nQmplWUw1TS1QR2ZlZ19COWdYNVg2bTA?oc=5) <sub>汽车之家</sub>
+- 📰 2026-11-22 [元戎启行\|ICAR\|地平线 - 智驾大赛办了好多次](https://news.google.com/rss/articles/CBMiY0FVX3lxTE52Q055UnNJRUJqYmc2dGtmS3BVVUVqajduOHg4YnhucUlwSkx1REZFQjY0Y2dUcTl0UzNTM29nYloxRkVRQXVDMVNER2N0My1DenhxUUpLYWxiWFNjSGtTbjYxbw?oc=5) <sub>手机新浪网</sub>
+- 📰 2026-11-22 [巅峰对决松山湖！k8凯发入口官网下载入口2026圆满落幕](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9YQXhzRFRySlFzc0h5eEpZZXJHekZ2bjZFZ2pma1hSdHViR2RHYlNVTjJBaFFEUFhhNzd6MEgwODQ1SlFydU9jMEt3UGJFaUly?oc=5) <sub>iheima</sub>
 - 📰 2026-11-21 [【视频】3分钟看懂特斯拉Model Y L值不值得买？](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VQU9UWDByVEt0TnRIcDk0Q2RQTDBzWU9JRTBqMUtKMUgwTGsxNWNTc3k4OV8wQ0hfUkh3R0oxYm51S1ZRSzJLRlR6NTU2XzFhMTVRMG9MNlRCSVk?oc=5) <sub>汽车之家</sub>
 - 📰 2026-11-21 [购彩大厅～welcome手机购彩公司的校园体验报告：不拼参数，拼场景与协同](https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5R0pUNmlUbUtPNW1KR19EdDlnd3FocHQ2UnZHdUM3Q0t5WkJod1B6emt0bFg4YnhsdUhWYUk5M2t4WVZlVW91TUYzS1plZ1k?oc=5) <sub>iheima</sub>
-- 📰 2026-11-16 [中国智驾出海新突破！元戎启行交付超10万辆](https://news.google.com/rss/articles/CBMiW0FVX3lxTE80eWh5OVZNRlpOY3ZTN1hMeHlsN1NtbldkODZOVTQ5U3hMVXBrOXZ3RnhWUXA5eXdsNTVYbUlDUnNsNEhnX05Jam9VUUhDZkJ5RmtIb3RJX1IxQ0k?oc=5) <sub>车家号</sub>
-- 📰 2026-11-16 [又一“国产保时捷”？赛豆ME7实车到店，大过小米YU7配571马力](https://news.google.com/rss/articles/CBMia0FVX3lxTE5fWTNxTkVfa2RHM29CZ3JabmtSbllKTVdGN2x4aVpqS0U0bG81RTFHeDhqNHZhaUg3MGJFVjEzOVU3aDdIMS1zR05mNXZ0blNyZ3cxVWRnVF85bmc3Tl9aenNZSlpDaWRDSV9n?oc=5) <sub>汽车之家</sub>
-- 📰 2026-11-16 [AIVA ME7实车到店剑指25万级轿跑SUV市场](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fM1B6RnpLTlpiVEtIUmJaR0Ffci1BVVpqTzY0ZnBab3JSZ2luNDRWeEhPeHJ6YXlaek9BRDZvdmU0TEw3d2JXTVdMbHgzLXh3TWhLTmpCTDlvdw?oc=5) <sub>汽车之家</sub>
 
 </details>
 
-<details><summary><b>Mobileye</b> (12)</summary>
+<details><summary><b>Mobileye</b> (14)</summary>
 
+- 📰 2026-11-23 [Musk Says Cybercab “Would Win Even at Price Parity.” That’s a Problem for Uber and Lyft](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeW1Zb3BkMkFhT1p3NnIyVW9kX0xhU0p3Z2preUZSR3FOVm01V3lSOFlNM1dSbHJyWU51WmJLUkxtWTY1ckRHLThvNnJvZ0FTaFdXazVSQ3JuZEhHU1dYN3U4cEszSXNYdnRPSFpNZzl6a2E5MGtPWDhKZFRtUDV3Q0ZRcDRweWdPdTlqcVotaktSeUJtOG5Jck10MzNtTlREOE03a29CR3BmWkxwcm9XbC1xa0d1Yy0ya2tyWkM3NFdDTUxYUWtkTkpVU3lFV2NpYS0xSkoyOTZUU0lDS3ZZZHh5SFc?oc=5) <sub>TIKR.com</sub>
+- 📰 2026-11-23 [Robotaxi Market to Reach US$198.6 Billion by 2035 as Waymo-Uber](https://news.google.com/rss/articles/CBMioAFBVV95cUxOOVFHa1QzX0FoWEhodlVoV2tBekhIb245dmxkLTZBSTJyYVBuVU5LQWg0WFVtLWFIU0c5SDc4cjRTRVlJNEVXemxRQmlhTFhDTVEzb2JwcDVzZDZHNmRlN3BUTnZuTzFjSGFLNjhEb1J5RzNqVXV5cW91d0FVVjdKYUV0OEF1ZjlFM2VSQUNUSXQ2X1FUYmFLZ1VLbXFOdXly?oc=5) <sub>openPR.com</sub>
 - 📰 2026-11-21 [3 Penny Stocks With Revenue Growth Up To 56%](https://news.google.com/rss/articles/CBMimgFBVV95cUxQNThVYk1RYkI1YkNMVi1JN2FWaG5fdjFHNVZ6bEVBNktGSURBeEd3NHh2dEVmSk5HRXdzRHdLd1NsdU5vLWJfTzBhaHVvWmw5SGZPandLZUpqc1NreFkwdUlRRllqOHpEcmVXRHJpZU1fSnhGdjNlblgzU2ZoXzh5RFNnNDlqVEFNd0R6TFJ4MjNEdkNORHUxaUZ3?oc=5) <sub>Yahoo Finance</sub>
 - 📰 2026-11-19 [Growth in the Adaptive Cruise Control and Blind Spot Detection](https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0x3SFRDX194b3VtTHJnYlJPNEZzRHNpRHd6RS1JOVVkWnBBMnZxQ1AyRjFpUWdVSDBuZHdVdUdFczFGbUVMSFlhdU41UmYwbmhzdFlDaGhvSmptUzNSYzktbGJpRG96ZmZvQ2ZHY3Z3aUt6aWV4WFJzLXctV2k5dFoxVTlta3YzSmNkZGxBRmxYdnlLQ1JKV0RFOWxVcjQ?oc=5) <sub>openPR.com</sub>
 - 📰 2026-11-18 [Intel Cuts IT Jobs as Tan's Cost Drive Extends Into Year-End](https://news.google.com/rss/articles/CBMidkFVX3lxTE9XMEIyWkJScF9ld3AzQXYxN0hhaFJQWnJ3czJVOE9FelQtbG12YUdoWkZmZW55cWdQamJlSnRGQTF4bWVDNi0zRFdfZ0hpVkJFNThWdmYtWDk4WGRBY1F5dWFrRklNQjNLUU1UVUQzakRvUFZhYUE?oc=5) <sub>BigGo Finance</sub>
-- 📰 2026-11-16 [When Human Superstars Shine: 9 Unmissable Historical Snippets Between Elon Musk and Jensen Huang](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjclJYNXBJbVBjYUxUQkJCU2pOcDBpVnZZZ2lqWDhZY3lzYk1udjlFWGxNS3loQjAtUDdKYXJySWZWZTJLQ1I1UGtueDdvd2E2RGdJ?oc=5) <sub>eu.36kr.com</sub>
-- 📰 2026-11-14 [May Mobility plans 10,000 ID. Buzz robotaxis on €9 million revenue](https://news.google.com/rss/articles/CBMihwFBVV95cUxQdkgzeUVTSS1wc1czVWhUTllrV1ZaVk1VLUUtUTVhTlFVSnJVSGFvcmtvRC1QZHNnWUxHY1B6c3gtUjZqdzFRSm9CSTNuZENtdFlRZGpoaDZGalJQb2xmZ1UtMGJyX1JObkdfaVF6SThudG9kajdDaW1xZVY4dzFraUF6NXd5RVk?oc=5) <sub>AutoNext.co</sub>
 
 </details>
 
-<details><summary><b>Aurora</b> (39)</summary>
+<details><summary><b>Aurora</b> (38)</summary>
 
 - 📰 2026-11-21 [Bot Auto launches ‘Capacity Grid’ with agreements for 200 million miles of driverless trucking](https://news.google.com/rss/articles/CBMi4wFBVV95cUxNenB0d0xhRHB1QW96VjM5dl9yODU5THZxLWtmZEZ1WEc0TGZhQUlDOU1CdlNiR0Flc3ZoTzAyUnVoaEtOSUp4NEVyNXpqVi1vZldPNUY5VXRKUU5hc2xjVm9aZDdiN3R3NE9mUmVtajF0dG1hM1dFTmtJWWVwakMzQ095TjMxZU81VThwYy15T1FaaTJNN3ZEc1BxcDhCX2xjMDdHQ1pxRVNNaWloSUdTUmxkRkt2TUxNdGd4MTNEU082RnBxcUtxV2paVWFEeEJ0Z2t1SWJONG1jTDZIanM0N1QxNA?oc=5) <sub>Robotics & Automation News</sub>
 - 📰 2026-11-21 [NADAQ: AUR Investigation Alert: Kessler Topaz Meltzer & Check, LL](https://news.google.com/rss/articles/CBMisgFBVV95cUxOcUdtQkRtc2tPZkc3dTlWUnJ5YjVRZ2xBV3d2RWxTUFU3QmZPV200dlROY3N1R3Q1S2t6dHItRVQxUU1YNFhzOFNtVzVCWEtxVDM4V2FBblhFTE1oTGo1NWhxUTh4SXFEWXVfZmphc1RNaHJVa1ozMGRfYlZoaUtxUlY1b3FONmZmS3hkLTZjNjZHTWtUalM0OHlRQ2hRa1QxRS1WQkd4eHRYWDlzb213amFB?oc=5) <sub>The National Law Review</sub>
 - 📰 2026-11-20 [AUR Investors: BFA Law Notifies Aurora Investors with Losses of its Ongoing Securities Fraud Investigation](https://news.google.com/rss/articles/CBMiiAJBVV95cUxQVFAwZ0VhZEh6UWFhWXV0RXdxNk1GV3V1ZEpGeUh4cG5tc2Z6aWxVM0hvMUFtUlhTXzdkTENzU3U0S2ZsTC1OZmVlVDNXdS11WWF0VzJUeFBZcnR6NmYzd1JNZ25HLWo5TE1yNmd5TXo4NFlxRTRFSFdSQW1Ka0h3b0JZd2h1LUY2LUxwbWtXX0U2NFh5QmxPNzBDOHIzRG5yQ3J4cVl5T1JxV05SaG5qYWZxekpYbVd0Mk1GdHpmREplRlNpVE5Eb0VpUnQ2b05TdXhLdjhKeEh1Z214VWN6Nmd3WHRFd1lyYVFhQ0ZicXYzdVY0b3owNmRpTHlycHlLU1ZGRl9UcUM?oc=5) <sub>GlobeNewswire</sub>
-- 📰 2026-11-20 [AUR Investigation Reminder: Kessler Topaz Meltzer & Check,](https://news.google.com/rss/articles/CBMiowJBVV95cUxOazBaMjVSWHZESFowVURkVVg1NURsOVhELWtUYjlWM0ZMZGIxNVNXeUtsMk5USFFQemRXcUdObEdUQjBUTjhwNnJvZVNzNmRERHRsOFViVFJ5NGtNdnVvLWF4emk1MXJyZ3F1LUFqOWk2d2pjN3JlOWVQdGdoWFhUM2ZOQ2xja3d3d19rZFZGdHd2TWZpQngxUTYta2FJVWo0RlBuYjFOUXplSGpqNkxEcjZyRlFZNmMtWDNreHF1d2ZMb0xxNGJlT2lDcVFnMHg3Y1Izb2hNcVh0NFRmYTBIcUt2Z08zWWdkTlJwSlpnTHR2SEJDdWNUeFUwY0RGUWw0c1E4aVVVdkowUjRVektKT3NPMTc5Y2pRRkhXdUdLbXBNZG8?oc=5) <sub>GlobeNewswire</sub>
 - 📰 2026-11-20 [Elite Penny Stocks To Watch In November 2026](https://news.google.com/rss/articles/CBMiigFBVV95cUxNajdPRWw0a0VnR1ZtU1l6ZnMxT0tTNERicGw1cGpYdDJBVUE0UW9UZkJ2VnpkeXpzODJEamNwa0FNNWctUlZicFVUYmJtWnBzMGRRWkZ5MXNwY1U3WEZJX2NKdFd2ZEpzSHNZRUpPa3ZsdVozUVpmcXIyNU9FcGx0c0xtU21Mb2R3dEE?oc=5) <sub>Yahoo Finance UK</sub>
+- 📰 2026-11-20 [AUR Investigation Reminder: Kessler Topaz Meltzer & Check,](https://news.google.com/rss/articles/CBMiowJBVV95cUxOazBaMjVSWHZESFowVURkVVg1NURsOVhELWtUYjlWM0ZMZGIxNVNXeUtsMk5USFFQemRXcUdObEdUQjBUTjhwNnJvZVNzNmRERHRsOFViVFJ5NGtNdnVvLWF4emk1MXJyZ3F1LUFqOWk2d2pjN3JlOWVQdGdoWFhUM2ZOQ2xja3d3d19rZFZGdHd2TWZpQngxUTYta2FJVWo0RlBuYjFOUXplSGpqNkxEcjZyRlFZNmMtWDNreHF1d2ZMb0xxNGJlT2lDcVFnMHg3Y1Izb2hNcVh0NFRmYTBIcUt2Z08zWWdkTlJwSlpnTHR2SEJDdWNUeFUwY0RGUWw0c1E4aVVVdkowUjRVektKT3NPMTc5Y2pRRkhXdUdLbXBNZG8?oc=5) <sub>GlobeNewswire</sub>
 
 </details>
 
-<details><summary><b>Zoox</b> (109)</summary>
+<details><summary><b>Zoox</b> (107)</summary>
 
+- 📰 2026-11-23 [Zoox Cleared July 30 to Charge for Wheel-Free Robotaxis](https://news.google.com/rss/articles/CBMikwFBVV95cUxNZlNkY2VoTDAtMFNkS1NZYnRKcnhhS25wQjBuUU1kLWhOZXVQYkZiSFVmT3FyZkJMdXJ1NHEyLW02d2dHYmZFd0k4SzZTaWozOFZrSFAwVXI1NXRGc1BtTlhiajVwMmtQUDR3cElxX2dkVFlZMmlnb2hmVXQ3TnpaUFhfZmFySm1mOS1UUHRpQ0lfRU0?oc=5) <sub>shattered.io</sub>
+- 📰 2026-11-22 [Zoox Can Start Charging For Steering Wheel-Free Robotaxis In Las Vegas](https://news.google.com/rss/articles/CBMidEFVX3lxTE5KdXlvTWstMi11OWlnWXpFQzBDMllTTWtrVzJqTWM3XzdoeW1xU2s1Y0hDWEdwY1hwYzlwcVZBX2tRNmVRMGdpV0JSLVNVZ1ozVnRzcG11VXNpZ1FkNXRrc1B5TEFnWXFiN21jRFZkTGJueTJN?oc=5) <sub>Motor1.com</sub>
+- 📰 2026-11-21 [Zoox Launches Robotaxi Rides for Employees](https://news.google.com/rss/articles/CBMiogFBVV95cUxQYm4yZnUtR09RSTNvX285QXlVOFlzbGNYRDY0Sm4zemVGakJUcDhtQmhMdWxFNXBPUHpFak43MzhtX0ZidXl2TkRyendFRzFXemctR25fNk1uRnhVc1lTbGJabG1nX1ZLUU9ZclhEd3lPUUlqakw1QW5ZRHVra1J6ZnJrNVZYMVhnQU1xUk4yeU81MTI2b3pnYkVCNlpBT3NoS2c?oc=5) <sub>Wisevoter</sub>
 - 📰 2026-11-21 [Waymo announces two robotaxi recalls as closed-lane software fix remains unfinished](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNXzk3UHRGSjRZdU15TC1mNm9NLWxxNVg4LWFtZUdReTlENWszWmxCLTFEMzd1Z29RNkpEcFprd3NjTTROUkhPSkhsdkhCWEQ5azJVakdxeGhiTUNxalVTTnhZM1ZyallJMEZ1akdYZ0FFVDFQUWl3a0FSMWx0czV4cGg5TnFUREgyaG9BX0FybTRWY2lfaE1GRlVibVRUNUZ3RHJVUC1jbTdWWDdhZVY1dUlfWGpDMVJqYjJKaENENVZZQQ?oc=5) <sub>Business Upturn</sub>
 - 📰 2026-11-21 [Zoox launches its first robotaxi rides in L.A. County](https://news.google.com/rss/articles/CBMiowFBVV95cUxQeVpseUpWdjdRQjZ4YUUtaUNRdzB3ell5ck9zNHZWYVAxc3BKdVFMS1l0WkcyVXY4Q0d5a1M1dUJZYllxNkNTalppWVBNQURLN284ZVNraW9RU0ZNWnlQVFBGc3BpaVR1N3VjOWNDdGRTZ2ZYRVdtTXJteUlqTUthLXhOMVNwXzNKay1YNkR0aDNYYzFEVGZXY2szeDVEWjJhSXFr?oc=5) <sub>Los Angeles Times</sub>
-- 📰 2026-11-21 [Celebrities at F1 Las Vegas Grand Prix 2026: See all the stars](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYU1mVGVuQzZHUHltY09Hc0xRRUhNRldrMnIzSlE3OHRNUXh5UlUyTEtxUWw2eW9YZ2lFVHRrYWN3aXBWaU1kbW9GckNWTWNVLXBYWVl6dUtsYTBNNWRCUFRmYXRSWUFtNG9sTlZFVDdNXzNvWnlRWEZNVkx6Q29XTTBENjY2Z3RZSGItRGtGUG5PdGxoTGJ6NV9OUTVSRVZMX3JnRHJwSDNxaXZyNUZscUZnWDNxbzNRZWVpLXlXZGpwTE90cGZVUEgtcVVobW1VcFhqV2g2cU8?oc=5) <sub>Page Six</sub>
-- 📰 2026-11-21 [Zoox Launches Robotaxi Rides for Employees](https://news.google.com/rss/articles/CBMiogFBVV95cUxQYm4yZnUtR09RSTNvX285QXlVOFlzbGNYRDY0Sm4zemVGakJUcDhtQmhMdWxFNXBPUHpFak43MzhtX0ZidXl2TkRyendFRzFXemctR25fNk1uRnhVc1lTbGJabG1nX1ZLUU9ZclhEd3lPUUlqakw1QW5ZRHVra1J6ZnJrNVZYMVhnQU1xUk4yeU81MTI2b3pnYkVCNlpBT3NoS2c?oc=5) <sub>Wisevoter</sub>
-- 📰 2026-11-20 [Where to see F1 cars free in Las Vegas](https://news.google.com/rss/articles/CBMifEFVX3lxTE5rRVNoemlmQWJJMDZfN21ZYndpZENfNHNHbUE2Q2RuaVdCWThIbnMyZUlFTmdaZkhPdld6VGVzeUtzTlF0c2l5elZqTktkb1FJeGpFX2VNalRidzJfWjM4X2FaQ1B1YVY3SzRnSm0yc1g2c25HelNZMi1fMUU?oc=5) <sub>streamlinefeed.co.ke</sub>
 
 </details>
 
-<details><summary><b>Motional</b> (30)</summary>
+<details><summary><b>Motional</b> (28)</summary>
 
 - 📰 2026-11-19 [[Why&Next] Supplying Vehicles to Waymo, Investing in Motional... Hyundai Motor's "Two-Track" Bet](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fcTNiSzhBMzRuMGl2M0FtOTQyYmY5TDR0d3BoRmJ0RXdMYUVnLVlVRUdGYnh2QkFwUFpYdmM4MzhZc3h6a2prSERaU1hNQ2FQOWJzM1pNNnlRU3UwTkV6VjJqOHg?oc=5) <sub>아시아경제</sub>
 - 📰 2026-11-19 [Hyundai Motor Company: “Data Flywheel Gap to Widen in 3–4 Years”... Four Group Companies Put 'Data Union' Into Operation](https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KekR0TXpjWmRySUVDc3pyQWw2ZHFIQXhsZV81VzJNYzRxbHVQZDkwNjMxSHZWNlV5d2pBVFFrUERGM3NKZnE1Qnp5SHpSbDJ4UUFVaV9zLUE?oc=5) <sub>파이낸셜뉴스</sub>
