@@ -1,18 +1,6 @@
 [
  {
   "citations": 3,
-  "code_url": "https://github.com/vita-epfl/DeGO",
-  "id": "2605.28587",
-  "published": "2026-05-27",
-  "score": 54.9,
-  "stars": 25,
-  "title": "Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation",
-  "topic": "perception",
-  "url": "https://arxiv.org/abs/2605.28587",
-  "venue": "CVPR 2026"
- },
- {
-  "citations": 3,
   "code_url": "https://github.com/ShivaTeam/DriveTeach-VLA",
   "id": "2607.01658",
   "published": "2026-07-02",
@@ -60,6 +48,18 @@
   "venue": "ECCV 2026"
  },
  {
+  "citations": 2,
+  "code_url": "https://github.com/lmb-freiburg/orbis2",
+  "id": "2607.15898",
+  "published": "2026-07-01",
+  "score": 48.0,
+  "stars": 32,
+  "title": "Orbis 2: A Hierarchical World Model for Driving",
+  "topic": "world_model",
+  "url": "https://arxiv.org/abs/2607.15898",
+  "venue": "NeurIPS 2026"
+ },
+ {
   "citations": 1,
   "code_url": "https://github.com/daehyunwe/FrozenDrive",
   "id": "2606.20110",
@@ -70,18 +70,6 @@
   "topic": "world_model",
   "url": "https://arxiv.org/abs/2606.20110",
   "venue": "ECCV 2026"
- },
- {
-  "citations": 2,
-  "code_url": "https://github.com/lmb-freiburg/orbis2",
-  "id": "2607.15898",
-  "published": "2026-07-01",
-  "score": 47.9,
-  "stars": 31,
-  "title": "Orbis 2: A Hierarchical World Model for Driving",
-  "topic": "world_model",
-  "url": "https://arxiv.org/abs/2607.15898",
-  "venue": "NeurIPS 2026"
  },
  {
   "citations": 0,
@@ -136,7 +124,7 @@
   "code_url": "https://github.com/VAIL-UCLA/DreamStream",
   "id": "2609.26792",
   "published": "2026-09-22",
-  "score": 46.7,
+  "score": 46.6,
   "stars": 15,
   "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
   "topic": "e2e",
@@ -156,18 +144,6 @@
   "venue": "ECCV 2026"
  },
  {
-  "citations": 1,
-  "code_url": "https://github.com/yfwang0824/MCSplat",
-  "id": "2610.25345",
-  "published": "2026-10-18",
-  "score": 44.8,
-  "stars": 15,
-  "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes",
-  "topic": "sim_recon",
-  "url": "https://arxiv.org/abs/2610.25345",
-  "venue": "NeurIPS 2026"
- },
- {
   "citations": 0,
   "code_url": "https://github.com/SecMindLab/Saliency_LiDAR",
   "id": "2606.29963",
@@ -178,6 +154,18 @@
   "topic": "perception",
   "url": "https://arxiv.org/abs/2606.29963",
   "venue": "ECCV"
+ },
+ {
+  "citations": 1,
+  "code_url": "https://github.com/yfwang0824/MCSplat",
+  "id": "2610.25345",
+  "published": "2026-10-18",
+  "score": 44.7,
+  "stars": 15,
+  "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes",
+  "topic": "sim_recon",
+  "url": "https://arxiv.org/abs/2610.25345",
+  "venue": "NeurIPS 2026"
  },
  {
   "citations": 0,
@@ -196,7 +184,7 @@
   "code_url": "https://github.com/alessandro-canevaro/DriveMLP",
   "id": "2610.29676",
   "published": "2026-10-21",
-  "score": 43.4,
+  "score": 43.3,
   "stars": 6,
   "title": "DriveMLP: When Training Strategy Outperforms Model Complexity in Autonomous Driving",
   "topic": "e2e",
@@ -336,6 +324,18 @@
   "venue": "IROS 2026"
  },
  {
+  "citations": 0,
+  "code_url": "https://github.com/OPhD-hahao/Rethink-CF",
+  "id": "2611.24376",
+  "published": "2026-11-18",
+  "score": 38.2,
+  "stars": 3,
+  "title": "Teaching VLMs What to Say, Not How to Reason: Rethinking Counterfactual Reasoning in Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2611.24376",
+  "venue": "NeurIPS 2026"
+ },
+ {
   "citations": 1,
   "code_url": "https://github.com/TUM-AVS/Chat2scenic",
   "id": "2607.14387",
@@ -348,18 +348,6 @@
   "venue": "IROS"
  },
  {
-  "citations": 11,
-  "code_url": "https://github.com/XiaomiAutoL3/DriveZero",
-  "id": "2609.06055",
-  "published": "2026-09-05",
-  "score": 36.1,
-  "stars": 149,
-  "title": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
-  "topic": "e2e",
-  "url": "https://arxiv.org/abs/2609.06055",
-  "venue": null
- },
- {
   "citations": 0,
   "code_url": "https://github.com/UMN-ZhaoLab/Pocket-SLAM",
   "id": "2606.24796",
@@ -370,6 +358,18 @@
   "topic": "sim_recon",
   "url": "https://arxiv.org/abs/2606.24796",
   "venue": "ICRA"
+ },
+ {
+  "citations": 11,
+  "code_url": "https://github.com/XiaomiAutoL3/DriveZero",
+  "id": "2609.06055",
+  "published": "2026-09-05",
+  "score": 36.0,
+  "stars": 149,
+  "title": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
+  "topic": "e2e",
+  "url": "https://arxiv.org/abs/2609.06055",
+  "venue": null
  },
  {
   "citations": 25,
@@ -388,7 +388,7 @@
   "code_url": "https://github.com/groundingpi/GroundingPI",
   "id": "2609.39601",
   "published": "2026-09-01",
-  "score": 34.8,
+  "score": 34.7,
   "stars": 444,
   "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
   "topic": "vla",
@@ -532,7 +532,7 @@
   "code_url": "https://github.com/louiszengCN/CarlaAir",
   "id": "2605.31066",
   "published": "2026-05-29",
-  "score": 26.0,
+  "score": 25.9,
   "stars": 1144,
   "title": "Can Aerial VLA Models Cooperate? Evaluating Closed-Loop Air-Ground Coordination with CARLA-Air",
   "topic": "vla",
@@ -579,10 +579,10 @@
   "citations": 0,
   "code_url": "https://github.com/autowarefoundation/auto_e2e",
   "id": "2611.22374",
-  "published": "2026-11-17",
+  "published": "2026-11-25",
   "score": 17.2,
   "stars": 234,
-  "title": "AutoE2E: Don't speak - Language free end-to-end autonomy A Real-Time Driving Model for L2++ ADAS and L4 Robotaxis",
+  "title": "AutoE2E: Don't speak - Language free end-to-end autonomy for L2++ ADAS and L4 Robotaxis",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2611.22374",
   "venue": null
