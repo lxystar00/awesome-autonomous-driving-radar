@@ -4,7 +4,7 @@
   "code_url": "https://github.com/ShivaTeam/DriveTeach-VLA",
   "id": "2607.01658",
   "published": "2026-07-02",
-  "score": 52.4,
+  "score": 52.3,
   "stars": 38,
   "title": "Teaching Vision-Language-Action Models What to See and Where to Look",
   "topic": "vla",
@@ -22,6 +22,18 @@
   "topic": "vla",
   "url": "https://arxiv.org/abs/2610.20609",
   "venue": "CoRL 2026"
+ },
+ {
+  "citations": 1,
+  "code_url": "https://github.com/ShivaTeam/AutoVLA-D",
+  "id": "2611.12382",
+  "published": "2026-11-09",
+  "score": 51.3,
+  "stars": 46,
+  "title": "AutoVLA-D: Learn a Trajectory-Geometric Condition from Reasoning for Autonomous Driving VLA",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2611.12382",
+  "venue": "NeurIPS 2026"
  },
  {
   "citations": 18,
@@ -60,28 +72,28 @@
   "venue": "NeurIPS 2026"
  },
  {
+  "citations": 6,
+  "code_url": "https://github.com/KIT-MRT/kitscenes",
+  "id": "2606.02956",
+  "published": "2026-06-01",
+  "score": 48.1,
+  "stars": 30,
+  "title": "The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset",
+  "topic": "data_bench",
+  "url": "https://arxiv.org/abs/2606.02956",
+  "venue": "NeurIPS 2026"
+ },
+ {
   "citations": 1,
   "code_url": "https://github.com/daehyunwe/FrozenDrive",
   "id": "2606.20110",
   "published": "2026-06-18",
-  "score": 47.9,
-  "stars": 9,
+  "score": 48.1,
+  "stars": 10,
   "title": "FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model",
   "topic": "world_model",
   "url": "https://arxiv.org/abs/2606.20110",
   "venue": "ECCV 2026"
- },
- {
-  "citations": 0,
-  "code_url": "https://github.com/ShivaTeam/AutoVLA-D",
-  "id": "2611.12382",
-  "published": "2026-11-09",
-  "score": 47.9,
-  "stars": 45,
-  "title": "AutoVLA-D: Learn a Trajectory-Geometric Condition from Reasoning for Autonomous Driving VLA",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2611.12382",
-  "venue": "NeurIPS 2026"
  },
  {
   "citations": 3,
@@ -94,18 +106,6 @@
   "topic": "perception",
   "url": "https://arxiv.org/abs/2606.31096",
   "venue": "ECCV 2026"
- },
- {
-  "citations": 5,
-  "code_url": "https://github.com/KIT-MRT/kitscenes",
-  "id": "2606.02956",
-  "published": "2026-06-01",
-  "score": 47.3,
-  "stars": 30,
-  "title": "The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset",
-  "topic": "data_bench",
-  "url": "https://arxiv.org/abs/2606.02956",
-  "venue": "NeurIPS 2026"
  },
  {
   "citations": 0,
@@ -124,8 +124,8 @@
   "code_url": "https://github.com/VAIL-UCLA/DreamStream",
   "id": "2609.26792",
   "published": "2026-09-22",
-  "score": 46.6,
-  "stars": 15,
+  "score": 46.7,
+  "stars": 16,
   "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2609.26792",
@@ -216,6 +216,18 @@
   "venue": "NeurIPS 2026"
  },
  {
+  "citations": 0,
+  "code_url": "https://github.com/PointLAM/PointLAM",
+  "id": "2609.21780",
+  "published": "2026-09-18",
+  "score": 42.8,
+  "stars": 6,
+  "title": "PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection",
+  "topic": "perception",
+  "url": "https://arxiv.org/abs/2609.21780",
+  "venue": "ECCV 2026"
+ },
+ {
   "citations": 3,
   "code_url": "https://github.com/MICLAB-BUPT/CritiqueDriveVLM",
   "id": "2607.04179",
@@ -228,30 +240,6 @@
   "venue": "ECCV 2026"
  },
  {
-  "citations": 0,
-  "code_url": "https://github.com/PointLAM/PointLAM",
-  "id": "2609.21780",
-  "published": "2026-09-18",
-  "score": 42.5,
-  "stars": 5,
-  "title": "PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection",
-  "topic": "perception",
-  "url": "https://arxiv.org/abs/2609.21780",
-  "venue": "ECCV 2026"
- },
- {
-  "citations": 1,
-  "code_url": "https://github.com/VISION-SJTU/PixelPilot",
-  "id": "2607.04637",
-  "published": "2026-07-06",
-  "score": 42.3,
-  "stars": 3,
-  "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2607.04637",
-  "venue": "ECCV 2026"
- },
- {
   "citations": 1,
   "code_url": "https://github.com/KELISBU/CCFM",
   "id": "2607.04451",
@@ -261,6 +249,18 @@
   "title": "CCFM: Collision-Constrained Flow Matching for Safety-Critical Scenario Generation",
   "topic": "safety",
   "url": "https://arxiv.org/abs/2607.04451",
+  "venue": "ECCV 2026"
+ },
+ {
+  "citations": 1,
+  "code_url": "https://github.com/VISION-SJTU/PixelPilot",
+  "id": "2607.04637",
+  "published": "2026-07-06",
+  "score": 42.2,
+  "stars": 3,
+  "title": "PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving",
+  "topic": "vla",
+  "url": "https://arxiv.org/abs/2607.04637",
   "venue": "ECCV 2026"
  },
  {
@@ -312,11 +312,11 @@
   "venue": "ECCV 2026"
  },
  {
-  "citations": 6,
+  "citations": 7,
   "code_url": "https://github.com/HangYuu/G2DP",
   "id": "2606.26017",
   "published": "2026-06-01",
-  "score": 38.7,
+  "score": 39.0,
   "stars": 7,
   "title": "G2DP: Diffusion Planning with Spatio-Temporal Grid Guidance",
   "topic": "e2e",
@@ -348,28 +348,28 @@
   "venue": "IROS"
  },
  {
-  "citations": 0,
-  "code_url": "https://github.com/UMN-ZhaoLab/Pocket-SLAM",
-  "id": "2606.24796",
-  "published": "2026-06-23",
-  "score": 36.0,
-  "stars": 15,
-  "title": "Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM",
-  "topic": "sim_recon",
-  "url": "https://arxiv.org/abs/2606.24796",
-  "venue": "ICRA"
- },
- {
-  "citations": 11,
+  "citations": 12,
   "code_url": "https://github.com/XiaomiAutoL3/DriveZero",
   "id": "2609.06055",
   "published": "2026-09-05",
-  "score": 36.0,
+  "score": 36.3,
   "stars": 151,
   "title": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2609.06055",
   "venue": null
+ },
+ {
+  "citations": 0,
+  "code_url": "https://github.com/UMN-ZhaoLab/Pocket-SLAM",
+  "id": "2606.24796",
+  "published": "2026-06-23",
+  "score": 36.1,
+  "stars": 16,
+  "title": "Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM",
+  "topic": "sim_recon",
+  "url": "https://arxiv.org/abs/2606.24796",
+  "venue": "ICRA"
  },
  {
   "citations": 28,
@@ -420,11 +420,11 @@
   "venue": "IROS 2026"
  },
  {
-  "citations": 23,
+  "citations": 25,
   "code_url": "https://github.com/nv-tlabs/omni-dreams",
   "id": "2606.03159",
   "published": "2026-06-01",
-  "score": 32.2,
+  "score": 32.5,
   "stars": 372,
   "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
   "topic": "e2e",
@@ -432,11 +432,11 @@
   "venue": null
  },
  {
-  "citations": 21,
+  "citations": 23,
   "code_url": "https://github.com/allenai/molmo-motion",
   "id": "2606.18558",
   "published": "2026-06-01",
-  "score": 31.5,
+  "score": 31.8,
   "stars": 154,
   "title": "MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction",
   "topic": "prediction",
@@ -533,7 +533,7 @@
   "id": "2609.15169",
   "published": "2026-09-14",
   "score": 26.7,
-  "stars": 488,
+  "stars": 487,
   "title": "GRAVA: Grounded Reasoning-to-Action Representation and Learning for Autonomous Driving",
   "topic": "vla",
   "url": "https://arxiv.org/abs/2609.15169",
@@ -544,23 +544,11 @@
   "code_url": "https://github.com/AFARI-Research/WA-JEPA",
   "id": "2608.20974",
   "published": "2026-08-01",
-  "score": 26.5,
+  "score": 26.4,
   "stars": 91,
   "title": "WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2608.20974",
-  "venue": null
- },
- {
-  "citations": 3,
-  "code_url": "https://github.com/louiszengCN/CarlaAir",
-  "id": "2605.31066",
-  "published": "2026-05-29",
-  "score": 25.9,
-  "stars": 1144,
-  "title": "Can Aerial VLA Models Cooperate? Evaluating Closed-Loop Air-Ground Coordination with CARLA-Air",
-  "topic": "vla",
-  "url": "https://arxiv.org/abs/2605.31066",
   "venue": null
  },
  {
@@ -581,7 +569,7 @@
   "id": "2610.00926",
   "published": "2026-10-01",
   "score": 22.9,
-  "stars": 111,
+  "stars": 112,
   "title": "A Survey on End-to-End Autonomous Driving Training from the Perspectives of Data, Strategy, and Platform",
   "topic": "e2e",
   "url": "https://arxiv.org/abs/2610.00926",
@@ -593,7 +581,7 @@
   "id": "2606.01164",
   "published": "2026-06-01",
   "score": 20.9,
-  "stars": 252,
+  "stars": 253,
   "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
   "topic": "world_model",
   "url": "https://arxiv.org/abs/2606.01164",
